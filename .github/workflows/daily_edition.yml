@@ -74,4 +74,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display deployment URL
-        run: echo "Site URL: https://mlegkovskis.github.io/gpFT/"
+        run: echo 'Site URL: https://mlegkovskis.github.io/gpFT/'
