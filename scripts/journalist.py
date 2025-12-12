@@ -76,9 +76,9 @@ def main():
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    # Process Top 10 articles in parallel
+    # Process the top five articles to respect API limits
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(write_article, data[:10])
+        executor.map(write_article, data[:5])
 
 if __name__ == "__main__":
     main()

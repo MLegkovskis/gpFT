@@ -68,3 +68,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           source: ./
           destination: ./_site
+
+  report-url:
+    needs: deploy-jekyll
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display deployment URL
+        run: echo "Site URL: https://mlegkovskis.github.io/gpFT/"

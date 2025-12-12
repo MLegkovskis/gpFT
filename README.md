@@ -29,7 +29,7 @@ A Financial Times-inspired newsroom that runs entirely on GitHub Pages. Jekyll p
 `Daily Edition` GitHub Actions workflow:
 1. Installs Python deps + Chrome on ubuntu-latest.
 2. Runs the Selenium scraper to produce `headlines.json`.
-3. Calls Groq Compound to draft Markdown articles with Jekyll front matter.
-4. Commits new posts and then triggers `actions/jekyll-build-pages@v1` to deploy.
+3. Calls Groq Compound to draft up to five Markdown articles (temporary rate limit) with Jekyll front matter.
+4. Commits new posts, builds via `actions/jekyll-build-pages@v1`, and prints the public site URL.
 
 Add `GROQ_API_KEY` as a repository secret and enable GitHub Pages with the GitHub Actions source, then either run the workflow manually or wait for the 08:00 UTC schedule.
