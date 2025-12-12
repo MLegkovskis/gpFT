@@ -1,0 +1,137 @@
+:root {
+    --ft-pink: #fff1e5;
+    --ft-black: #1a1a1a;
+    --ft-red: #990f3d;
+    --border: #cec6b9;
+    --font-serif: Georgia, 'Times New Roman', serif;
+    --font-sans: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--ft-pink);
+    color: var(--ft-black);
+    font-family: var(--font-serif);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--ft-red);
+}
+
+header {
+    border-bottom: 1px solid var(--border);
+    padding: 20px 0;
+    text-align: center;
+    background: var(--ft-pink);
+}
+
+.logo {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.hero-col-left,
+.hero-col-main,
+.hero-col-right {
+    background: #fff;
+    border: 1px solid var(--border);
+    padding: 20px;
+}
+
+.category {
+    color: var(--ft-red);
+    text-transform: uppercase;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.headline-large {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bold;
+    display: block;
+}
+
+.headline-center {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.summary {
+    font-family: var(--font-sans);
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(20%);
+}
+
+.sidebar-title {
+    border-top: 2px solid #000;
+    padding-top: 5px;
+    margin-top: 0;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.sidebar-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+}
+
+.sidebar-item h5 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.article-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article-body {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.article-body h2 {
+    margin-top: 30px;
+    font-family: var(--font-sans);
+}
+
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+}

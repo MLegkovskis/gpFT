@@ -1,0 +1,12 @@
+title: The Financial Clone
+description: AI-Curated Market News
+url: "https://yourusername.github.io" # TODO: update to your GitHub username site
+baseurl: "/repo-name"               # TODO: update to your repository name
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - scripts/
+  - requirements.txt
+  - README.md
+  - headlines.json

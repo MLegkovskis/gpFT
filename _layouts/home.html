@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% assign latest = site.posts %}
+<main>
+    {% if latest.size > 0 %}
+    {% assign hero_main = latest[0] %}
+    {% assign hero_left = latest[1] %}
+    <section class="hero-grid">
+        <div class="hero-col-left">
+            {% if hero_left %}
+            <span class="category">{{ hero_left.category | default: 'Markets' }}</span>
+            <a href="{{ hero_left.url | relative_url }}" class="headline-large">{{ hero_left.title }}</a>
+            <p class="summary">{{ hero_left.excerpt | strip_html | truncatewords: 25 }}</p>
+            {% else %}
+            <span class="category">Latest</span>
+            <p class="summary">More FT-style coverage will publish shortly.</p>
+            {% endif %}
+        </div>
+
+        <div class="hero-col-main">
+            {% if hero_main %}
+            <div class="img-container">
+                <img src="https://placehold.co/800x450/262a33/FFF?text={{ hero_main.category | default: 'News' | uri_escape }}" alt="Main">
+            </div>
+            <div class="main-caption">
+                <span class="category" style="text-align:center; margin-top:10px;">{{ hero_main.category | default: 'Global' }}</span>
+                <a href="{{ hero_main.url | relative_url }}" class="headline-center">{{ hero_main.title }}</a>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="hero-col-right">
+            <h4 class="sidebar-title">Latest Updates</h4>
+            {% for post in latest limit:4 offset:2 %}
+            <div class="sidebar-item">
+                <span class="category">{{ post.category | default: 'Markets' }}</span>
+                <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+            </div>
+            {% else %}
+            <p class="summary">Automation will populate this rail after the first Daily Edition.</p>
+            {% endfor %}
+        </div>
+    </section>
+    {% else %}
+    <p class="summary" style="text-align:center; padding: 3rem 0;">The newsroom is booting up. Check back soon.</p>
+    {% endif %}
+</main>

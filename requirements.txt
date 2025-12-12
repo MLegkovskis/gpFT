@@ -1,0 +1,7 @@
+selenium
+webdriver-manager
+requests
+beautifulsoup4
+groq
+python-slugify
+jinja2
