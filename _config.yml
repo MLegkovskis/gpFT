@@ -5,6 +5,7 @@ baseurl: "/gpFT"
 theme: jekyll-theme-primer
 plugins:
   - jekyll-seo-tag
+future: true
 exclude:
   - scripts/
   - requirements.txt
