@@ -108,8 +108,8 @@ def main():
         data = json.load(f)
 
     # Process the top five articles to respect API limits
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(write_article, data[:5])
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        executor.map(write_article, data[:15])
 
 if __name__ == "__main__":
     main()
