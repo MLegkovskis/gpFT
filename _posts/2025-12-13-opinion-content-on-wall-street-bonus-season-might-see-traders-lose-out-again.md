@@ -7,28 +7,27 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Wall Street traders are bracing for a bonus season that could leave many of them worse off than in recent years, as trading revenues dip and firms tighten compensation amid regulatory and AI‑driven cost pressures.**  
+**Bonus season on Wall Street may leave many traders disappointed again, even as overall payouts climb** – Compensation consultants Johnson Associates and Reuters report that the industry‑wide bonus pool is set to reach its highest level since 2021, yet equity‑sales and trading desks are likely to see modest increases of 15 %‑25 % while other units enjoy double‑digit hikes, leaving a gap between the most‑rewarded segments and the broader trading workforce.
 
-## Trading revenue under pressure  
+## Market backdrop and profit figures  
+The 130 NYSE‑listed banks posted a combined profit of **$30.4 billion in the first half of 2025**, on track to break the all‑time record if the pace holds (Investment News, 5 Nov 2025). Compensation expense rose **9.8 % year‑on‑year**, signalling a larger pool from which bonuses will be drawn. The average annual bonus for senior staff hit **$244,700 in 2024**, the highest level in a decade (Reuters, 5 Nov 2025).
 
-U.S. commercial banks and savings associations reported **$15.0 billion** in trading revenue for the first quarter of 2025, a **2.7 % decline** from the previous quarter and **1.9 % lower** than a year earlier, according to the Office of the Comptroller of the Currency. The drop was driven by weaker foreign‑exchange, equity and credit‑trading desks, offset only partially by a 56 % surge in holding‑company trading revenue from interest‑rate instruments.  
+## Bonus forecasts by business line  
+- **Equity sales & trading:** projected uplift **15 %‑25 %** (Reuters).  
+- **Fixed‑income sales & trading:** **5 %‑15 %** increase (Johnson Associates).  
+- **M&A advisory & equity underwriting:** **10 %‑15 %** rise (Reuters).  
+- **Asset management:** **7 %‑12 %** (AI‑CIO).  
+- **Hedge funds, private credit, insurance, retail & commercial banking:** **5 %‑10 %** (AI‑CIO).  
 
-## Bonus pool expands, but the gains are uneven  
+By contrast, salary growth across the sector is expected to slow to **3 %‑3.5 %**, reflecting firms’ focus on cost control and the impact of AI‑driven headcount reductions (Reuters).
 
-Compensation consultancy Johnson Associates now projects the overall Wall Street bonus pool to be the **largest since 2021**, with total compensation expenses up **almost 10 %** in the first half of 2025. The average annual bonus for bankers hit **$244,700** in 2024, a record level, and the consultancy expects a further rise of **8 %** across the sector this year.  
+## Why traders could still lose out  
+1. **Volatility‑driven pay:** Traders’ bonuses remain tightly linked to market turbulence. With the VIX hovering near 15‑18, lower realised volatility than in 2022‑23 reduces the upside for desk‑level staff.  
+2. **Flat‑rate pool allocation:** Although the total pool expands, a larger share is earmarked for senior bankers and wealth‑management leaders, compressing the share available to mid‑tier traders.  
+3. **AI and automation:** Firms are accelerating the deployment of algorithmic execution tools, cutting the number of human traders needed on desks. Johnson Associates notes that “AI‑enabled headcount reductions are already affecting bonus expectations for junior and mid‑level sales‑trading staff.”  
 
-However, the uplift is not uniform. Johnson’s forecast gives **equity sales‑and‑trading bonuses a 15‑25 % increase**, while **fixed‑income desks are slated for 5‑15 % growth**. By contrast, Bloomberg’s December 1 report flags **lower bonuses for corporate‑debt traders**, citing a slowdown in high‑yield issuance and tighter risk‑adjusted returns.  
+## Outlook for 2026  
+If the global economy slows and credit conditions tighten, the bonus pool could contract, echoing the 14 % shrinkage forecast made in early 2024. Salary increments are likely to remain modest, and the competitive pressure for AI talent will intensify, further marginalising traditional trading roles.
 
-## Headwinds from regulation and automation  
-
-Regulatory scrutiny has risen sharply since the 2023 “Basel III” revisions, prompting banks to allocate more capital to compliance and less to discretionary pay. Simultaneously, AI‑driven workflow automation is prompting a **10‑15 % reduction in headcount** on several trading floors, according to Reuters. The same outlet notes that base‑salary growth is expected to stall at **3‑3.5 %**, reinforcing the view that bonus pools will bear the brunt of cost‑containment measures.  
-
-## What traders can expect  
-
-- **Equity traders**: Likely to see modest upside, but still below the 2021 peak where bonuses exceeded $300,000.  
-- **Fixed‑income and corporate‑debt desks**: Anticipate flat‑to‑slight increases, with some senior traders possibly facing cuts if desk profitability remains subdued.  
-- **Junior traders and analysts**: May experience the sharpest squeeze, as firms prioritise senior talent in a tighter market.  
-
-## Outlook  
-
-If the first‑quarter revenue trend persists, the bonus season could mark a **relative decline for many traders**, even as the aggregate pool swells. The divergence underscores a broader shift on Wall Street: profitability is increasingly concentrated in a few high‑margin activities, while traditional trading desks grapple with lower margins, heightened compliance costs and the displacement effects of automation. Traders who can adapt to AI‑enhanced workflows or pivot to more lucrative product lines will be best positioned to protect their compensation in an otherwise challenging bonus cycle.
+## Bottom line  
+While Wall Street’s overall bonus season looks healthier than the low‑point years of 2022‑23, the distribution of that upside is uneven. Traders, especially those not positioned in the highest‑earning equity‑sales desks, face the prospect of **smaller relative gains** or even flat bonuses, underscoring the sector’s lingering structural headwinds.

@@ -6,29 +6,26 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**The Victoria and Albert Museum’s East Storehouse, a 20,000 sq m vault for 2.8 million objects, will open to the public in September 2025, allowing visitors to see items that have never left the museum’s backstage – from an 18th‑century French commode to a Henry Moore maquette – and signalling a new phase in the V&A’s expansion.**  
+**The Victoria and Albert Museum’s new East Storehouse opened to the public on 31 May 2025, offering free, seven‑day‑a‑week access to more than half a million objects—including fashion, ceramics, furniture and archival material—within a 170 000 sq ft (≈15 800 m²) purpose‑built facility in Queen Elizabeth Olympic Park.**  
 
-## Hidden Collections on View  
-The storehouse, built on the former London 2012 Olympic Park site, will be divided into six thematic galleries. Each gallery presents a curated selection drawn from the V&A’s 5,000‑year span of art, design and craft. Highlights confirmed by the museum’s press release include:  
+## A Working Store as Visitor Destination  
 
-* **Furniture:** a Louis XVII French cabinet (c. 1765), a Bauhaus‑inspired tubular‑steel chair (1932) and a Victorian mahogany set of sideboards (c. 1880).  
-* **Ceramics:** a Wedgwood jasperware vase (c. 1790) and a Chinese famille‑rose porcelain bowl (mid‑19th century).  
-* **Textiles:** a William Morris “Strawberry Hill” tapestry (1911) and a collection of Japanese kimono silk (Edo period).  
-* **Sculpture:** a maquette for Henry Moore’s “Reclining Figure” (1951) and a bronze by Barbara Hepworth (1965).  
+Designed by Diller Scofidio + Renfro, the East Storehouse functions simultaneously as a high‑capacity storage hub and a museum experience. The building houses five permanent display zones and a “Order an Object” service that lets visitors book a time‑slot to view a specific item from the V&A’s 2.5 million‑object collection, a model of transparency rarely seen in institutions of its size.  
 
-All objects have been conserved on‑site and are displayed on low‑glare, climate‑controlled pedestals that allow 360‑degree viewing.
+## Collections on Show  
 
-## Visitor Experience and Pricing  
-The V&A plans a self‑guided digital tour accessed via a free museum app, supplemented by audio commentary and tactile stations for visually‑impaired guests. Admission is set at £15 for adults, £12 for concessions, and free for under‑18s, with a family ticket (2 adults + 2 children) priced at £40. The museum estimates an initial footfall of 1.5 million visitors in the first year, targeting a cumulative 5 million by 2030.
+From 2 June 2025 the National Art Library’s rare books and design archives, previously stored at Blythe House, have been made accessible in a dedicated study centre. Highlights include a 1954 Balenciaga evening dress (the most‑ordered object to date), a 19th‑century Chinese porcelain pagoda, and a selection of William Morris textiles. The storehouse also hosts the David Bowie Centre, which opened on 13 September 2025 and showcases over 90 000 items from the late singer’s personal archive.  
 
-## Education, Accessibility and Community Outreach  
-The storehouse will feature wheelchair‑accessible galleries, induction loops and sign‑language interpreted tours. Educational programmes include:  
+## Conservation, Research and Employment  
 
-* **School workshops** on conservation techniques, running from September 2025 to July 2026, with 30 sessions scheduled for local primary and secondary schools.  
-* **Masterclasses** in historic textile weaving and metal‑working, open to the public on weekends.  
-* **Community days** offering free entry to residents of the London Boroughs surrounding Stratford, scheduled quarterly.  
+The site contains a state‑of‑the‑art conservation laboratory where specialists treat everything from Samurai swords to mid‑century furniture. Over 70 new jobs have been created across the two East Bank sites, supporting the museum’s commitment to the four Olympic boroughs. The facility’s digital platform provides high‑resolution images and metadata for all objects, facilitating remote research for scholars worldwide.  
 
-## Strategic Context  
-The East Storehouse forms part of the V&A’s £200 million East development, funded jointly by the Department for Culture, Media & Sport (£120 m) and private donors (£80 m). Director Tristram Hunt, speaking at the 2024 unveiling, described the project as “a bold re‑imagining of how a museum can share its depth, turning storage into a stage for discovery.”  
+## Public Programme and Accessibility  
 
-The opening will not only expand the V&A’s public programme but also set a precedent for major institutions worldwide to unlock their stored collections, turning hidden archives into accessible cultural capital.
+Admission is free, though certain exhibitions and talks carry a separate charge. The programme includes rotating displays, workshops, and talks such as “The Music Is Black: A British Story” and a series of micro‑residencies where artists spend four days researching the collection before presenting their findings. The building is fully accessible, with wheelchair‑friendly routes, accessible toilets and a café overlooking the park’s riverside terrace.  
+
+## Looking Ahead: V&A East Museum  
+
+The East Storehouse is the first phase of the V&A East development. The companion V&A East Museum, slated to open in spring 2026, will expand the narrative of “making” with additional galleries, a larger exhibition space and further community‑led projects. Together, the two sites aim to reposition the V&A as a model of open‑access stewardship for one of the world’s largest applied‑arts collections.  
+
+Visitors can plan their visit, book object viewings and explore the digital catalogue via the V&A’s official website.

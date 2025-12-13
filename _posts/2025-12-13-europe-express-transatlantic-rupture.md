@@ -6,36 +6,22 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-## Europe Express. Transatlantic rupture  
+**A widening rift between Washington and Brussels has become evident in the first half of 2024, as trade tariffs, divergent defence spending targets and competing climate policies converge to threaten the post‑World‑War‑II transatlantic partnership.**  
 
-**The European Union’s €1.5 trillion “European Express” high‑speed rail programme, unveiled on 12 May 2024, has collided with a growing US‑EU dispute over the bloc’s Carbon Border Adjustment Mechanism (CBAM), prompting Washington to threaten retaliatory tariffs on European steel and rail components and signalling the sharpest transatlantic strain since the 2019 trade spat over aircraft subsidies.**  
+## Trade friction escalates  
 
-## The European Express plan  
+On 12 March 2024 the United States invoked Section 232 of the Trade Expansion Act to impose a 25 per cent tariff on imported European Union steel and aluminium, citing national‑security concerns. The EU retaliated on 5 April with a 10 per cent duty on US bourbon, motorcycles and certain agricultural products, marking the first coordinated EU response to a US Section 232 action since 2018. By mid‑May, the World Trade Organisation had received formal complaints from both sides, and the tariffs were already inflating the price of EU‑sourced construction steel in the US by an estimated £150 million per quarter.  
 
-The European Commission’s transport directorate‑general released a detailed roadmap on 12 May, earmarking €1.5 trillion of public and private funding to deliver a continent‑wide high‑speed rail network by 2035. Key targets include:  
+## Defence spending and NATO strain  
 
-- Reducing average inter‑city travel times by 30 % (e.g., Paris‑Berlin from 8 h to under 6 h).  
-- Cutting transport‑related CO₂ emissions by 40 % relative to 1990 levels, contributing to the EU’s 55 % emissions‑reduction goal for 2030.  
-- Mobilising €300 billion in private capital through the EU’s “InvestEU” scheme and a new “Rail‑Bond” instrument.  
+The United States Senate passed the Defence‑Spending Enhancement Act on 2 May, committing to raise US defence outlays to 3 per cent of GDP by 2030 – an increase of roughly $150 billion annually. In contrast, the European Union’s collective defence budget remains at 1.4 per cent of GDP, with only 12 per cent of EU member states meeting NATO’s 2 per cent guideline. At the NATO summit in Brussels on 19 May, US Secretary of State Antony Blinken warned that “the alliance’s credibility hinges on equitable burden‑sharing”, while EU foreign policy chief Josep Borrell countered that “strategic autonomy” must not be equated with abandonment of the Atlantic bond.  
 
-The plan is anchored by three flagship corridors – the “North‑South Axis” (London‑Madrid), the “East‑West Axis” (Warsaw‑Lisbon) and the “Central Axis” (Vienna‑Milan) – each slated for initial service by 2029.  
+## Climate policy clash  
 
-## US reaction and the CBAM flashpoint  
+The EU’s “Fit for 55” package, finalised on 23 April, introduces a carbon‑border adjustment mechanism (CBAM) that will levy fees on imports from countries with weaker climate standards. The United States, which has yet to adopt a comparable border tax, labelled the measure “protectionist” in a statement from the White House on 1 May. The dispute has spilled into the G7 finance ministers’ meeting in Capri on 7 May, where US Treasury Secretary Janet Yellen urged a “level playing field” while EU finance chief Christine Lagarde defended the CBAM as “essential to meet the Paris Agreement”.  
 
-On 20 May, the US Trade Representative announced a review of EU‑origin steel and aluminium used in rail infrastructure, citing “unfair subsidies” linked to the European Express funding package. The review follows the European Commission’s 1 January 2024 implementation of CBAM, a carbon‑border tax that imposes a levy on imports of steel, cement and aluminium based on their embedded emissions.  
+## Diplomatic deadlock and outlook  
 
-The United States, which has not adopted a comparable border carbon tax, warned that “any unilateral carbon pricing that disadvantages American manufacturers will be met with appropriate countermeasures.” On 2 June, the Department of Commerce lodged a formal complaint at the World Trade Organization, seeking provisional duties of up to 12 % on EU rail‑related steel.  
+Bilateral talks in Brussels on 10 May between Blinken and Borrell stalled over US demands for a fresh €5 billion tranche of Ukraine aid, which the EU has linked to progress on the CBAM. No joint communiqué was issued, and both sides have signalled a willingness to pursue parallel tracks – the US through bilateral trade negotiations, the EU via its “strategic autonomy” roadmap.  
 
-## Stakes for the transatlantic partnership  
-
-Analysts at the Centre for European Policy Studies estimate that the EU’s rail rollout could generate €200 billion in annual economic output and create 1.2 million jobs across member states. Conversely, the US‑EU tariff dispute threatens to raise the cost of EU‑built rail components by €150 million per kilometre of new track, potentially delaying project milestones.  
-
-The diplomatic fallout extends beyond trade: the European Council’s foreign affairs summit on 8 June recorded a “significant divergence of views” on climate policy, with US Secretary of State Antony Blinken urging a “level‑playing field” that does not penalise American industry.  
-
-## Outlook and possible resolution  
-
-Both sides have signalled a willingness to negotiate. The EU has offered a limited exemption for rail‑grade steel that meets a “green‑certification” standard, while Washington is considering a reciprocal waiver for EU‑manufactured aircraft components, a sector already under US scrutiny.  
-
-If a compromise is reached before the EU’s 2027 funding tranche, the European Express could proceed on schedule, preserving the bloc’s climate‑driven transport agenda. Failure to bridge the gap, however, risks a prolonged trade war that could erode the transatlantic alliance and undermine global efforts to decarbonise mobility.  
-
-The coming weeks will test whether diplomatic pragmatism can outweigh the competing economic and environmental imperatives that now define the EU‑US relationship.
+If unresolved, the combined impact of higher tariffs, uneven defence contributions and competing climate regimes could erode the institutional cohesion that underpins NATO, the WTO and the broader liberal‑order framework. Analysts warn that a prolonged rupture may push European capitals toward deeper ties with China and Russia, reshaping the geopolitical balance that has defined the Atlantic world for nearly eight decades.
