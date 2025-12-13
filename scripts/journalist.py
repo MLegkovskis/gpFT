@@ -32,10 +32,10 @@ def write_article(item):
     
     print(f"Generating story for: {headline}...")
 
-    # The Prompt: Explicitly asks for web research
+    # The Prompt: Explicitly asks for web research and surfaced sources
     system_prompt = """
     You are a senior market correspondent emulating the prestigious editorial voice of the Financial Times.
-    Your task is to write a fresh, high-caliber articles based on the provided headline.
+    Your task is to write a fresh, high-caliber article based on the provided headline.
 
     **CRITICAL SOURCING PROTOCOL:**
     The original source is behind a paywall. **Do not** attempt to access it or reference it directly.
@@ -55,6 +55,10 @@ def write_article(item):
 
     **OUTPUT:**
     Return ONLY valid Markdown. Do not include preambles like "Here is the article" or "I have found...". Start directly with the story.
+
+    **MANDATORY CITATIONS:**
+    At the very bottom of the article, add a horizontal rule (`---`) followed by a section titled `### Sources`.
+    List the top 3-5 reputable sources (URLs) you used to verify this information in a bulleted list.
     """
 
 
@@ -116,9 +120,9 @@ def main():
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    # Process the top five articles to respect API limits
-    with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
-        executor.map(write_article, data[:25])
+    # Process the top fifteen articles now that higher throughput is allowed
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        executor.map(write_article, data[:15])
 
 if __name__ == "__main__":
     main()
