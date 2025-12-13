@@ -5,16 +5,21 @@ import concurrent.futures
 import shutil
 import re
 from groq import Groq
-from slugify import slugify 
+from slugify import slugify
 
+# --- CONFIGURATION ---
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+PLANNER_MODEL = "llama-3.3-70b-versatile"
+RESEARCHER_MODEL = "groq/compound"
+WRITER_MODEL = "llama-3.3-70b-versatile"
+
 
 def get_todays_date():
     return datetime.datetime.now().strftime('%Y-%m-%d')
 
 
 def reset_posts_dir(posts_dir="_posts"):
-    """Remove all existing posts to keep deployments in lockstep with a run."""
     if os.path.exists(posts_dir):
         for entry in os.listdir(posts_dir):
             entry_path = os.path.join(posts_dir, entry)
@@ -24,54 +29,53 @@ def reset_posts_dir(posts_dir="_posts"):
                 os.remove(entry_path)
     else:
         os.makedirs(posts_dir)
-
     os.makedirs(posts_dir, exist_ok=True)
 
-def write_article(item):
-    headline = item['headline']
-    category = item['category']
-    
-    print(f"Generating story for: {headline}...")
 
-    # The Prompt: Explicitly asks for web research and surfaced sources
-    system_prompt = """
-    You are a senior market correspondent emulating the prestigious editorial voice of the Financial Times.
-    Your task is to write a fresh, high-caliber article based on the provided headline.
+# --- STAGE 1: PLANNER ---
+def generate_research_plan(headline):
+    prompt = f"""
+    You are a Senior Editor at the Financial Times. We have a breaking headline: "{headline}".
+    Generate exactly 3 distinct research questions that will arm reporters with:
+    - hard data / numbers
+    - context / history
+    - market or political reactions
 
-    **CRITICAL SOURCING PROTOCOL:**
-    The original source is behind a paywall. **Do not** attempt to access it or reference it directly.
-    Instead, use your web browsing capabilities to **triangulate the story** using reputable open-web sources. 
-    Reconstruct the narrative using these public facts, ensuring the data is current and accurate.
-
-    **EDITORIAL GUIDELINES (The "Pink Paper" Style):**
-    1. **Tone:** Authoritative, understated, and analytical. Avoid sensationalism, adverbs, and "clickbait" phrasing.
-    2. **Language:** Strict British English (e.g., 'labour', 'defence', 'programme').
-    3. **Data-Density:** Prioritize hard numbers, timestamps, and percent changes over vague descriptions.
-    4. **Structure:** Use the "Inverted Pyramid". Start with the most critical info.
-
-    **FORMATTING REQUIREMENTS:**
-    - **The Lede:** The first paragraph must be **bolded** and act as a comprehensive "nut graf" (summary).
-    - **Subheads:** Use `##` for clear, professional section breaks.
-    - **Length:** Approximately 350-400 words.
-
-    **OUTPUT:**
-    Return ONLY valid Markdown. Do not include preambles like "Here is the article" or "I have found...". Start directly with the story.
-
-    **MANDATORY CITATIONS:**
-    At the very bottom of the article, add a horizontal rule (`---`) followed by a section titled `### Sources`.
-    List the top 3-5 reputable sources (URLs) you used to verify this information in a bulleted list. Format each source as a clickable Markdown link (e.g. `- <https://www.reuters.com/...>` or `- [Reuters](https://www.reuters.com/...)`).
+    Respond ONLY with a JSON array of strings.
+    Example: ["What are the GDP figures?", "How have markets reacted?", "What is the government's stance?"]
     """
-
-
-    user_prompt = f"Headline: '{headline}'. Find the latest details and write the article."
 
     try:
         completion = client.chat.completions.create(
-            model="groq/compound",  # Internet Connected Model
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
+            model=PLANNER_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2
+        )
+        response = completion.choices[0].message.content
+        json_match = re.search(r"\[.*\]", response, re.DOTALL)
+        if json_match:
+            return json.loads(json_match.group(0))
+    except Exception as e:
+        print(f"Planning failed for {headline}: {e}")
+    return [f"Provide the definitive update on: {headline}"]
+
+
+# --- STAGE 2: RESEARCHER ---
+def conduct_deep_dive(question, query_context):
+    prompt = f"""
+    You are a research assistant with live web tools.
+    Story context: "{query_context}".
+
+    Investigative Question: {question}
+
+    Provide a dense, factual answer with numbers, dates and quotes.
+    Cite every fact with Markdown links, e.g. [Reuters](https://www.reuters.com/...).
+    """
+
+    try:
+        completion = client.chat.completions.create(
+            model=RESEARCHER_MODEL,
+            messages=[{"role": "user", "content": prompt}],
             compound_custom={
                 "tools": {
                     "enabled_tools": [
@@ -82,19 +86,71 @@ def write_article(item):
                 }
             }
         )
-        
-        content = completion.choices[0].message.content
+        return f"**Q: {question}**\n\n{completion.choices[0].message.content}\n\n"
+    except Exception as e:
+        return f"Could not research '{question}': {e}\n"
 
-        # Linkify any bare URLs to guarantee Markdown renders clickable sources
+
+# --- STAGE 3: WRITER ---
+def write_final_story(headline, research_notes):
+    system_prompt = """
+    You are a senior correspondent for the Financial Times.
+    Write a news article ONLY using the supplied research notes.
+
+    * Tone: authoritative, British English.
+    * Structure: inverted pyramid; bold lede paragraph.
+    * Length: 400-500 words.
+    * Sources: integrate provided citations inline. Finish with a horizontal rule and a `### Sources` section listing the referenced URLs as Markdown links.
+    """
+
+    user_prompt = f"""
+    Headline: {headline}
+
+    Research Notes:
+    {research_notes}
+
+    Produce the article now. Output valid Markdown only.
+    """
+
+    try:
+        completion = client.chat.completions.create(
+            model=WRITER_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+        )
+        content = completion.choices[0].message.content
         url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
-        content = re.sub(url_pattern, r"<\1>", content)
-        
-        # Create Jekyll Front Matter
-        slug = slugify(headline)
-        date_str = get_todays_date()
-        filename = f"_posts/{date_str}-{slug}.md"
-        
-        file_content = f"""---
+        return re.sub(url_pattern, r"<\1>", content)
+    except Exception as e:
+        print(f"Writing failed for {headline}: {e}")
+        return None
+
+
+def process_single_article(item):
+    headline = item['headline']
+    category = item['category']
+    print(f"⚡ Processing: {headline}...")
+
+    questions = generate_research_plan(headline)
+    print(f"   -> Plan generated {len(questions)} angles.")
+
+    research_notes = ""
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(questions)) as executor:
+        futures = [executor.submit(conduct_deep_dive, q, headline) for q in questions]
+        for future in concurrent.futures.as_completed(futures):
+            research_notes += future.result()
+    print("   -> Research complete.")
+
+    article_content = write_final_story(headline, research_notes)
+    if not article_content:
+        return
+
+    slug = slugify(headline)
+    date_str = get_todays_date()
+    filename = f"_posts/{date_str}-{slug}.md"
+    file_content = f"""---
 layout: post
 title: "{headline.replace('"', "'")}"
 category: "{category}"
@@ -102,18 +158,12 @@ date: {date_str}
 author: "Groq AI"
 ---
 
-{content}
+{article_content}
 """
-        # Ensure _posts exists
-        os.makedirs("_posts", exist_ok=True)
-        
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(file_content)
-            
-        print(f"Saved: {filename}")
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(file_content)
+    print(f"   -> ✅ Saved: {filename}")
 
-    except Exception as e:
-        print(f"Error on {headline}: {e}")
 
 def main():
     if not os.path.exists('headlines.json'):
@@ -125,9 +175,9 @@ def main():
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    # Process the top fifteen articles now that higher throughput is allowed
-    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
-        executor.map(write_article, data[:15])
+    for item in data[:5]:
+        process_single_article(item)
+
 
 if __name__ == "__main__":
     main()
