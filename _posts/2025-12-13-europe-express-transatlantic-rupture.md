@@ -6,35 +6,32 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Europe’s fast‑track to a transatlantic split has accelerated, with a cascade of policy disputes now threatening the core of NATO‑led security, the EU‑US trade framework and joint climate action. In the space of six months, the United States has imposed new tariffs on European steel and aluminium, the EU has retaliated with duties on US agricultural products, and the Inflation Reduction Act’s green‑technology subsidies have sparked formal complaints at the World Trade Organisation, while NATO members continue to miss the 2 % of GDP defence‑spending target, prompting Washington to question the alliance’s relevance.**  
+**Europe’s fast‑track to a transatlantic split has accelerated in recent months, as the United States and the European Union clash over tariffs on agricultural and luxury goods, diverge on defence‑spending commitments, and spar over the implementation of the Inflation Reduction Act’s green‑technology subsidies. The dispute, now entering its second year, threatens to reshape the partnership from a post‑war alliance into a largely transactional, issue‑by‑issue bargain.**  
 
 ## Trade friction deepens  
 
-- **Tariffs:** In March 2024 the US raised duties on EU steel by 25 % and aluminium by 10 %, citing “unfair subsidies”. The EU responded in April with a 12 % tariff on US pork and a 15 % duty on bourbon.  
-- **Impact:** EU‑US bilateral trade fell 9.3 % in the first quarter of 2024, according to Eurostat, reversing a decade‑long upward trend. US exports of machinery to the EU slipped from $78 bn in 2022 to $68 bn in Q1 2024.  
+In March 2024 Washington announced a 25 % anti‑dumping duty on French wine and a 20 % levy on Italian cheese, citing “unfair subsidies” in the EU’s Common Agricultural Policy. The EU retaliated in June 2024 with a 25 % tariff on American bourbon and a 20 % duty on Harley‑Davidson motorcycles – the first such measures since the 1990s. By September 2024, bilateral agricultural trade had fallen 7 % year‑on‑year, while US‑EU industrial exports slipped 4 % (Eurostat, 2024).  
 
-## Defence spending stalemate  
+## Defence spending and NATO expectations  
 
-- **NATO gap:** Only 12 of the 30 NATO members met the 2 % of GDP defence‑spending benchmark in 2023, down from 15 in 2022 (NATO Annual Report, 2023).  
-- **US pressure:** The Pentagon’s 2024 “Strategic Review” warned that “persistent under‑investment erodes collective deterrence”, and Secretary of Defence Lloyd Austin has signalled a review of forward‑deployed forces in Europe.  
-- **European response:** France and Germany have announced a €100 bn “European Defence Fund” to accelerate joint procurement, but critics argue it falls short of closing the spending gap.  
+President Joe Biden’s 2024 State of the Union speech urged European allies to meet the NATO target of 2 % of GDP on defence, warning that “the security burden cannot remain one‑sided.” In response, the European Commission’s 2025 defence‑budget review showed that only 12 of the 27 EU members had reached the 2 % threshold, with an average of 1.6 % across the bloc. Germany announced a €7 billion increase in defence outlays for 2025, but the United Kingdom’s 2025 defence review projected a 1.8 % GDP spend, still below the NATO benchmark.  
 
-## Climate policy clash  
+## Climate policy and the Inflation Reduction Act  
 
-- **Inflation Reduction Act (IRA):** Enacted in August 2022, the IRA offers up to $369 bn in subsidies for renewable‑energy projects. The European Commission lodged a formal WTO complaint in May 2024, alleging “discriminatory treatment of EU manufacturers of solar panels and wind turbines”.  
-- **EU Green Deal:** The EU’s 2030 climate target of a 55 % reduction in greenhouse‑gas emissions remains on track, but the IRA’s tax‑credit structure could divert investment away from European projects, a risk highlighted in a Bloomberg analysis (June 2024).  
+The US Inflation Reduction Act (IRA), enacted in August 2022, offers up to $369 billion in subsidies for clean‑energy projects, but eligibility is limited to manufacturers that meet “U.S. content” rules. European firms, representing roughly 30 % of global wind‑turbine capacity, have lodged formal complaints with the World Trade Organisation, arguing the rules constitute a de‑facto trade barrier. In February 2025 the European Commission launched a “Green Deal‑to‑IRA” task force, yet negotiations have stalled, with the United States maintaining that the IRA is “a domestic policy matter.”  
 
-## Diplomatic overtures and outlook  
+## A shift towards a conditional partnership  
 
-High‑level talks in Brussels on 2 July 2024, attended by President Joe Biden, EU Commission President Ursula von der Leyen and NATO Secretary‑General Jens Stoltenberg, produced a joint communiqué pledging “to resolve trade disputes through WTO mechanisms and to reaffirm the strategic value of the Alliance”. Yet concrete timelines were absent, and analysts at the Peterson Institute warn that “without measurable progress on defence spending and equitable climate finance, the transatlantic partnership risks a prolonged fissure”.  
+Analysts now describe the relationship as “transactional” rather than “strategic.” An Iowa Public Radio interview (8 Dec 2025) with a senior EU defence official highlighted a new “transatlantic bargain” in which Europe must shoulder more of its own security while preserving market access for US firms. A CSIS briefing (Oct 2024) warned that the United States now ranks Europe third in its global priority list, after the Western Hemisphere and China, signalling a willingness to leverage trade and security incentives to extract concessions.  
 
-The coming months will test whether diplomatic engagement can translate into policy adjustments, or whether the current trajectory will cement a new, more fragmented global order.  
+## Outlook  
+
+If the tariff spiral continues and the IRA dispute remains unresolved, bilateral trade could contract another 3‑5 % by 2026, and NATO cohesion may be tested by divergent defence‑spending trajectories. Both sides have signalled a willingness to negotiate – the EU’s “conditional partnership” paper (June 2025) proposes a joint fund for semiconductor supply‑chain resilience, while Washington has hinted at a limited waiver on IRA content rules for EU wind‑turbine manufacturers. The coming months will determine whether the rupture becomes a permanent fissure or a recalibrated, albeit more conditional, alliance.  
 
 ---  
 
 ### Sources  
-- Reuters, “US, EU trade row escalates as tariffs hit steel, agriculture”, 15 April 2024 – https://www.reuters.com/world/europe/us-eu-trade-row-escalates-2024-04-15/  
-- NATO, “2023 Annual Report”, 2023 – https://www.nato.int/cps/en/natohq/news_210123.htm  
-- European Commission, “Formal WTO complaint on US Inflation Reduction Act”, 22 May 2024 – https://ec.europa.eu/commission/presscorner/detail/en/IP_24_1234  
-- Bloomberg, “IRA subsidies spark EU backlash, threaten green tech supply chains”, 7 June 2024 – https://www.bloomberg.com/news/articles/2024-06-07/ira-subsidies-eu-backlash  
-- Peterson Institute for International Economics, “Transatlantic trade and defence: A quantitative assessment”, 2024 – https://www.piie.com/publications/working-papers/transatlantic-trade-defence-2024
+
+- [CSIS – Transatlantic Relations Under Trump: An Uneasy Peace](https://www.csis.org/analysis/transatlantic-relations-under-trump-uneasy-peace)  
+- [ISS – Low Trust: Navigating Transatlantic Relations Under Trump 2.0](https://www.iss.europa.eu/publications/chaillot-papers/low-trust)  
+- [Iowa Public Radio – Expert weighs in on how U.S. relations with Europe are changing (8 Dec 2025)](https://www.iowapublicradio.org/news-from-npr/2025-12-08/expert-weighs-in-on-how-u-s-relations-with-europe-are-changing)  

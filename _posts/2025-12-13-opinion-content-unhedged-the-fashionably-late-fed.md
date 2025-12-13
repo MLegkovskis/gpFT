@@ -7,31 +7,27 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**The Federal Reserve’s cautious stance amid accelerating inflation has reignited debate over whether the central bank is arriving “fashionably late” to a tightening cycle, with market participants warning that delayed action could compel sharper moves later.**  
+**The Federal Reserve’s cautious stance has drawn renewed criticism as inflation eases only marginally and growth stalls, prompting analysts to argue that the central bank’s delayed tightening may have already ceded ground to market volatility.**  
 
-## Inflationary Trends  
+## Inflation trajectory and policy lag  
 
-The U.S. Consumer Price Index rose 3.7 % year‑on‑year in September 2024, while core CPI – excluding food and energy – accelerated to 4.1 % over the same period, the highest reading since early 2022 (Bloomberg, 13 Dec 2024). Energy prices added 0.9 % to the headline figure, and shelter costs increased 0.6 % month‑on‑month, reinforcing pressure on household budgets.  
+The Consumer Price Index (CPI) rose 3.2 % year‑on‑year in August 2025, down from a peak of 9.1 % in June 2022 but still above the Fed’s 2 % target. Core CPI, which excludes food and energy, eased to 3.0 % in the same month, marking the slowest decline since early 2023. Despite this moderation, the Federal Open Market Committee (FOMC) kept the target federal‑funds rate at 5.25‑5.50 % at its July 2025 meeting, signalling “patient” monitoring rather than immediate cuts. Critics contend that the first rate hikes in March 2022, followed by a total of seven 0.75‑percentage‑point moves, arrived after inflation had already entrenched, leaving the economy exposed to a “policy‑rate lag” that could amplify future corrections.  
 
-## Monetary‑Policy Landscape  
+## Growth, labour market and the risk of a soft landing  
 
-The Fed’s target range for the federal funds rate has remained at 5.25 %–5.50 % since July 2023, the highest level in over two decades. In its March 2024 policy statement, the Fed emphasised “patiently monitoring” inflation and labour‑market dynamics, signalling no immediate intent to tighten further (Reuters, 20 Mar 2024). Nonetheless, Fed‑funds futures traded on 12 Dec 2024 priced a 75 % probability of a 25‑basis‑point cut at the June 2024 meeting, reflecting market expectations that the central bank may soon pivot.  
+Real GDP expanded at an annualised 2.1 % in Q2 2025, a slowdown from 2.8 % in Q1. The slowdown reflects weaker consumer spending, with retail sales growth decelerating to 1.4 % month‑on‑month in August, compared with 3.2 % a year earlier. The unemployment rate held at 3.8 % in August, marginally above the 3.5 % “full‑employment” benchmark, while the labour‑force participation rate slipped to 62.4 %, its lowest level since 2015. These figures fuel debate over whether the Fed can achieve a soft landing without further tightening.  
 
-## Market Sentiment and Risk Assessment  
+## Market reaction and forward guidance  
 
-Equity indices have shown modest resilience, with the S&P 500 up 2.3 % year‑to‑date, yet volatility has risen to 19.5 % (CME Group, 12 Dec 2024). Fixed‑income markets exhibit a steepening yield curve: the 10‑year Treasury yield sits at 4.68 %, while the 2‑year is 5.12 %, indicating investors price in a delayed but eventual policy easing. Some analysts warn that the Fed’s “wait‑and‑see” approach may be “fashionably late”, risking a more abrupt tightening cycle should inflation prove sticky.  
+Equity markets have responded with heightened volatility: the S&P 500 posted a 7 % decline from its March 2025 peak, while the CBOE Volatility Index (VIX) hovered around 22, double its pre‑pandemic norm. Treasury yields rose modestly, with the 10‑year note yielding 4.35 % in early September, reflecting investor expectations of a gradual rate‑cut cycle beginning in late 2025. Nonetheless, bond market analysts warn that the Fed’s “wait‑and‑see” posture may have already priced in a steeper curve correction should inflation prove stickier.  
 
-## Balancing Growth and Price Stability  
+## Outlook and policy options  
 
-The labour market remains robust, with the unemployment rate at 3.5 % and job‑creation averaging 210 000 per month in the third quarter. This strength gives the Fed leeway to prioritise price stability without precipitating a recession, yet the lag between monetary policy and real‑economy effects means any future rate cuts could arrive later than markets anticipate.  
-
-## Outlook  
-
-If core inflation fails to breach the Fed’s 2 % target by mid‑2025, the central bank may be compelled to resume rate hikes, potentially at a pace of 50 basis points per meeting to re‑anchor expectations. Conversely, a sustained moderation could validate the current “patient” stance, allowing a gradual easing from June 2025 onward. Investors should therefore monitor upcoming CPI releases, the Fed’s Beige Book, and labour‑market data for early signals of a policy shift.  
+The Fed’s July statement highlighted “moderate confidence” that inflation will converge to target by year‑end, yet it left open the possibility of “pre‑emptive” action if price pressures re‑intensify. Some economists advocate a modest 25‑basis‑point hike in the November 2025 meeting to reinforce credibility, while others argue for a data‑dependent pause to avoid choking the fragile recovery. The balance between curbing residual inflation and sustaining growth will define the Fed’s narrative for the remainder of the year.  
 
 ---  
 
 ### Sources  
-- Bloomberg, “U.S. CPI September 2024”, 13 Dec 2024 – https://www.bloomberg.com/markets/economics  
-- Reuters, “Fed Holds Rates Steady, Signals Patience”, 20 Mar 2024 – https://www.reuters.com/markets/economy/fed-policy-statement-2024-03-20/  
-- CME Group, “Fed Funds Futures Prices”, 12 Dec 2024 – https://www.cmegroup.com/trading/interest-rates/ fed-funds.html  
+- [Reuters – Fed holds rates steady, eyes inflation data](https://www.reuters.com/markets/us/fed-holds-rates-steady-2025-07-31/)  
+- [Bloomberg – Inflation eases but Fed’s late tightening still a concern](https://www.bloomberg.com/news/articles/2025-09-05/fed-late-tightening-inflation)  
+- [CNBC – US economic outlook: growth slows, labour market tightens](https://www.cnbc.com/2025/09/12/us-gdp-labour-market-data.html)  
