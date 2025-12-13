@@ -3,6 +3,7 @@ import os
 import datetime
 import concurrent.futures
 import shutil
+import re
 from groq import Groq
 from slugify import slugify 
 
@@ -58,7 +59,7 @@ def write_article(item):
 
     **MANDATORY CITATIONS:**
     At the very bottom of the article, add a horizontal rule (`---`) followed by a section titled `### Sources`.
-    List the top 3-5 reputable sources (URLs) you used to verify this information in a bulleted list.
+    List the top 3-5 reputable sources (URLs) you used to verify this information in a bulleted list. Format each source as a clickable Markdown link (e.g. `- <https://www.reuters.com/...>` or `- [Reuters](https://www.reuters.com/...)`).
     """
 
 
@@ -83,6 +84,10 @@ def write_article(item):
         )
         
         content = completion.choices[0].message.content
+
+        # Linkify any bare URLs to guarantee Markdown renders clickable sources
+        url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
+        content = re.sub(url_pattern, r"<\1>", content)
         
         # Create Jekyll Front Matter
         slug = slugify(headline)
