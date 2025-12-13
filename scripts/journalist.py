@@ -62,11 +62,20 @@ def write_article(item):
 
     try:
         completion = client.chat.completions.create(
-            model="groq/compound", # Internet Connected Model
+            model="groq/compound",  # Internet Connected Model
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
-            ]
+            ],
+            compound_custom={
+                "tools": {
+                    "enabled_tools": [
+                        "web_search",
+                        "code_interpreter",
+                        "visit_website"
+                    ]
+                }
+            }
         )
         
         content = completion.choices[0].message.content
