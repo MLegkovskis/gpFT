@@ -4,10 +4,10 @@ import datetime
 import concurrent.futures
 import shutil
 import re
+import time
 from groq import Groq
 from slugify import slugify
 
-# --- CONFIGURATION ---
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 PLANNER_MODEL = "llama-3.3-70b-versatile"
@@ -15,7 +15,11 @@ RESEARCHER_MODEL = "groq/compound"
 WRITER_MODEL = "llama-3.3-70b-versatile"
 
 
-def get_todays_date():
+def get_current_time_str():
+    return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+
+def get_date_slug():
     return datetime.datetime.now().strftime('%Y-%m-%d')
 
 
@@ -32,24 +36,22 @@ def reset_posts_dir(posts_dir="_posts"):
     os.makedirs(posts_dir, exist_ok=True)
 
 
-# --- STAGE 1: PLANNER ---
 def generate_research_plan(headline):
     prompt = f"""
     You are a Senior Editor at the Financial Times. We have a breaking headline: "{headline}".
-    Generate exactly 3 distinct research questions that will arm reporters with:
-    - hard data / numbers
-    - context / history
-    - market or political reactions
+    Generate 3 distinct investigative questions covering:
+    1) hard data/numbers (GDP, stock moves, poll numbers)
+    2) history or context
+    3) market/political reaction or quotes
 
-    Respond ONLY with a JSON array of strings.
-    Example: ["What are the GDP figures?", "How have markets reacted?", "What is the government's stance?"]
+    Respond ONLY with a JSON array of strings, e.g.
+    ["What are the GDP figures?", "How have markets reacted?", "What is the government's stance?"]
     """
-
     try:
         completion = client.chat.completions.create(
             model=PLANNER_MODEL,
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
+            temperature=0.3
         )
         response = completion.choices[0].message.content
         json_match = re.search(r"\[.*\]", response, re.DOTALL)
@@ -57,21 +59,18 @@ def generate_research_plan(headline):
             return json.loads(json_match.group(0))
     except Exception as e:
         print(f"Planning failed for {headline}: {e}")
-    return [f"Provide the definitive update on: {headline}"]
+    return [f"What are the latest, verifiable facts regarding {headline}?"]
 
 
-# --- STAGE 2: RESEARCHER ---
 def conduct_deep_dive(question, query_context):
     prompt = f"""
     You are a research assistant with live web tools.
-    Story context: "{query_context}".
+    Topic: "{query_context}".
 
     Investigative Question: {question}
 
-    Provide a dense, factual answer with numbers, dates and quotes.
-    Cite every fact with Markdown links, e.g. [Reuters](https://www.reuters.com/...).
+    Provide a dense factual answer with numbers, dates, quotes, and cite every statement with Markdown links (e.g. [Reuters](https://www.reuters.com/...))
     """
-
     try:
         completion = client.chat.completions.create(
             model=RESEARCHER_MODEL,
@@ -91,27 +90,25 @@ def conduct_deep_dive(question, query_context):
         return f"Could not research '{question}': {e}\n"
 
 
-# --- STAGE 3: WRITER ---
 def write_final_story(headline, research_notes):
     system_prompt = """
     You are a senior correspondent for the Financial Times.
-    Write a news article ONLY using the supplied research notes.
+    Write a 400-500 word article using ONLY the provided research notes.
 
-    * Tone: authoritative, British English.
-    * Structure: inverted pyramid; bold lede paragraph.
-    * Length: 400-500 words.
-    * Sources: integrate provided citations inline. Finish with a horizontal rule and a `### Sources` section listing the referenced URLs as Markdown links.
+    Style guide:
+    - Tone: authoritative British English.
+    - Structure: inverted pyramid; bold lede paragraph.
+    - Cite sources inline and/or conclude with a '### Sources' section listing Markdown links.
+    - Output valid Markdown only.
     """
-
     user_prompt = f"""
     Headline: {headline}
 
     Research Notes:
     {research_notes}
 
-    Produce the article now. Output valid Markdown only.
+    Produce the article now.
     """
-
     try:
         completion = client.chat.completions.create(
             model=WRITER_MODEL,
@@ -131,30 +128,30 @@ def write_final_story(headline, research_notes):
 def process_single_article(item):
     headline = item['headline']
     category = item['category']
-    print(f"⚡ Processing: {headline}...")
+    print(f"⚡ Starting: {headline}...")
 
-    questions = generate_research_plan(headline)
-    print(f"   -> Plan generated {len(questions)} angles.")
+    questions = generate_research_plan(headline)[:3]
 
     research_notes = ""
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(questions)) as executor:
         futures = [executor.submit(conduct_deep_dive, q, headline) for q in questions]
         for future in concurrent.futures.as_completed(futures):
             research_notes += future.result()
-    print("   -> Research complete.")
 
     article_content = write_final_story(headline, research_notes)
     if not article_content:
+        time.sleep(1)
         return
 
     slug = slugify(headline)
-    date_str = get_todays_date()
-    filename = f"_posts/{date_str}-{slug}.md"
+    date_slug = get_date_slug()
+    time_str = get_current_time_str()
+    filename = f"_posts/{date_slug}-{slug}.md"
     file_content = f"""---
 layout: post
 title: "{headline.replace('"', "'")}"
 category: "{category}"
-date: {date_str}
+date: {time_str}
 author: "Groq AI"
 ---
 
@@ -162,7 +159,7 @@ author: "Groq AI"
 """
     with open(filename, "w", encoding="utf-8") as f:
         f.write(file_content)
-    print(f"   -> ✅ Saved: {filename}")
+    print(f"   -> ✅ Finished: {headline}")
 
 
 def main():
@@ -175,8 +172,11 @@ def main():
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    for item in data[:5]:
-        process_single_article(item)
+    articles = data[:5]
+    print(f"Processing {len(articles)} articles in parallel...")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        executor.map(process_single_article, articles)
 
 
 if __name__ == "__main__":

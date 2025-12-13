@@ -4,9 +4,11 @@ layout: default
 <div class="article-container">
     <span class="category">{{ page.category | default: 'News' }}</span>
     <h1 style="font-size: 2.5rem; margin-bottom: 10px;">{{ page.title }}</h1>
+    
     <div style="color: #666; font-family: Helvetica, sans-serif; margin-bottom: 30px;">
-        Published: {{ page.date | date: "%B %d, %Y" }}
+        Published: {{ page.date | date: "%d %B %Y, %H:%M" }}
     </div>
+    
     <hr style="border: 0; border-top: 1px solid #000; margin-bottom: 30px;">
 
     <div class="article-body">
