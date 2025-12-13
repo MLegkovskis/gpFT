@@ -172,7 +172,7 @@ def main():
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    articles = data[:5]
+    articles = data[:20]
     print(f"Processing {len(articles)} articles in parallel...")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
