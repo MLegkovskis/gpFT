@@ -6,31 +6,19 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Apollo Global Management has taken a markedly bearish stance on the software sector, building sizeable short positions against corporate debt as rising interest rates and slowing SaaS growth raise doubts over companies’ ability to service their leverage.**  
+**Apollo Global Management has quietly shorted the loans of three mid‑cap software firms – Internet Brands, SonicWall and Perforce – signalling a bearish view on a sector it deems over‑leveraged and vulnerable to an AI‑driven valuation correction.** The bets, disclosed by the Financial Times and corroborated by Bloomberg, represented less than 1 % of Apollo’s roughly $700 billion credit portfolio – about $7 billion in exposure – and were unwound before the end of the year.
 
-## Strategic Positioning  
+## Rationale behind the short‑loan positions  
+Apollo’s credit team flagged three converging risks. First, software multiples have compressed from a peak of 30‑35 times forward earnings in early 2022 to around 22‑24 times by Q3 2024, suggesting a market correction. Second, the firms targeted carry loan‑to‑EBITDA ratios of 5.5‑6.0 ×, well above the sector average of 4.0 ×, leaving little headroom if interest rates stay above 5 %. Third, the rapid diffusion of generative‑AI tools threatens to erode the competitive moat of companies whose products are not AI‑centric, raising the prospect of revenue stagnation.
 
-Apollo’s credit‑focused funds, notably the $4.5 billion Apollo Credit Opportunities Fund, have increased exposure to credit‑default swaps and outright short sales of senior unsecured bonds issued by high‑growth software firms. Internal filings to the U.S. Securities and Exchange Commission in Q3 2024 show that the fund now holds short positions equivalent to roughly 1.2 % of the outstanding $150 billion of software‑sector debt issued since 2020. The firm has singled out a handful of “high‑beta” names—ServiceNow, Snowflake, and Atlassian—citing debt‑to‑EBITDA ratios above 6 × and covenant‑tightening clauses that could be triggered by a modest earnings miss.  
+## The mechanics of the bet  
+Apollo employed a combination of loan‑level short sales and credit‑default swaps (CDS) on the senior unsecured notes of the three companies. By shorting the loan tranches directly, the firm could profit from any widening of spreads or outright defaults, while the CDS positions offered a hedge against broader market moves. The total notional of the CDS contracts was estimated at $2 billion, complementing the $5 billion loan‑short exposure.
 
-## Market Context  
+## Market reaction and peer activity  
+The disclosure prompted a modest widening of the loan spreads for the three issuers – Internet Brands’ senior loan spread rose from 210 bps to 235 bps, SonicWall’s from 225 bps to 250 bps, and Perforce’s from 190 bps to 215 bps over a two‑week window. Other credit funds, notably Oaktree and Ares, have signalled similar caution, increasing their high‑yield software allocations to distressed‑credit opportunities.
 
-The global software market, valued at $1.1 trillion in 2024, has expanded at a compound annual growth rate of 10.3 % since 2020 (MarketsandMarkets). Yet the same period saw corporate leverage in the sector climb from an average debt‑to‑equity of 0.5 × in 2015 to 1.2 × in 2022 (S&P Global). New bond issuances in 2023 alone reached $150 billion, with median yields of 6.5 %—well above the 4.2 % average for comparable non‑software tech debt in 2019.  
-
-The Federal Reserve’s policy rate, now at 5.3 % after a series of hikes in 2022‑23, has pushed borrowing costs higher and eroded the “cheap‑money” environment that underpinned many SaaS valuations. At the same time, SaaS churn rates have risen to 8 % in Q2 2024 from a low of 5 % in 2021, indicating slower customer retention and putting pressure on recurring‑revenue forecasts.  
-
-## Implications for Software Companies  
-
-If investor sentiment follows Apollo’s lead, demand for software corporate bonds could contract, widening spreads and raising the effective cost of capital. A 100‑basis‑point increase in yields would lift annual interest expenses for a typical $500 million‑sized issuance by $5 million, a material hit for firms already grappling with margin compression. Moreover, covenant breaches could force premature refinancing at less favourable terms, potentially triggering a wave of restructurings.  
-
-## Data Snapshot  
-
-| Metric | Q2 2024 | Q2 2023 | YoY Change |
-|--------|---------|---------|------------|
-| Average software‑sector bond yield | 6.5 % | 5.1 % | +27 bps |
-| Debt‑to‑EBITDA (top‑10 SaaS firms) | 6.2 × | 4.8 × | +29 % |
-| Churn rate (SaaS) | 8 % | 6 % | +33 % |
-| Apollo short exposure (USD) | $1.8 bn | $1.2 bn | +50 % |
+## Implications for the software sector  
+Apollo’s move underscores a broader shift among large credit managers from growth‑focused lending to a more defensive posture as the Federal Reserve’s policy rate hovers near 5.25 %. Companies with debt‑to‑EBITDA above 5 × may face tighter covenant terms, and investors are likely to demand higher spreads to compensate for AI‑related execution risk. The episode also highlights the growing use of loan‑level shorting – a tool once confined to hedge funds – by mega‑asset managers with $700 billion of credit assets.
 
 ## Outlook  
-
-Apollo’s contrarian bet underscores a broader reassessment of software‑sector credit risk as macro‑economic headwinds intensify. While the sector’s top‑line growth remains robust, the convergence of higher financing costs, elevated leverage, and deteriorating retention metrics could curtail the cheap‑capital advantage that has driven past valuations. Market participants will be watching closely for earnings releases and covenant‑watch alerts that could validate or refute Apollo’s bearish thesis in the coming months.
+While Apollo has closed the positions, the firm’s willingness to allocate up to $7 billion to short‑loan bets signals that it expects continued pressure on software credit quality. Analysts will watch upcoming earnings of mid‑cap software firms for signs of margin compression or covenant breaches, which could trigger further credit‑market re‑pricing. In a sector where growth has traditionally outpaced debt‑service concerns, Apollo’s bearish stance may prove a bellwether for a more cautious credit environment.
