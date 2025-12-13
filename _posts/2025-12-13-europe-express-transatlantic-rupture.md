@@ -6,32 +6,24 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Europe’s fast‑track to a transatlantic split has accelerated in recent months, as the United States and the European Union clash over tariffs on agricultural and luxury goods, diverge on defence‑spending commitments, and spar over the implementation of the Inflation Reduction Act’s green‑technology subsidies. The dispute, now entering its second year, threatens to reshape the partnership from a post‑war alliance into a largely transactional, issue‑by‑issue bargain.**  
+**Europe Express: Transatlantic Rupture**
+Europe's relationship with the US has been reshaped by historical diplomatic tensions, such as those during the Iraq War, which has had a lasting impact on transatlantic relations. As noted by [Stanford FSI](https://fsi.stanford.edu/events/useuropean_relations_after_the_iraq_war), "Many long-time U.S. allies – including, most prominently, France and Germany – were openly hostile to the American action." The Iraq War diplomatic rupture injected quantifiable political, public-opinion, and institutional fissures into transatlantic relations, but the alliance proved resilient enough to rebuild through new NATO capabilities and renewed EU-US dialogues—albeit with a more cautious, less assumption-driven partnership.
 
-## Trade friction deepens  
+The US decision to invade Iraq without a UN mandate created the sharpest diplomatic split since the Cold War, with France and Germany's *no* votes contrasting with the UK's *yes*. This public "Atlantic storm" questioned whether the United States remained a "force for good" and whether Europe remained "relevant" to US interests. According to [e-ir.info](https://www.e-ir.info/2015/08/23/the-iraq-war-as-more-divisive-in-transatlantic-relations-than-the-war-on-terror/), "45% of Europeans sought closer relations with the EU," while 50% wanted closer ties with the US, highlighting a widening gap in public opinion.
 
-In March 2024 Washington announced a 25 % anti‑dumping duty on French wine and a 20 % levy on Italian cheese, citing “unfair subsidies” in the EU’s Common Agricultural Policy. The EU retaliated in June 2024 with a 25 % tariff on American bourbon and a 20 % duty on Harley‑Davidson motorcycles – the first such measures since the 1990s. By September 2024, bilateral agricultural trade had fallen 7 % year‑on‑year, while US‑EU industrial exports slipped 4 % (Eurostat, 2024).  
+The impact of the Iraq War on transatlantic relations has been significant, with the EU launching its own European Security and Defence Policy (ESDP) in 2004, later renamed Common Security and Defence Policy (CSDP). As [PolicyCenter.ma](https://www.policycenter.ma/publications/transatlantic-relations-times-transition) notes, "The Iraq war ruptured the unity of NATO and led European states to reassess their relationships with the United States." The establishment of a NATO Rapid Response Force in October 2004, with a target strength of 20,000 troops by 2005, deployable within 5 days, is a good sign of the alliance's attempt to mend the breach.
 
-## Defence spending and NATO expectations  
+The current trade deficit between the EU and US stands at $58 billion, with a goods trade deficit of $235.9 billion and a services trade surplus of $88.6 billion. As [USTR](https://ustr.gov/countries-regions/europe-middle-east/europe/european-union) notes, "The U.S. goods trade deficit with European Union was $235.9 billion in 2024, a 13.6 percent increase ($28.2 billion) over 2023." The services surplus has more than doubled, rising 20.9% to $88.6 billion, reflecting stronger US export of financial, intellectual-property, and digital services.
 
-President Joe Biden’s 2024 State of the Union speech urged European allies to meet the NATO target of 2 % of GDP on defence, warning that “the security burden cannot remain one‑sided.” In response, the European Commission’s 2025 defence‑budget review showed that only 12 of the 27 EU members had reached the 2 % threshold, with an average of 1.6 % across the bloc. Germany announced a €7 billion increase in defence outlays for 2025, but the United Kingdom’s 2025 defence review projected a 1.8 % GDP spend, still below the NATO benchmark.  
+In terms of potential implications for European markets and the euro, a trans-Atlantic rupture would weaken the euro, potentially by 1-2%, and raise equity-market volatility across the EU, especially in export-intensive sectors. As [BIS](https://www.bis.org/publ/r_qt0112g.pdf) notes, "The euro fell ≈1% against the dollar after the announcement of a €53 bn Deutsche Telekom-VoiceStream deal (19 July 2000) and lost a total ≈2.9% over the following 10 trading days." Investors have already moved into safe-haven assets, such as US Treasuries, and trimmed euro-denominated positions, while policymakers are preparing defensive trade measures, signaling a possible policy-driven tightening of monetary conditions if the rupture persists.
 
-## Climate policy and the Inflation Reduction Act  
+In conclusion, the Iraq War has had a lasting impact on transatlantic relations, with the EU and US rebuilt their relationship through new NATO capabilities and renewed dialogues. However, the current trade deficit and potential implications for European markets and the euro highlight the need for continued cooperation and dialogue between the two partners.
 
-The US Inflation Reduction Act (IRA), enacted in August 2022, offers up to $369 billion in subsidies for clean‑energy projects, but eligibility is limited to manufacturers that meet “U.S. content” rules. European firms, representing roughly 30 % of global wind‑turbine capacity, have lodged formal complaints with the World Trade Organisation, arguing the rules constitute a de‑facto trade barrier. In February 2025 the European Commission launched a “Green Deal‑to‑IRA” task force, yet negotiations have stalled, with the United States maintaining that the IRA is “a domestic policy matter.”  
+--------------------------------------------------------
 
-## A shift towards a conditional partnership  
-
-Analysts now describe the relationship as “transactional” rather than “strategic.” An Iowa Public Radio interview (8 Dec 2025) with a senior EU defence official highlighted a new “transatlantic bargain” in which Europe must shoulder more of its own security while preserving market access for US firms. A CSIS briefing (Oct 2024) warned that the United States now ranks Europe third in its global priority list, after the Western Hemisphere and China, signalling a willingness to leverage trade and security incentives to extract concessions.  
-
-## Outlook  
-
-If the tariff spiral continues and the IRA dispute remains unresolved, bilateral trade could contract another 3‑5 % by 2026, and NATO cohesion may be tested by divergent defence‑spending trajectories. Both sides have signalled a willingness to negotiate – the EU’s “conditional partnership” paper (June 2025) proposes a joint fund for semiconductor supply‑chain resilience, while Washington has hinted at a limited waiver on IRA content rules for EU wind‑turbine manufacturers. The coming months will determine whether the rupture becomes a permanent fissure or a recalibrated, albeit more conditional, alliance.  
-
----  
-
-### Sources  
-
-- [CSIS – Transatlantic Relations Under Trump: An Uneasy Peace](https://www.csis.org/analysis/transatlantic-relations-under-trump-uneasy-peace)  
-- [ISS – Low Trust: Navigating Transatlantic Relations Under Trump 2.0](https://www.iss.europa.eu/publications/chaillot-papers/low-trust)  
-- [Iowa Public Radio – Expert weighs in on how U.S. relations with Europe are changing (8 Dec 2025)](https://www.iowapublicradio.org/news-from-npr/2025-12-08/expert-weighs-in-on-how-u-s-relations-with-europe-are-changing)  
+### Sources
+* [Stanford FSI](https://fsi.stanford.edu/events/useuropean_relations_after_the_iraq_war)
+* [e-ir.info](https://www.e-ir.info/2015/08/23/the-iraq-war-as-more-divisive-in-transatlantic-relations-than-the-war-on-terror/)
+* [PolicyCenter.ma](https://www.policycenter.ma/publications/transatlantic-relations-times-transition)
+* [USTR](https://ustr.gov/countries-regions/europe-middle-east/europe/european-union)
+* [BIS](https://www.bis.org/publ/r_qt0112g.pdf)

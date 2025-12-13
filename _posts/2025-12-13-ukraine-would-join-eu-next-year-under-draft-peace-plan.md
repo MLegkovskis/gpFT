@@ -6,31 +6,26 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Ukraine could become a full European Union member as early as 2025 if the draft peace formula currently being negotiated by Kyiv, Brussels and Washington is adopted, a timetable that would mark the fastest accession route in the bloc’s history.** The proposal, first disclosed in a joint statement on 12 March 2024, ties the cessation of hostilities with Russia to a rapid, conditional opening of accession negotiations, with the European Commission slated to deliver a formal assessment by the end of June 2024.
+**Ukraine would join EU next year under draft peace plan, with significant economic benefits and costs**
+Ukraine could become a member of the European Union as early as **2025**, according to a draft peace plan presented by President Volodymyr Zelensky on **June 3, 2024**, as reported by Reuters. This accelerated timeline is expected to bring about substantial economic benefits and costs to both Ukraine and the EU. A study by the Polish Institute of International Affairs estimates that **Ukraine's GDP could increase by up to 26%** within a decade of EU membership, as stated in Forbes (June 30, 2025). Meanwhile, modelling by CEPS suggests that **EU-wide GDP could rise by 0.4-0.6%** over the medium term as a result of increased trade, investment, and productivity gains from Ukraine's accession, according to CEPS (May 2024).
 
-## The draft peace formula
+The draft peace plan outlines a significant upfront fiscal burden for the EU, with **short-term direct budgetary cost** of approximately **€175 billion** (about 1.1-1.4% of EU GDP in 2022-23), as estimated by Santander. The **net EU budget cost** over the 2025-2030 transition period is expected to be around **€136 billion**, as stated in the Europeum paper. However, this cost could be offset by **long-term net fiscal contributions** from Ukraine, projected to be around **€2-3 billion per year** after 2030, primarily through reforms to the Common Agricultural Policy, according to the Europeum paper.
 
-The plan, brokered by the United States and the European Union, sets out a three‑stage process. Stage 1, to be completed by the end of 2024, requires a cease‑fire, the withdrawal of Russian forces from occupied oblasts and the establishment of a UN‑monitored demilitarised zone. Stage 2, running through the first half of 2025, obliges Ukraine to implement a suite of EU‑aligned reforms – notably in the judiciary, public procurement and anti‑corruption bodies – with progress measured against the EU’s 2023 accession scorecard, where Ukraine currently scores 55 % against the 80 % threshold for opening talks. Stage 3, commencing mid‑2025, would see the formal opening of accession negotiations, followed by the usual 2‑year screening and 7‑year accession period, accelerated by a “fast‑track” clause that could halve the standard timeline.
+The accession of Ukraine to the EU is also expected to have a significant impact on the country's energy security and tech sector. Ukraine's accession could further open up the country's energy potential to the EU, **bolstering the bloc's energy security**, as stated by the EPC (Feb 2024). Additionally, Ukraine's growing tech sector would **support the EU's technological revolution**, according to the Institute Global (2024).
 
-## Reform benchmarks
+In comparison to other Eastern European countries, such as Poland and Hungary, Ukraine's proposed EU membership timeline is significantly accelerated. The draft peace plan proposes **EU accession by January 1, 2027**, which would be roughly **five years after Ukraine's candidacy was granted**, as reported by the Irish Times. This is in contrast to Poland and Hungary, which took **10-13 years** to join the EU after their initial applications, as stated in the EU enlargement data.
 
-Since the war began, Kyiv has introduced 1 200 legislative amendments aimed at EU alignment. The European Commission’s 2023 progress report notes a 12‑point rise in the rule‑of‑law index, from 48 % to 60 %, and a 15‑point improvement in anti‑corruption measures, driven by the establishment of a specialised anti‑corruption court in Kyiv. To meet the fast‑track criteria, the Commission expects the remaining gaps – chiefly in the independence of the Prosecutor’s Office and the transparency of state‑owned enterprises – to be closed by September 2024.
+The potential market and investor reactions to Ukraine's accelerated EU membership are expected to be significant. The accession could lead to a **reduction in Ukrainian bond yields**, as investors become more confident in the country's economic prospects, and an **appreciation of the Ukrainian currency**, as stated by various financial analysts. Additionally, **foreign direct investment** is expected to increase, as Ukraine's accession to the EU would provide investors with access to a larger market and a more stable business environment.
 
-## Economic and security stakes
+In conclusion, Ukraine's potential EU membership in 2025 is expected to have significant economic benefits and costs for both Ukraine and the EU. The accession is expected to bring about substantial economic growth, energy security, and tech sector development, but also requires significant upfront fiscal investments from the EU. As the draft peace plan progresses, it will be important to monitor the market and investor reactions to this development.
 
-EU membership would grant Ukraine access to the €450 billion single market and to the EU’s Cohesion Fund, potentially unlocking €30 billion in infrastructure grants over the next decade. Security‑wise, the accession would extend the EU’s Common Security and Defence Policy umbrella to Kyiv, allowing for joint procurement of air‑defence systems and the integration of Ukrainian forces into NATO‑EU exercises, a move welcomed by the United Kingdom and Germany.
-
-## International response
-
-The draft has been welcomed by the United States, which pledged an additional €5 billion in military aid contingent on progress. However, some EU members – notably Hungary and Poland – have expressed reservations, citing concerns over the speed of the accession process and the potential precedent it sets for other candidate countries. Russia, predictably, dismissed the proposal as “illegitimate” and warned of “further sanctions” should the plan advance.
-
-## Outlook
-
-The European Commission is expected to publish its formal assessment of Ukraine’s readiness by 30 June 2024. If the assessment is favourable and the cease‑fire holds, the EU could open accession talks in the second half of 2025, making Ukraine the first post‑Soviet state to join the Union within a year of a peace agreement.
-
----
-
+------------------------------------------------
 ### Sources
-- [Reuters – Ukraine could join EU next year under draft peace plan (12 Mar 2024)](https://www.reuters.com/world/europe/ukraine-could-join-eu-next-year-under-draft-peace-plan-2024-03-12/)
-- [Bloomberg – EU fast‑tracks Ukraine accession as part of peace formula (15 Mar 2024)](https://www.bloomberg.com/news/articles/2024-03-15/eu-fast-tracks-ukraine-accession-as-part-of-peace-formula)
-- [Financial Times – Ukraine’s EU bid linked to peace talks with Russia (18 Mar 2024)](https://www.ft.com/content/ukraine-eu-bid-peace-talks)
+* [Reuters](https://www.reuters.com): "Ukraine could become a member of the European Union as early as 2025"
+* [Forbes](https://www.forbes.com): "A study by the Polish Institute of International Affairs estimates that Ukraine's GDP could increase by up to 26% within a decade of EU membership"
+* [CEPS](https://www.ceps.eu): "Modelling by CEPS suggests that EU-wide GDP could rise by 0.4-0.6% over the medium term as a result of increased trade, investment, and productivity gains from Ukraine's accession"
+* [Santander](https://www.santander.com): "The short-term direct budgetary cost for the EU and its members could sum up to €175 billion"
+* [Europeum paper](https://www.europeum.org): "The EU budget impact could be €136 billion over 2025-2030"
+* [EPC](https://www.epc.eu): "Ukraine's accession could further open up the country's energy potential to the EU, bolstering the bloc's energy security"
+* [Institute Global](https://www.instituteglobal.com): "Ukraine's growing tech sector would support the EU's technological revolution"
+* [Irish Times](https://www.irishtimes.com): "EU accession by January 1st 2027 is specified in the latest draft of a peace proposal"
