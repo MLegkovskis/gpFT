@@ -61,6 +61,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync to latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Build site with Jekyll
         uses: actions/jekyll-build-pages@v1
