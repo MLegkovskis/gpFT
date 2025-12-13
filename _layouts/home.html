@@ -5,15 +5,23 @@ layout: default
 <main class="container">
     
     {% assign all_posts = site.posts %}
+    
+    {% assign count_hero = 1 %}
+    {% assign count_left = 3 %}
+    {% assign count_right = 4 %}
+    
+    {% assign offset_feed = count_hero | plus: count_left | plus: count_right %}
+
     {% assign hero_post = all_posts[0] %}
-    {% assign left_sidebar_posts = all_posts | slice: 1, 3 %}
-    {% assign right_sidebar_posts = all_posts | slice: 4, 4 %}
-    {% assign feed_posts = all_posts | offset: 8 %}
+    {% assign left_sidebar_posts = all_posts | slice: 1, count_left %}
+    {% assign right_start_index = 1 | plus: count_left %}
+    {% assign right_sidebar_posts = all_posts | slice: right_start_index, count_right %}
+    {% assign feed_posts = all_posts | offset: offset_feed %}
 
     <section class="hero-section">
         
         <div class="hero-sidebar-left">
-            <span class="category-tag" style="color:#000; border-bottom:2px solid #000;">Briefing</span>
+            <div class="section-label">Briefing</div>
             {% for post in left_sidebar_posts %}
             <div class="sidebar-item">
                 <span class="category-tag">{{ post.category }}</span>
@@ -36,7 +44,7 @@ layout: default
         </div>
 
         <div class="hero-sidebar-right">
-            <span class="category-tag" style="color:#000; border-bottom:2px solid #000;">Opinion & Markets</span>
+            <div class="section-label">Opinion & Markets</div>
             {% for post in right_sidebar_posts %}
             <div class="sidebar-item">
                 <span class="category-tag">{{ post.category }}</span>
@@ -66,7 +74,13 @@ layout: default
         </div>
 
         {% if feed_posts.size == 0 %}
-            <p style="text-align: center; color: #666; padding: 20px;">More coverage is being curated by the AI newsroom.</p>
+            <p style="text-align: center; color: #666; padding: 20px;">
+                {% if all_posts.size > 0 %}
+                No additional stories beyond the top section.
+                {% else %}
+                More coverage is being curated by the AI newsroom.
+                {% endif %}
+            </p>
         {% endif %}
     </section>
 
