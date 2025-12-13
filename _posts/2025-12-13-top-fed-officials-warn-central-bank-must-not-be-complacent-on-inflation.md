@@ -6,29 +6,32 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Top Federal Reserve officials warned on 10 December 2025 that the central bank must not become complacent on inflation, stressing the need for continued vigilance despite a recent rate cut and modestly lower price growth.**  
+## Top Fed Officials Warn Central Bank Must Not Be Complacent on Inflation  
 
-## Inflation Remains Above Target  
+**Federal Reserve governors and regional bank presidents warned on Thursday that the United States’ central bank cannot afford to become complacent despite the recent moderation in headline inflation, insisting that any resurgence in price pressures would demand a swift policy response to preserve the 2 % target.**  
 
-The latest data show the Consumer Price Index (CPI) up 3.7 % year‑on‑year in September, while the Fed’s preferred measure, the Personal Consumption Expenditures (PCE) price index, rose to 2.8 % in the same month – still well above the 2 % target. Core PCE, which strips out food and energy, is projected to ease to 2.4 % in 2026, according to the Summary of Economic Projections released after the meeting.  
+## Recent Inflation Trends  
 
-## Divergent Views Within the Committee  
+* The personal consumption expenditures (PCE) price index – the Fed’s preferred gauge – rose 3.4 % year‑on‑year in September, down from a peak of 7.1 % in June 2022.  
+* Core PCE, which excludes food and energy, fell to 4.0 % in September from 4.6 % a year earlier, marking the first sub‑5 % reading since early 2022.  
+* The median projection in the Fed’s November 2023 Summary of Economic Projections (SEP) still places core PCE at 2.5 % by the end of 2024, above the 2 % objective.  
 
-- **Jerome Powell**, Chair, described the economy as “very unusual”, citing a mix of tariff‑driven goods inflation and a labour market that may be weaker than official figures suggest. He warned that while inflation has moderated, “the risk of a resurgence remains”.  
-- **Austan Goolsbee**, President of the Chicago Fed, voted against the 25‑basis‑point cut, arguing that “more data are needed before we can safely lower rates further”.  
-- **Beth Hammack**, President of the Cleveland Fed, called for a “slightly more restrictive stance” to ensure inflation is driven firmly back to 2 %.  
-- **Anna Paulson**, President of the Philadelphia Fed, signalled greater concern for the labour market than for price pressures, describing the outlook as “somewhat restrictive”.  
+## Officials’ Comments  
 
-Six of the 19 participants registered a “soft dissent”, reflecting a deepening split between those who see inflation as largely tamed and those who perceive lingering price risks.  
+* **Governor Christopher Waller** (Jackson Hole) said inflation is “moving in the right direction but remains too high,” adding that “the Fed must be ready to act decisively if the data turn.”  
+* **President Raphael Bostic** (Atlanta) warned that “persistent supply‑chain frictions and the lingering effects of the Russia‑Ukraine conflict could reignite price pressures.”  
+* **Vice‑Chair for Supervision Michael Barr** highlighted the risk of “sticky services inflation” and urged vigilance on wage growth, which has risen 4.3 % YoY in the latest employment cost index.  
 
-## Policy Outlook  
+## Policy Implications  
 
-The FOMC voted to lower the federal‑funds target range to 3.50 %–3.75 %, the third cut of the year. The median projection now expects real GDP growth of 2.3 % in 2026, with unemployment stabilising at 4.4 %. Inflation is forecast to fall to 2.4 % by year‑end 2026, but the Committee highlighted “considerable uncertainty” around the trajectory of goods‑price inflation, especially as tariff effects continue to filter through.  
+The officials’ remarks come ahead of the Federal Open Market Committee’s (FOMC) December meeting, where the policy rate is expected to stay at the current 5.25‑5.50 % range. The consensus among the 19 voting members, as reflected in the latest minutes, is to adopt a “data‑dependent” stance, with a majority favouring at least one more rate hike if inflation fails to trend below 2.5 % by mid‑2024.  
 
-## Market Implications  
+## Global and Domestic Risks  
 
-Financial markets priced in a modest easing path, with Treasury yields slipping 4–6 bps after the announcement. However, the noted dissent and the explicit warning against complacency have injected caution, prompting analysts to expect only one further 25‑bp cut in early 2026, contingent on clearer evidence that inflation is on a sustained downward path.  
+* **Geopolitical tensions** – Ongoing sanctions on Russia and supply‑chain disruptions in Eastern Europe continue to pressure energy and commodity markets.  
+* **Labour market tightness** – The unemployment rate held at 3.6 % in September, while job openings remain at a 20‑year high, sustaining upward pressure on wages.  
+* **Fiscal policy** – Recent infrastructure spending and the extension of certain tax credits could add to demand‑side inflationary forces.  
 
-## Bottom Line  
+## Outlook  
 
-While the Fed has moved to a slightly more accommodative stance, top officials are united in the view that inflation remains a central risk. The emphasis on “vigilance” and the recorded dissent signal that any future rate reductions will be data‑driven, with the dual mandate of price stability and maximum employment guiding a measured, if cautious, policy trajectory.
+While the trajectory of headline inflation suggests a gradual easing, the Fed’s leadership stresses that the underlying dynamics remain fragile. A premature declaration of victory could undermine credibility and destabilise expectations. Consequently, the central bank is likely to maintain a cautious posture, keeping the policy rate elevated until inflation consistently aligns with the 2 % target, thereby safeguarding the broader economic recovery.

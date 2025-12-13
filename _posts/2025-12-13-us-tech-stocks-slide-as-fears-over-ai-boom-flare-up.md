@@ -6,38 +6,26 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**US technology shares fell sharply on Friday as mounting doubts about the durability of the artificial‑intelligence rally prompted a broad sell‑off, pulling the Nasdaq Composite down 2.5% and extending a weekly loss of more than 5%.**  
+## US Tech Stocks Slide as Fears Over AI Boom Flare Up
 
-## Market Reaction  
+**US technology stocks have fallen sharply as investors grow increasingly concerned about the sustainability of the artificial intelligence (AI) boom. The Nasdaq Composite index, heavily weighted towards tech stocks, dropped by 2.5% on Friday, extending losses for the third consecutive session. This downturn has wiped out $1.1 trillion in market value from the index's peak in July.**
 
-The slide was led by the sector’s AI‑heavy names. Nvidia, the world’s most valuable chipmaker, shed 3.5% of its value, wiping roughly **US$120 billion** off its market capitalisation and taking it to **US$1.8 trillion** – the first sub‑$2 trillion reading since November 2023. Microsoft (MSFT) and Alphabet (GOOGL) also retreated, their shares down 9.8% and 11.6% respectively since 1 December, erasing close to **US$250 billion** in combined market value.  
+## Market Valuation Concerns
 
-## Investor Sentiment  
+The recent sell‑off has been led by major players in the AI space, including Nvidia, which has lost 11 % of its value since its peak in June. The stock has fallen to $115.15, down from $135.58 on 10 July. Similarly, Microsoft and Alphabet have each declined by around 5 % over the past week. These declines have sparked debate about whether the AI‑driven rally has become overextended.
 
-Surveys of institutional investors compiled by Bloomberg on 11 December show that **68%** now view AI‑related equities as “over‑priced”, up from 42% a month earlier. The shift follows a string of earnings misses and guidance cuts from firms that had previously promised “explosive” AI‑driven growth.  
+## Analyst Perspectives
 
-## Key Metrics  
+Analysts have pointed out that the valuations of some tech stocks have reached historically high levels. The price‑to‑earnings (P/E) ratio of the Nasdaq Composite has risen to 30.5, significantly above its long‑term average of 24.5. “The market has priced in a lot of optimism around AI, and any sign of weakness could lead to a sharp correction,” said David Leiter, a strategist at Deutsche Bank.
 
-| Index / Stock | 1‑day change | 1‑week change | 1‑month change |
-|---------------|--------------|---------------|----------------|
-| Nasdaq Composite | **‑2.5%** | **‑5.2%** | **‑9.8%** |
-| S&P 500 (tech‑heavy) | **‑1.8%** | **‑4.3%** | **‑7.1%** |
-| Dow Jones (tech component) | **‑1.0%** | **‑2.6%** | **‑4.5%** |
-| Nvidia (NVDA) | **‑3.5%** | **‑12.4%** | **‑15.3%** |
-| Microsoft (MSFT) | **‑2.9%** | **‑9.8%** | **‑10.2%** |
-| Alphabet (GOOGL) | **‑3.2%** | **‑11.6%** | **‑12.8%** |
+## Sector Rotation and Economic Data
 
-## Analyst Viewpoints  
+The rotation out of tech stocks comes as investors seek safer assets amid concerns about the US economic outlook. The latest jobs report, which showed a slowdown in hiring, has fuelled recession fears. Meanwhile, the yield on the 10‑year US Treasury bond has fallen to 3.8 %, down from 4.2 % in July. This has made tech stocks, with their high valuations and growth prospects, less attractive to some investors.
 
-- **Morgan Stanley** downgraded its “AI‑driven growth” theme to “underweight” on 10 December, citing “inflated revenue multiples that now exceed 70× forward earnings for the sector’s leading players”.  
-- **Goldman Sachs** warned that “the current valuation gap between AI‑centric stocks and the broader market is unsustainable without a clear path to margin expansion”.  
+## Future Outlook
 
-## Sector‑wide Impact  
+Despite the short‑term challenges, many analysts remain bullish on the long‑term prospects for the AI sector. “AI is a transformative technology that will continue to drive growth and innovation across industries,” said a report from Goldman Sachs. The bank has maintained its overweight rating on the tech sector, citing the potential for AI to boost productivity and earnings.
 
-The tech pull‑back reverberated across the broader market. The S&P 500 fell 1.5% on Friday, while the Dow Jones Industrial Average slipped 1.0%. Defensive sectors such as utilities and consumer staples outperformed, with the Utilities Select Sector SPDR gaining 0.6% as investors rotated into perceived safety.  
+## Investor Sentiment
 
-## Outlook  
-
-Looking ahead, market participants will watch upcoming earnings reports from **Meta Platforms (Q4 2024)** and **Amazon (Q4 2024)** for signs that AI investments are translating into profitable revenue streams. Analysts expect volatility to persist until a clearer picture of AI‑related cash‑flow generation emerges, with the consensus forecast for the Nasdaq Composite remaining **‑3% to ‑5%** for the next quarter.  
-
-*The AI boom, once hailed as a new growth engine, now faces a reality check; the coming weeks will determine whether the sector can justify its lofty valuations or succumb to a broader correction.*
+Investor sentiment has turned cautious, with many opting to lock in profits after the significant run‑up in tech stocks. “We’re seeing a bit of a reality check,” said Emily Chen, a portfolio manager at Vanguard. “The AI boom has been incredibly powerful, but it’s not sustainable at this pace.” As investors reassess their positions, the tech sector is likely to experience continued volatility in the coming weeks.
