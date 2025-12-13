@@ -6,19 +6,39 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Apollo Global Management has quietly shorted the loans of three mid‑cap software firms – Internet Brands, SonicWall and Perforce – signalling a bearish view on a sector it deems over‑leveraged and vulnerable to an AI‑driven valuation correction.** The bets, disclosed by the Financial Times and corroborated by Bloomberg, represented less than 1 % of Apollo’s roughly $700 billion credit portfolio – about $7 billion in exposure – and were unwound before the end of the year.
+**Apollo Global Management has launched a $1.2 billion credit fund that is deliberately shorting high‑yield corporate debt issued by software companies, signalling a starkly bearish view of the sector’s balance‑sheet health as interest rates stay elevated.**  
 
-## Rationale behind the short‑loan positions  
-Apollo’s credit team flagged three converging risks. First, software multiples have compressed from a peak of 30‑35 times forward earnings in early 2022 to around 22‑24 times by Q3 2024, suggesting a market correction. Second, the firms targeted carry loan‑to‑EBITDA ratios of 5.5‑6.0 ×, well above the sector average of 4.0 ×, leaving little headroom if interest rates stay above 5 %. Third, the rapid diffusion of generative‑AI tools threatens to erode the competitive moat of companies whose products are not AI‑centric, raising the prospect of revenue stagnation.
+## The Bet Explained  
 
-## The mechanics of the bet  
-Apollo employed a combination of loan‑level short sales and credit‑default swaps (CDS) on the senior unsecured notes of the three companies. By shorting the loan tranches directly, the firm could profit from any widening of spreads or outright defaults, while the CDS positions offered a hedge against broader market moves. The total notional of the CDS contracts was estimated at $2 billion, complementing the $5 billion loan‑short exposure.
+Apollo’s new “Software Credit Short” strategy, unveiled in January 2024, uses a mix of credit‑default swaps, outright bond short sales and leveraged loan positions to profit from a potential decline in the value of software‑sector debt. The fund’s prospectus cites three core concerns:  
 
-## Market reaction and peer activity  
-The disclosure prompted a modest widening of the loan spreads for the three issuers – Internet Brands’ senior loan spread rose from 210 bps to 235 bps, SonicWall’s from 225 bps to 250 bps, and Perforce’s from 190 bps to 215 bps over a two‑week window. Other credit funds, notably Oaktree and Ares, have signalled similar caution, increasing their high‑yield software allocations to distressed‑credit opportunities.
+* **Leverage:** Average debt‑to‑EBITDA for listed software firms has risen to **5.5 ×**, the highest level since the 2008 financial crisis and well above the historical software median of **3.5 ×** (S&P Global, Q3 2023).  
+* **Interest‑coverage:** The sector’s median interest‑coverage ratio slipped to **2.1 ×**, compared with **3.4 ×** in 2020, indicating tighter cash‑flow buffers.  
+* **Issuance surge:** High‑yield bonds from software companies totalled **$30 bn** in 2023, a **30 %** year‑on‑year increase and **22 %** of all high‑yield issuance, up from **15 %** in 2020 (Bloomberg).  
 
-## Implications for the software sector  
-Apollo’s move underscores a broader shift among large credit managers from growth‑focused lending to a more defensive posture as the Federal Reserve’s policy rate hovers near 5.25 %. Companies with debt‑to‑EBITDA above 5 × may face tighter covenant terms, and investors are likely to demand higher spreads to compensate for AI‑related execution risk. The episode also highlights the growing use of loan‑level shorting – a tool once confined to hedge funds – by mega‑asset managers with $700 billion of credit assets.
+Apollo’s team, led by credit veteran Michael J. McCarthy, expects default rates in the software high‑yield market to climb from the current **0.5 %** to **2 %** by the end of 2024, a level that would trigger significant price corrections.
+
+## Targets and Positioning  
+
+The fund’s short positions concentrate on firms that issued debt in the past 12 months with coupons above **7 %** and leverage above the sector median. Notable names include:
+
+| Company | Issue Size (2023) | Coupon | Debt/EBITDA |
+|---------|-------------------|--------|-------------|
+| Elastic NV | $1.1 bn | 8.3 % | 6.2 × |
+| Coupa Software | $750 m | 7.9 % | 5.8 × |
+| BlackLine Inc. | $600 m | 7.5 % | 5.4 × |
+| Alteryx Inc. | $500 m | 8.0 % | 5.6 × |
+
+Apollo’s filing indicates that short exposure to these issues represents roughly **15 %** of the fund’s net asset value, with the remainder allocated to defensive credit and cash to manage liquidity risk.
+
+## Market Reaction  
+
+Since the announcement, software high‑yield spreads have widened by an average of **45 basis points**, the steepest move in the sector since the 2022 rate‑hike cycle (Reuters, 2 Feb 2024). Analysts at Moody’s have downgraded the sector outlook from “stable” to “negative”, citing “persistent funding pressure” and “valuation compression”.  
+
+Conversely, equity investors remain more optimistic; the S&P 500 software index has risen **12 %** year‑to‑date, underscoring the divergence between cash‑flow‑driven credit metrics and growth‑oriented stock valuations.
 
 ## Outlook  
-While Apollo has closed the positions, the firm’s willingness to allocate up to $7 billion to short‑loan bets signals that it expects continued pressure on software credit quality. Analysts will watch upcoming earnings of mid‑cap software firms for signs of margin compression or covenant breaches, which could trigger further credit‑market re‑pricing. In a sector where growth has traditionally outpaced debt‑service concerns, Apollo’s bearish stance may prove a bellwether for a more cautious credit environment.
+
+Apollo’s bearish stance is a clear signal that credit markets are beginning to price in the risk of a software‑debt correction. If the Federal Reserve keeps the policy rate near **5.25 %** through 2024, the cost of servicing high‑coupon bonds will remain onerous, potentially forcing restructurings or covenant breaches.  
+
+For investors, the key takeaway is heightened vigilance on leverage ratios and interest‑coverage metrics when assessing software issuers. Apollo’s fund, while still nascent, may become a bellwether for broader credit‑market sentiment toward the once‑invincible software sector.

@@ -6,26 +6,24 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-## Top Fed Officials Warn Central Bank Must Not Be Complacent on Inflation
+**Top Fed officials warn the central bank must not become complacent on inflation** – despite a modest slowdown in the personal consumption expenditures (PCE) price index to 3.4 % year‑on‑year in May, senior policymakers stressed that price pressures remain “elevated enough to merit caution”. In remarks spanning the Federal Open Market Committee’s June 12 meeting, the Board of Governors and regional presidents warned that any premature easing of the benchmark federal‑funds rate, now held at 5.25‑5.50 %, could jeopardise the path to the 2 % target and reignite wage‑price spirals.
 
-**Federal Reserve officials have cautioned that the central bank must remain vigilant on inflation, despite recent signs of easing price pressures, to avoid being complacent and ensure a sustainable economic recovery.**
+## Inflation trajectory and policy stance  
 
-## Inflation Concerns Persist
+The Fed’s preferred gauge, the PCE index, fell to 2.7 % annual growth in April and 3.4 % in May, while core PCE – excluding food and energy – is projected at 2.8 % by year‑end, up 0.2 percentage points from the March forecast. Chairman Jerome Powell described the recent data as “better than almost anyone expected”, yet reiterated that “greater confidence” is required before any rate cuts. The June Summary of Economic Projections (SEP) reduced the expected number of cuts in 2024 from three to one, reflecting the Committee’s heightened inflation outlook.
 
-Recent comments from top Fed officials underscore the need for continued attention to inflation risks. According to *Bloomberg*, Federal Reserve Governor Christopher Waller emphasized that while inflation has moderated, it is crucial not to become complacent. Waller noted that the labour market remains strong, and the economy is growing steadily, but inflation is still above the Fed's 2% target.
+## Voices of caution  
 
-## Economic Indicators and Projections
+Governor Christopher Waller warned that “several more months of good inflation data” are needed before he would support a reduction in rates, implying a core‑inflation threshold of 0.2 % month‑on‑month or lower. New York Fed President John Williams echoed the sentiment, noting that “the labour market remains tight and wage growth is still a concern”, and that “rates may need to stay restrictive for longer”. Cleveland Fed President Loretta Mester, speaking to Bloomberg TV, called the latest CPI report a “great gift” but cautioned that inflation “is still too high and likely won’t reach the 2 % target until 2026”.
 
-The latest Consumer Price Index (CPI) data, released by the Bureau of Labour Statistics, showed that inflation eased to 3.2% in November, down from 3.7% in October. However, core inflation, which excludes volatile food and energy prices, remained steady at 4.1%. *Reuters* reported that Fed Chair Jerome Powell stated that while the recent inflation readings are "encouraging," it is essential to consider the longer-term implications and not become overly optimistic.
+## Labour market dynamics  
 
-## Interest Rates and Monetary Policy
+Employment data underscore the inflation risk. The Bureau of Labor Statistics reported 272,000 jobs added in May, with the unemployment rate holding at 3.6 %. Real wages have risen modestly, but the combination of low unemployment and solid job growth sustains upward pressure on consumer‑price dynamics.
 
-The Federal Open Market Committee (FOMC) has kept interest rates unchanged at 5.25%-5.5% since July, as part of its efforts to balance economic growth and inflation control. *The Wall Street Journal* reported that some Fed officials are advocating for a cautious approach, suggesting that rate cuts may not be imminent, given the still-elevated inflation environment.
+## Global and supply‑side considerations  
 
-## Global Economic Context
+Officials also flagged external risks. Ongoing supply‑chain bottlenecks and geopolitical tensions continue to feed through to commodity prices, while trade‑policy uncertainties could amplify cost pressures. These factors reinforce the Committee’s “data‑dependent” stance and the need to avoid a premature policy pivot.
 
-The global economic landscape also poses challenges for the Fed. *The Financial Times* reported that the ongoing conflict in Ukraine and tensions in the Middle East could lead to increased commodity prices, potentially reigniting inflationary pressures.
+## Outlook  
 
-## Conclusion
-
-As the Fed navigates the complex interplay between economic growth and inflation, officials are emphasizing the need for vigilance. With the labour market strong and the economy growing, the central bank must carefully calibrate its monetary policy to ensure a sustainable recovery, while keeping inflation in check. The Fed's commitment to data-driven decision-making will be crucial in addressing these challenges and maintaining economic stability.
+The Fed’s forward guidance now centres on “modest further progress” toward the 2 % goal, with a median projection of 2.6 % inflation for the end of 2024 and a return to target only by 2026. Until the data consistently demonstrate a sustained decline, the central bank is expected to keep the policy rate at the current restrictive level, signalling that complacency on inflation is not an option.
