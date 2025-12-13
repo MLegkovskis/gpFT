@@ -1,66 +1,73 @@
 ---
 layout: default
 ---
-{% assign latest = site.posts %}
-{% assign hero_limit = 6 %}
-<main>
-    {% if latest.size > 0 %}
-    {% assign hero_main = latest[0] %}
-    {% assign hero_left = latest[1] %}
-    <section class="hero-grid">
-        <div class="hero-col-left">
-            {% if hero_left %}
-            <span class="category">{{ hero_left.category | default: 'Markets' }}</span>
-            <a href="{{ hero_left.url | relative_url }}" class="headline-large">{{ hero_left.title }}</a>
-            <p class="summary">{{ hero_left.excerpt | strip_html | truncatewords: 25 }}</p>
-            {% else %}
-            <span class="category">Latest</span>
-            <p class="summary">More FT-style coverage will publish shortly.</p>
-            {% endif %}
-        </div>
 
-        <div class="hero-col-main">
-            {% if hero_main %}
-            <div class="img-container">
-                <img src="https://placehold.co/800x450/262a33/FFF?text={{ hero_main.category | default: 'News' | uri_escape }}" alt="Main">
-            </div>
-            <div class="main-caption">
-                <span class="category" style="text-align:center; margin-top:10px;">{{ hero_main.category | default: 'Global' }}</span>
-                <a href="{{ hero_main.url | relative_url }}" class="headline-center">{{ hero_main.title }}</a>
-            </div>
-            {% endif %}
-        </div>
+<main class="container">
+    
+    {% assign all_posts = site.posts %}
+    {% assign hero_post = all_posts[0] %}
+    {% assign left_sidebar_posts = all_posts | slice: 1, 3 %}
+    {% assign right_sidebar_posts = all_posts | slice: 4, 4 %}
+    {% assign feed_posts = all_posts | offset: 8 %}
 
-        <div class="hero-col-right">
-            <h4 class="sidebar-title">Latest Updates</h4>
-            {% for post in latest limit:4 offset:2 %}
+    <section class="hero-section">
+        
+        <div class="hero-sidebar-left">
+            <span class="category-tag" style="color:#000; border-bottom:2px solid #000;">Briefing</span>
+            {% for post in left_sidebar_posts %}
             <div class="sidebar-item">
-                <span class="category">{{ post.category | default: 'Markets' }}</span>
-                <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+                <span class="category-tag">{{ post.category }}</span>
+                <a href="{{ post.url | relative_url }}" class="headline-sm">{{ post.title }}</a>
             </div>
+            {% endfor %}
+        </div>
+
+        <div class="hero-main">
+            {% if hero_post %}
+            <div class="img-container">
+                <img src="https://placehold.co/800x480/262a33/FFF?text={{ hero_post.category | uri_escape }}" alt="Hero">
+            </div>
+            <span class="category-tag" style="font-size: 0.9rem; margin-top: 15px;">{{ hero_post.category }}</span>
+            <a href="{{ hero_post.url | relative_url }}" class="headline-hero">{{ hero_post.title }}</a>
+            <p class="hero-summary">{{ hero_post.excerpt | strip_html | truncatewords: 35 }}</p>
             {% else %}
-            <p class="summary">Automation will populate this rail after the first Daily Edition.</p>
+            <div style="padding: 4rem; text-align: center;">Processing Daily Edition...</div>
+            {% endif %}
+        </div>
+
+        <div class="hero-sidebar-right">
+            <span class="category-tag" style="color:#000; border-bottom:2px solid #000;">Opinion & Markets</span>
+            {% for post in right_sidebar_posts %}
+            <div class="sidebar-item">
+                <span class="category-tag">{{ post.category }}</span>
+                <a href="{{ post.url | relative_url }}" class="headline-sm">{{ post.title }}</a>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">{{ post.excerpt | strip_html | truncatewords: 10 }}</div>
+            </div>
             {% endfor %}
         </div>
     </section>
 
-    <section class="all-stories">
-        <h2>All Coverage</h2>
-        <div class="articles-grid">
-            {% for post in latest offset:hero_limit %}
-            <article class="article-card">
-                <span class="category">{{ post.category | default: 'Markets' }}</span>
-                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                <p class="summary">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
-                <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+    <section class="infinite-feed">
+        <div class="section-header">Global Coverage</div>
+        
+        <div class="news-masonry">
+            {% for post in feed_posts %}
+            <article class="news-card">
+                <span class="category-tag">{{ post.category }}</span>
+                <a href="{{ post.url | relative_url }}">
+                    <h3 class="headline-md">{{ post.title }}</h3>
+                </a>
+                <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                <div class="card-meta">
+                    {{ post.date | date: "%d %b %Y" }} • By {{ post.author | default: 'FT Bot' }}
+                </div>
             </article>
             {% endfor %}
         </div>
-        {% if latest.size <= hero_limit %}
-        <p class="summary" style="text-align:center;">All current stories are already featured in the hero rail.</p>
+
+        {% if feed_posts.size == 0 %}
+            <p style="text-align: center; color: #666; padding: 20px;">More coverage is being curated by the AI newsroom.</p>
         {% endif %}
     </section>
-    {% else %}
-    <p class="summary" style="text-align:center; padding: 3rem 0;">The newsroom is booting up. Check back soon.</p>
-    {% endif %}
+
 </main>
