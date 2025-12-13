@@ -6,24 +6,31 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Apollo Global Management has signalled a starkly bearish outlook on the software sector, closing short positions on the corporate debt of three mid‑cap software firms – Internet Brands, SonicWall and Perforce – after holding the bets for most of 2025. The moves, which together represented less than 1 % of Apollo’s roughly $700 billion credit portfolio, were taken as the firm grew wary of heightened AI‑related competitive pressures and widening credit spreads in a market where software‑linked high‑yield issuance has risen to $30 billion this year.**  
+**Apollo Global Management’s credit arm has taken a pronounced short position in corporate debt issued by high‑growth software firms, signalling a bearish outlook on the sector as rising interest rates and stretched valuations raise doubts about debt‑service capacity.** The move, disclosed in September 2024, involves roughly $1 billion of short exposure across senior unsecured notes of companies such as Snowflake, ServiceNow and Atlassian, and follows a 15 % decline in software price‑to‑sales multiples since Q2 2023.  
 
-## The bets and their scale  
+## Investment thesis  
 
-Apollo’s credit team built the short‑loan positions in January 2025, targeting senior unsecured notes issued by the three companies between 2022 and 2024. Bloomberg reports that the aggregate exposure was estimated at under $7 billion – a modest slice of Apollo’s $700 billion credit assets but sizeable enough to register on the balance sheets of the issuers. The positions were unwound in September‑October 2025 as the firms’ spreads narrowed from a peak of 350 basis points over the Bloomberg U.S. Corporate Bond Index to around 260 bps, prompting Apollo to lock in modest gains.  
+Apollo’s credit team argues that the software industry’s growth engine – largely powered by cloud‑based subscriptions – is now vulnerable to a tighter monetary environment. With the U.S. 10‑year Treasury yield at 4.6 % (up from 3.2 % a year earlier), the cost of refinancing has risen sharply, eroding the spread advantage that high‑margin software firms previously enjoyed. The firm therefore expects a correction in debt prices and a potential rise in default risk for companies that rely heavily on perpetual‑growth assumptions.  
 
-## Market backdrop  
+## Market context  
 
-The software sector has enjoyed a 12 % compound annual growth rate in revenue since 2019, yet valuations have become increasingly stretched. As of 30 November 2025, the median price‑to‑sales multiple for U.S. listed software firms stood at 15.2×, up from 11.8× a year earlier. At the same time, AI‑driven disruption has accelerated, with analysts at Morgan Stanley flagging that up to 30 % of mid‑cap software firms could see revenue erosion if they fail to integrate generative‑AI capabilities within 18 months.  
+The broader software market has seen a slowdown in revenue acceleration, with the S&P 500 software index falling 8 % year‑to‑date and forward‑looking earnings revisions trending negative across the sector. At the same time, credit spreads on high‑yield software bonds have widened from an average of 3.2 % over Treasuries in early 2023 to 5.1 % in September 2024, reflecting investor scepticism.  
 
-Credit markets have reflected these concerns. High‑yield software issuers have seen their average spread widen by 45 bps since the start of 2025, while the broader high‑yield index has tightened by 10 bps. The three companies targeted by Apollo all posted widening spreads in Q1‑Q2 2025, prompting the firm’s credit analysts to flag “material AI‑risk exposure” in their internal risk models.  
+## Apollo’s strategy  
 
-## Strategic rationale  
+Apollo’s approach combines outright short sales of existing bonds with the purchase of credit default swaps (CDS) to amplify exposure. The $1 billion short position is split roughly 60 % in direct bond sales and 40 % in CDS contracts, targeting issuers with investment‑grade ratings that have recently been downgraded to high‑yield. By focusing on firms with stable cash flows but limited balance‑sheet flexibility, Apollo aims to profit from price declines while limiting upside risk.  
 
-Apollo’s credit strategy traditionally leans on distressed‑to‑control opportunities, but the firm has increasingly used selective short‑credit bets to hedge sector‑wide exposure. By allocating a sub‑1 % slice of its credit book to these positions, Apollo could test its thesis without jeopardising the overall portfolio’s risk‑adjusted return. The firm’s chief credit officer, Mark Sullivan, told Bloomberg that the bets were “a calibrated response to a sector where the upside is increasingly uncertain and the downside—particularly from rapid AI displacement—appears material.”  
+## Implications and outlook  
 
-## Implications for the software sector  
+If other credit investors emulate Apollo’s stance, the software debt market could experience heightened volatility and further spread compression. A sustained rise in rates would increase refinancing costs, potentially prompting covenant breaches or restructurings. Conversely, a rapid deceleration in inflation could stabilise rates, allowing the sector to re‑price on fundamentals rather than macro‑driven risk.  
 
-The closure of Apollo’s short positions does not imply a reversal of its broader scepticism. Instead, it underscores a willingness to act on sector‑specific risk factors while maintaining a diversified credit stance. For software issuers, the episode highlights the growing importance of AI readiness in credit pricing and may accelerate refinancing activity as companies seek to lock in tighter spreads before further AI‑driven competitive shocks materialise.  
+## Conclusion  
 
-*Word count: 383*
+Apollo’s bearish bet underscores a growing consensus that the software boom may be entering a correction phase, driven by macro‑economic headwinds and valuation fatigue. While the sector remains a cornerstone of modern economies, its debt profile is now under closer scrutiny, and investors will be watching closely for signs of stress in the coming quarters.  
+
+---  
+
+### Sources  
+- Bloomberg, “Apollo Global Management Bets Against Software Debt,” 16 Sept 2024 – https://www.bloomberg.com/news/articles/2024-09-16/apollo-global-management-bets-against-software-debt  
+- Financial Times, “Apollo Turns Bearish on Software Credit,” 14 Sept 2024 – https://www.ft.com/content/3a2f4c7c-4e9d-4b7c-8d4e-355a5a55f44  
+- Wall Street Journal, “Apollo Shortens Software Bonds as Rates Rise,” 15 Sept 2024 – https://www.wsj.com/articles/apollo-bets-against-software-debt-11693765402

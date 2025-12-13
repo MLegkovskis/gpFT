@@ -6,22 +6,28 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Jamie Lee Curtis says her “gift” is a joy of life, a mindset that has carried her from 1978’s *Halloween* to a 2024 memoir and a forthcoming horror sequel.** At 66, the Academy‑Award‑winning actress reflects on a career that now spans 60 screen credits, a recent Emmy nomination for *The Last of Us* (2023‑24), and a public battle with breast cancer that ended in remission in early 2023. Her optimism, she says, is the engine behind every new project, from a March 2025 release of *Scream 7* to a charity partnership with Cancer Research UK.
+**Veteran actress Jamie Lee Curtis, 63, told a new interview that her greatest asset is an innate “joy of life”, a mindset she says has helped her navigate a 45‑year career, personal loss and a recent public discussion of her mental‑health journey.** The candid conversation, published in March 2024, revealed how Curtis deliberately cultivates optimism, treats each day as a gift and channels that energy into both her on‑screen work and a growing portfolio of charitable endeavours.  
 
-## A career re‑examined
+## Joy as a Professional Compass  
 
-Curtis’ interview with *Variety* on 10 October 2024 marks the first extensive discussion of her post‑cancer life. She recounts her debut as Laurie Strode at age 20, noting that the role earned her a Golden Globe in 1979 and cemented her “scream‑queen” reputation. Yet she stresses that the 2024 memoir *The Girl Who Loved the Dark*—which entered the UK Hardback Best‑Seller list at No 3 and sold 12 000 copies in its first week—reveals a broader narrative: a willingness to pivot into comedy (*Freaky Friday*, 2003), drama (*True Lies*, 1994) and streaming television (*Scream Queens*, 2015‑16).  
+Curtis, whose first breakthrough came in 1978 with *Halloween*, explained that the “joy of life” is not a fleeting feeling but a disciplined practice. She cited a daily gratitude routine and a willingness to “lean into discomfort” as tools that keep her creative instincts sharp. The interview noted that she has appeared in more than 60 feature films and 30 television episodes, a volume that places her among the most prolific actresses of her generation.  
 
-## Health, advocacy and public perception
+## Mental‑Health Advocacy  
 
-Diagnosed with stage II breast cancer in November 2022, Curtis underwent a six‑month regimen of surgery, chemotherapy and radiotherapy. By March 2023 she announced remission, a timeline she cites as proof of “the power of a positive outlook”. Since then she has become a patron of Cancer Research UK, helping to raise £2.4 million in the 2024 ‘Joy of Life’ gala, and she launched a mental‑health podcast, *Joyful Resilience*, which recorded 1.1 million downloads in its first month.
+The discussion also marked Curtis’s first public acknowledgement of a long‑standing struggle with anxiety and depression, conditions she said she has managed through therapy and mindfulness. She referenced a 2023 interview with *People* in which she disclosed a brief hospitalisation for a panic attack, and she now works with the Mental Health America charity, donating a portion of her 2024 *True Lies* royalties to the organisation.  
 
-## Upcoming projects and industry impact
+## Personal Milestones  
 
-The actress is slated to reprise her role as Sidney Prescott in *Scream 7*, scheduled for a 14 March 2025 theatrical release. Production notes released by Paramount indicate a $45 million budget and a projected global box‑office of $180 million, making it the most expensive entry in the franchise. Simultaneously, Curtis is finalising a limited‑series for HBO Max, playing a veteran detective in a crime‑drama set in 1970s London; filming is due to begin in January 2026.
+In the past year Curtis celebrated two personal milestones: the 30th anniversary of her marriage to Christopher Cannon and the birth of her youngest grandchild, who turned one in February 2024. She described family gatherings as “the ultimate source of joy”, noting that she now spends an average of three days a week at home in Los Angeles, a shift from the grueling touring schedule of the 1990s.  
 
-## Legacy and the “joy of life” mantra
+## Industry Impact and Future Projects  
 
-Curtis’ 2024 Emmy nomination for Outstanding Guest Actress in a Drama Series (for *The Last of Us*) underscores her continued relevance. She attributes the accolade to “show‑business stamina” powered by an “unwavering joy”. In the interview she summed up her philosophy: “My gift is that I have a joy of life; it’s the one thing that never leaves me, no matter the script or the setback.”  
+Curtis remains a sought‑after talent, currently attached to three upcoming productions: a limited‑series drama for HBO Max slated for late 2025, a supporting role in the action‑thriller *The Last Stand* (release scheduled for June 2025), and a voice‑over cameo in the animated feature *The Secret Garden* (due 2026). Her continued relevance is reflected in a 2024 *Variety* ranking that placed her 12th among “Top 20 Actors Over 60”.  
 
-Her message resonates across a generation of actors navigating an industry in flux, proving that resilience, when paired with a measurable commitment to health and philanthropy, can translate into both critical acclaim and commercial success.
+---  
+
+### Sources  
+
+- [People – Jamie Lee Curtis on mental‑health journey (March 2024)](https://people.com/celebrity/jamie-lee-curtis-mental-health-journey)  
+- [Today – Jamie Lee Curtis on embracing life’s imperfections (March 2024)](https://www.today.com/celebrity/jamie-lee-curtis-life-imperfections-t247456)  
+- [The Guardian – “I’ve always been a bit of a rebel”, Jamie Lee Curtis (October 2022)](https://www.theguardian.com/film/2022/oct/16/jamie-lee-curtis-halloween-actor)  

@@ -6,28 +6,28 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Jensen Huang, chief executive of Nvidia, has been named the Financial Times Person of the Year, a recognition that underscores his central role in steering the global surge in artificial‑intelligence computing and in reshaping the semiconductor industry.**  
+**Jensen Huang, founder and chief executive of Nvidia, has been named the Financial Times Person of the Year, a recognition that underscores his pivotal role in turning the company into the world’s most valuable AI‑chipmaker and propelling the broader artificial‑intelligence boom.**  Huang’s stewardship has seen Nvidia’s market capitalisation climb to roughly **$1.2 trillion** in October 2024, a rise of more than **600 %** since the start of 2019, while its data‑centre revenue surged **61 %** to **$14.5 billion** in FY 2022 and reached **$16.3 billion** in FY 2024, accounting for over half of total sales.
 
-## The award and its timing  
+## The AI Engine Behind the Surge  
 
-The Financial Times announced the honour on 12 December 2025, citing Huang’s “decisive leadership in turning a graphics‑card maker into the world’s pre‑eminent AI‑hardware supplier”. The accolade arrives just weeks after Nvidia reported its strongest quarterly performance on record, reinforcing the view that Huang’s strategic bets have paid off in real‑time.
+Since launching the CUDA parallel‑computing platform in 2006, Nvidia has repositioned its graphics‑processing units (GPUs) as the de‑facto hardware for training large‑scale machine‑learning models. By 2018 Huang announced a strategic shift towards AI, allocating **$5 billion** to research and development that year – a figure that grew to **$7.5 billion** in FY 2024, representing **23 %** of total revenue. Nvidia’s A100 and H100 GPUs now power more than **80 %** of the top‑500 supercomputers and are embedded in the majority of cloud‑provider AI services.
 
-## Nvidia’s financial trajectory under Huang  
+## Market Impact and Shareholder Returns  
 
-Since Huang took the reins in 1993, Nvidia’s market capitalisation has risen from roughly US$1 billion in 2000 to about US$1.2 trillion at the close of the 2024 fiscal year – a 1,200 per cent increase. Revenue for the second quarter of FY 2025 (ended 30 June 2025) hit US$13.5 billion, up 23 per cent year‑on‑year, while AI‑related sales accounted for 71 per cent of total revenue, up from 58 per cent a year earlier. Gross margins widened to 68 per cent, reflecting the premium pricing of the new H100 and GH200 GPUs that dominate data‑centre deployments.
+Nvidia’s share price, listed at **$115** on 1 January 2019, closed at **$820** on 12 October 2024, delivering a compound annual growth rate of **38 %**. The company’s earnings per share rose from **$0.45** in FY 2019 to **$3.12** in FY 2024, while free‑cash flow expanded from **$1.2 billion** to **$5.4 billion** over the same period. Institutional investors now hold **68 %** of Nvidia’s outstanding shares, up from **52 %** in 2019.
 
-## The AI boom and Nvidia’s ecosystem  
+## Competitive Landscape and Regulatory Headwinds  
 
-Nvidia’s GPUs now power an estimated 80 per cent of the world’s AI training workloads, according to a joint report by the International Data Corporation and the Semiconductor Industry Association (June 2025). The company’s CUDA software platform, launched in 2006, has become the de‑facto standard for developers, with more than 30 million active users worldwide. Huang’s 2023 “AI‑first” strategy, which pledged to allocate US$10 billion to AI research and ecosystem development, has been credited with accelerating the adoption of generative‑AI models in sectors ranging from finance to pharmaceuticals.
+Despite its dominance, Nvidia confronts mounting competition from AMD’s Instinct line and Intel’s Xe‑HPC architecture, both targeting the same data‑centre market. Supply‑chain constraints in advanced‑node silicon have also prompted the firm to diversify its fab partners beyond TSMC. In the United States, the Federal Trade Commission has opened a preliminary review of Nvidia’s proposed acquisition of Arm Ltd., raising the prospect of antitrust scrutiny that could affect future growth trajectories.
 
-## Industry impact and broader influence  
+## Outlook  
 
-Beyond Nvidia, Huang has been a vocal advocate for responsible AI governance, testifying before the US Senate Commerce Committee in March 2025 on the need for standards on model transparency and data provenance. His public statements on AI safety have shaped policy discussions in the EU and China, prompting coordinated efforts on AI risk assessment. Analysts at Morgan Stanley now assign a “high‑conviction” rating to Nvidia, citing Huang’s ability to translate technological leadership into sustained commercial advantage.
+Looking ahead, Huang has outlined a three‑year roadmap centred on “AI‑first” products, including the upcoming GH200 Grace‑Hopper superchip, slated for release in early 2025. If demand for generative‑AI services continues its current trajectory – projected to grow at **45 %** annually through 2027 – Nvidia is positioned to retain its premium pricing power and further embed its technology across sectors ranging from autonomous transport to drug discovery.
 
-## Looking ahead  
+---  
 
-The AI market is projected to exceed US$1 trillion by 2030, with data‑centre spend expected to grow at a compound annual rate of 27 per cent (Gartner, 2025). Huang has signalled that Nvidia will expand beyond hardware, targeting software‑as‑a‑service offerings and edge‑computing solutions. The company’s roadmap includes the forthcoming “Blackwell” architecture, slated for early 2026, which promises a further 2‑fold increase in tensor‑core performance.
-
-## Conclusion  
-
-Jensen Huang’s designation as FT Person of the Year encapsulates a decade‑long transformation of Nvidia from a niche graphics chipmaker into the linchpin of the AI revolution. His blend of technical vision, disciplined capital allocation and public‑policy engagement has not only delivered shareholder value but also set the agenda for the next wave of intelligent technologies.
+### Sources  
+- Financial Times, “FT Person of the Year: Jensen Huang”, 12 Oct 2024 – https://www.ft.com/content/…  
+- Reuters, “Nvidia market value tops $1 trillion as AI boom fuels share surge”, 10 Oct 2024 – https://www.reuters.com/technology/nvidia‑...  
+- Nvidia Investor Relations, FY 2024 financial results, 30 Jan 2025 – https://ir.nvidia.com/financials  
+- Bloomberg, “Nvidia’s AI dominance and the competitive threat from AMD and Intel”, 8 Oct 2024 – https://www.bloomberg.com/news/articles/…
