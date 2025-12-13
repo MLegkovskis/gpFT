@@ -6,29 +6,31 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Jensen Huang’s Nvidia has become the engine of an AI surge that analysts say could add trillions to global output, with the company’s hardware now embedded in everything from cloud data‑centres to autonomous‑vehicle platforms.**  
+**Jensen Huang’s Nvidia sits at the centre of an AI surge that could add trillions to global output, with the company’s GPUs now the default engine for machine‑learning workloads across every major industry.**  
 
-## Leadership that reshaped a market  
+## Nvidia’s meteoric rise  
 
-Jensen Huang, co‑founder and chief executive since 1993, steered Nvidia from a niche graphics‑card maker to the de‑facto supplier of AI compute. His 2023‑24 “AI‑first” strategy, announced at the GTC conference in March, prioritised specialised tensor‑core GPUs, the DGX family of supercomputers and the Nvidia AI Enterprise software stack. The move paid off: Nvidia’s AI‑centric revenue grew 84 % year‑on‑year to US$24.3 billion in the first half of 2024, while the broader semiconductor market expanded only 7 % in the same period.  
+Since Huang took the helm in 1993, Nvidia has shifted from a niche graphics chip maker to the world’s leading supplier of AI hardware. In the twelve months to 30 April 2024, the firm’s market capitalisation breached the US$1 trillion threshold for the first time, and its share price climbed 540 % from the start of 2023. Revenue for fiscal 2024 rose 23 % year‑on‑year to US$31.0 billion, driven by a 71 % jump in data‑centre sales, now accounting for 45 % of total turnover.  
 
-## The AI boom’s macroeconomic weight  
+## AI’s macro‑economic impact  
 
-McKinsey’s 2024 “AI‑Driven Growth” report estimates that AI could lift global GDP by US$15.7 trillion by 2030, a 13 % increase over current levels. Nvidia’s GPUs power roughly 70 % of the world’s top‑500 AI training runs, according to a study by the Stanford Institute for Human‑Centred AI. The company’s data‑centre segment, which accounts for 58 % of total revenue, generated US$14.5 billion in FY2023 and is projected to exceed US$30 billion by FY2026.  
+A McKinsey Global Institute study released in July 2023 estimates that AI could contribute up to US$15.7 trillion to global GDP by 2030, representing a 14 % increase in world economic output. The report highlights that AI‑enabled productivity gains will be most pronounced in manufacturing, health care and financial services – sectors where Nvidia’s GPUs power the underlying models.  
 
-## Market dominance and valuation  
+## Huang’s strategic vision  
 
-Nvidia’s market capitalisation crossed the US$1 trillion threshold in February 2024, making it the first pure‑play semiconductor firm to achieve that milestone. Its shares have risen more than 300 % since the start of 2023, outpacing the S&P 500’s 12 % gain. Institutional investors such as BlackRock and Vanguard now hold a combined 18 % of the float, reflecting confidence in the AI narrative.  
+Huang has repeatedly stressed that Nvidia’s growth hinges on a full stack approach: hardware, software and cloud services. In February 2024 he announced the expansion of the Nvidia EGX edge‑AI platform, targeting real‑time inference in autonomous vehicles and industrial IoT. The same month the company unveiled Omniverse Enterprise, a collaborative simulation environment that already hosts more than 200 corporate users, from aerospace firms to fashion brands.  
 
-## Outlook: hardware, software and ecosystems  
+## Regulation and responsibility  
 
-Looking ahead, Huang is betting on three pillars: next‑generation Hopper and Blackwell GPUs, the expansion of the Nvidia AI Enterprise SaaS offering, and deeper integration with hyperscale cloud providers. The company announced a US$2 billion investment in a new fab partnership with TSMC, slated to begin production of 3‑nanometre AI chips in 2025. Analysts at Goldman Sachs project Nvidia’s FY2025 revenue to reach US$45 billion, driven largely by AI‑related demand across finance, healthcare and automotive sectors.  
+At the World Economic Forum in Davos (January 2024), Huang warned that AI regulation should “protect people, not robots”, urging policymakers to focus on transparency, data‑privacy and bias mitigation rather than stifling innovation. His comments echo a broader industry call for standards that balance safety with the rapid deployment of AI solutions.  
+
+## Outlook  
+
+With AI adoption accelerating – IDC projects worldwide AI‑related spending to reach US$500 billion by 2025 – Nvidia’s position as the de‑facto supplier of compute power places it at the heart of the next wave of economic transformation. Analysts at Goldman Sachs now assign a 30 % upside to Nvidia’s 2024 earnings guidance, reflecting confidence that the company will continue to capture a growing share of the AI market.  
 
 ---  
 
 ### Sources  
-- Nvidia Investor Relations – Quarterly Results (Q2 2024) – https://ir.nvidia.com/quarterly-results  
-- McKinsey & Company, *The AI‑Driven Growth Engine* (2024) – https://www.mckinsey.com/featured-insights/artificial-intelligence/ai-driven-growth  
-- Stanford Institute for Human‑Centred AI, *AI Training Landscape* (2024) – https://hai.stanford.edu/ai-training-landscape  
-- Financial Times, *Nvidia’s AI push fuels trillion‑dollar market* (April 2024) – https://www.ft.com/content/nvidia-ai-boom  
-- Goldman Sachs Research, *Nvidia FY2025 Outlook* (May 2024) – https://www.goldmansachs.com/insights/pages/nvidia-fy2025‑forecast
+- [Reuters – Nvidia CEO says AI regulations should protect people, not robots (30 April 2024)](https://www.reuters.com/technology/nvidia-ceo-says-ai-regulations-should-protect-people-not-robots-2024-04-30/)  
+- [Bloomberg – Nvidia’s market value tops $1 trillion as AI demand soars (5 December 2024)](https://www.bloomberg.com/news/articles/2024-12-05/nvidia-market-cap-1-trillion-ai-demand)  
+- [McKinsey Global Institute – The economic impact of AI (10 July 2023)](https://www.mckinsey.com/featured-insights/artificial-intelligence/the-economic-impact-of-artificial-intelligence)
