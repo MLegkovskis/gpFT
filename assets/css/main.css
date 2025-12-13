@@ -194,3 +194,62 @@ header {
     .news-masonry { column-count: 1; } /* Stack vertically on mobile */
     .logo { font-size: 2.5rem; }
 }
+/* --- ARTICLE PAGE SPECIFICS --- */
+
+/* This restricts the reading area to a comfortable width, like a newspaper column */
+.article-container {
+    max-width: 740px;       /* Standard readability width (approx 60-75 chars per line) */
+    margin: 60px auto;      /* Generous top/bottom margin to separate from header/footer */
+    padding: 0 20px;        /* Side padding prevents text hitting edge on mobile */
+    background-color: white; /* Optional: Makes the article pop against the pink background */
+    padding-top: 50px;      /* internal padding if using white background */
+    padding-bottom: 50px;
+    border: 1px solid #e0dbd3; /* Subtle border to define the page */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03); /* Very subtle lift */
+}
+
+/* Typography for the article body */
+.article-body {
+    font-family: 'Georgia', 'Times New Roman', serif; /* Classic serif for body text */
+    font-size: 1.2rem;      /* Larger than UI text for easy reading */
+    line-height: 1.8;       /* Generous line height (leading) is key for the "premium" feel */
+    color: #333;            /* Dark grey is softer on eyes than pure black */
+    margin-top: 30px;
+}
+
+/* Spacing between paragraphs */
+.article-body p {
+    margin-bottom: 24px;
+}
+
+/* Blockquotes (if the AI generates them) */
+.article-body blockquote {
+    border-left: 4px solid var(--ft-red);
+    margin: 30px 0;
+    padding-left: 20px;
+    font-style: italic;
+    color: #555;
+    font-size: 1.3rem;
+}
+
+/* Subheadings inside articles */
+.article-body h2 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+    .article-container {
+        margin: 0;           /* Remove outer margin on mobile */
+        width: 100%;         /* Full width */
+        max-width: 100%;
+        border: none;        /* Remove border on mobile for cleaner look */
+        box-shadow: none;
+        padding: 30px 20px;
+    }
+}
