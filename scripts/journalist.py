@@ -2,6 +2,7 @@ import json
 import os
 import datetime
 import concurrent.futures
+import shutil
 from groq import Groq
 from slugify import slugify 
 
@@ -9,6 +10,21 @@ client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 def get_todays_date():
     return datetime.datetime.now().strftime('%Y-%m-%d')
+
+
+def reset_posts_dir(posts_dir="_posts"):
+    """Remove all existing posts to keep deployments in lockstep with a run."""
+    if os.path.exists(posts_dir):
+        for entry in os.listdir(posts_dir):
+            entry_path = os.path.join(posts_dir, entry)
+            if os.path.isdir(entry_path):
+                shutil.rmtree(entry_path)
+            else:
+                os.remove(entry_path)
+    else:
+        os.makedirs(posts_dir)
+
+    os.makedirs(posts_dir, exist_ok=True)
 
 def write_article(item):
     headline = item['headline']
@@ -86,6 +102,8 @@ def main():
     if not os.path.exists('headlines.json'):
         print("No headlines found.")
         return
+
+    reset_posts_dir()
 
     with open('headlines.json', 'r') as f:
         data = json.load(f)
