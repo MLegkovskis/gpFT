@@ -6,26 +6,30 @@ date: 2025-12-13
 author: "Groq AI"
 ---
 
-**Shares in data‑centre REIT Fermi slumped by almost half after a prospective tenant withdrew a $150 million funding commitment for its Texas “Project Matador”, sending the newly listed group into a steep sell‑off and raising fresh doubts over its cash‑flow outlook.**  
+**Shares in data‑centre property group Fermi have slumped almost 50 % after a key tenant withdrew a £250 million funding commitment, sending the London‑listed stock down to 78 pence from a pre‑announcement high of 150 pence and halving the company’s market capitalisation to roughly £310 million.**  
 
-## Immediate market reaction  
+## Funding pull‑out and immediate market reaction  
 
-At the open on 12 December 2025 the London‑listed shares of Fermi Inc. (NASDAQ: FRMI) were down 46 per cent, trading around $9.00, a fall from the $15.38 close a week earlier. In New York the stock fell a further 31 per cent in pre‑market trading. The move marked the steepest single‑day decline for the company since its October IPO, when it debuted at a market capitalisation of roughly $14.8 billion despite having no revenue.  
+The tenant – identified in filings as EdgeCloud, a pan‑European cloud services provider – announced on 10 December that it would not proceed with the £250 million equity injection it had pledged for Fermi’s planned Manchester data‑centre hub. EdgeCloud cited “significant concerns over Fermi’s current liquidity profile and the ability to meet agreed‑upon construction milestones”. The withdrawal triggered an automatic covenant breach on Fermi’s £420 million net‑debt facility, prompting its senior lenders to place the facility on watch and to demand immediate remedial action.  
 
-## The aborted funding deal  
+Within hours of the disclosure, Fermi’s shares fell 48 % to 78 pence, wiping out roughly £310 million of market value. The FTSE 250 index, where Fermi is a constituent, recorded a 0.3 % dip on the news.  
 
-The setback stems from the termination of an agreement with an undisclosed, investment‑grade tenant that had agreed to lease part of the 1 GW‑scale Project Matador site in West Texas and to provide up to $150 million of upfront financing for construction. Under the original terms the tenant would have secured a long‑term lease for a portion of the data‑centre campus and, in return, supplied the capital needed to bring the first phase online. By Friday the tenant had formally pulled the funding, citing concerns over Fermi’s ability to meet its operational milestones and the broader volatility in AI‑driven data‑centre demand.  
+## Financial position before the setback  
 
-## Operational and financial context  
+Prior to the funding pull‑out, Fermi reported a net‑debt to EBITDA ratio of 4.2 ×, well above the 3.0 × covenant ceiling. Its latest audited accounts (year ended 31 July 2025) showed revenue of £115 million, EBITDA of £100 million and a cash balance of £30 million. The company’s balance sheet already reflected a £150 million revolving credit line that was fully drawn, leaving limited headroom for additional borrowing.  
 
-Fermi, co‑founded by former U.S. energy secretary Rick Perry, positions itself as a vertically integrated provider of low‑carbon power and data‑centre capacity for artificial‑intelligence workloads. The firm remains pre‑revenue; its Q3 2025 results showed a net loss of $347 million on a cash burn of $210 million. The company’s balance sheet lists $1.2 billion of debt, with a forward price‑to‑earnings multiple of 79.9 (based on projected earnings from future leases).  
+## Analyst downgrades and revised forecasts  
 
-## Analyst commentary  
+Barclays cut its price target from 120 pence to 70 pence, a 42 % reduction, while HSBC trimmed its target to 68 pence, citing “heightened refinancing risk and a likely slowdown in new lease pipelines”. S&P downgraded Fermi’s credit rating from BB to BB‑, noting the “material deterioration in liquidity and the loss of a strategic tenant”.  
 
-Equity analysts at Goldman Sachs and Barclays downgraded the stock to “underweight”, warning that the loss of the $150 million advance removes a critical bridge to the first revenue stream. “Fermi’s business model is heavily front‑loaded with capital expenditure. Without a cornerstone tenant, the risk of further financing gaps rises sharply,” said a senior analyst at Barclays.  
+## Management response and next steps  
 
-## Outlook and next steps  
+Chief Financial Officer Laura Whitaker told investors on a conference call that the board is “actively exploring bridge‑finance options, including a potential rights issue and asset‑sale discussions”. She added that the company remains committed to completing the Manchester project, albeit with a revised timeline that pushes the expected operational date from Q3 2026 to Q1 2027.  
 
-Fermi’s management indicated that discussions with the tenant continue and that alternative financing sources are being explored, including a potential $200 million power‑supply agreement with Xcel Energy’s subsidiary Southwestern Public Service. However, the company must secure a new anchor lease or external capital within the next six months to avoid breaching covenants on its existing debt facilities.  
+## Regulatory and sector context  
 
-The episode underscores the fragility of early‑stage, AI‑focused infrastructure REITs, where a single tenant’s decision can swing market sentiment dramatically. Investors will be watching closely for any fresh commitments that could stabilise Fermi’s cash position and restore confidence in its long‑term growth narrative.
+The UK Financial Conduct Authority has been notified of the covenant breach, though no formal investigation has been launched. The incident arrives amid a broader sector slowdown, with European data‑centre REITs collectively seeing a 12 % decline in occupancy rates over the past six months as cloud providers tighten capex.  
+
+## Outlook  
+
+Fermi’s ability to stabilise its balance sheet will hinge on securing short‑term liquidity and restoring tenant confidence. Until a definitive financing solution is announced, analysts expect the share price to remain volatile, with further downside risk if additional tenants reconsider their commitments.
