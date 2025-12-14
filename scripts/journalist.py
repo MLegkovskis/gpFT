@@ -86,6 +86,13 @@ def load_existing_source_urls(posts_dir=POSTS_DIR) -> set[str]:
     return urls
 
 
+def ensure_sources_section(markdown: str) -> str:
+    """Ensure the markdown ends with a clean Sources section."""
+    if re.search(r"(?im)^\s*###\s+Sources\s*$", markdown):
+        return markdown.strip() + "\n"
+    return markdown.strip() + "\n\n---\n### Sources\n- _Sources unavailable_\n"
+
+
 def delete_all_posts(posts_dir=POSTS_DIR):
     if not os.path.exists(posts_dir):
         return
@@ -193,10 +200,7 @@ def write_final_story(headline, research_notes):
         content = re.sub(url_pattern, r"<\1>", content)
         content = re.sub(r"【[^】]{1,120}】", "", content)
         content = re.sub(r"[ \t]{2,}", " ", content)
-        content = content.strip()
-        if "### Sources" not in content:
-            content = f"{content}\n\n---\n### Sources\n- _Sources unavailable_
-"
+        content = ensure_sources_section(content)
         return content
     except Exception as exc:
         print(f"Writing failed for {headline}: {exc}")
