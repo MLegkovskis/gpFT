@@ -1,5 +1,5 @@
 {
-  "full_rebuild": true,
+  "full_rebuild": false,
   "max_active_posts": 25,
   "max_headlines": 50,
   "max_workers": 5,
