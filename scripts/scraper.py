@@ -9,9 +9,20 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
+
+def load_config():
+    try:
+        with open("main_configs.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"max_headlines": 50}
+
+
 def get_ft_headlines_filtered():
     url = 'https://www.ft.com'
-    max_headlines = int(os.getenv("MAX_HEADLINES", "50"))
+    cfg = load_config()
+    max_headlines = int(cfg.get("max_headlines", 50))
+    print(f"[config] max_headlines={max_headlines}")
 
     # --- CI SPECIFIC OPTIONS ---
     chrome_options = Options()

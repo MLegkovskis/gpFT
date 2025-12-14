@@ -6,19 +6,24 @@ layout: default
     <section class="infinite-feed">
         <div class="section-header">Global Coverage</div>
         <div class="news-masonry">
-            {% for post in site.posts %}
-            <article class="news-card">
-                <span class="category-tag">{{ post.category | default: 'News' }}</span>
-                <a href="{{ post.url | relative_url }}">
-                    <h3 class="headline-md">{{ post.title }}</h3>
-                </a>
-                <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-                <div class="card-meta">{{ post.date | date: "%d %b %Y, %H:%M" }}</div>
-            </article>
-            {% endfor %}
+            {% assign feed = site.data.feed.active %}
+            {% if feed and feed.size > 0 %}
+                {% for url in feed %}
+                    {% assign p = site.posts | where: "source_url", url | first %}
+                    {% if p %}
+                    <article class="news-card">
+                        <span class="category-tag">{{ p.category | default: 'News' }}</span>
+                        <a href="{{ p.url | relative_url }}">
+                            <h3 class="headline-md">{{ p.title }}</h3>
+                        </a>
+                        <p class="card-excerpt">{{ p.excerpt | strip_html | truncatewords: 25 }}</p>
+                        <div class="card-meta">{{ p.date | date: "%d %b %Y, %H:%M" }}</div>
+                    </article>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+            <p style="text-align: center; color: #666; padding: 20px;">More coverage is being curated by the AI newsroom.</p>
+            {% endif %}
         </div>
-        {% if site.posts.size == 0 %}
-        <p style="text-align: center; color: #666; padding: 20px;">More coverage is being curated by the AI newsroom.</p>
-        {% endif %}
     </section>
 </main>

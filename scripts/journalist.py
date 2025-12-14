@@ -9,11 +9,53 @@ import hashlib
 from groq import Groq
 from slugify import slugify
 
+CONFIG_PATH = "main_configs.json"
+FEED_PATH = os.path.join("_data", "feed.json")
+POSTS_DIR = "_posts"
+
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 PLANNER_MODEL = "llama-3.3-70b-versatile"
 RESEARCHER_MODEL = "groq/compound"
 WRITER_MODEL = "openai/gpt-oss-120b"
+
+
+def load_config():
+    try:
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+    except Exception as exc:
+        print(f"[config] Unable to read {CONFIG_PATH}: {exc}. Using defaults.")
+        cfg = {}
+    cfg.setdefault("full_rebuild", False)
+    cfg.setdefault("max_active_posts", 20)
+    cfg.setdefault("max_headlines", 50)
+    cfg.setdefault("max_workers", 5)
+    cfg.setdefault("max_new_articles", 0)
+    return cfg
+
+
+def ensure_dirs():
+    os.makedirs(POSTS_DIR, exist_ok=True)
+    os.makedirs(os.path.dirname(FEED_PATH) or ".", exist_ok=True)
+    if not os.path.exists(FEED_PATH):
+        with open(FEED_PATH, "w", encoding="utf-8") as f:
+            json.dump({"active": []}, f, indent=2)
+
+
+def read_feed_urls():
+    try:
+        with open(FEED_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return list(data.get("active", []))
+    except Exception:
+        return []
+
+
+def write_feed_urls(urls):
+    with open(FEED_PATH, "w", encoding="utf-8") as f:
+        json.dump({"active": urls}, f, indent=2)
+    print(f"[feed] wrote {len(urls)} URLs to {FEED_PATH}")
 
 
 def get_current_time_str():
@@ -24,7 +66,11 @@ def get_date_slug():
     return datetime.datetime.utcnow().strftime('%Y-%m-%d')
 
 
-def load_existing_source_urls(posts_dir="_posts") -> set[str]:
+def get_today_str():
+    return datetime.datetime.utcnow().strftime('%Y-%m-%d')
+
+
+def load_existing_source_urls(posts_dir=POSTS_DIR) -> set[str]:
     urls = set()
     if not os.path.exists(posts_dir):
         return urls
@@ -40,13 +86,26 @@ def load_existing_source_urls(posts_dir="_posts") -> set[str]:
     return urls
 
 
+def delete_all_posts(posts_dir=POSTS_DIR):
+    if not os.path.exists(posts_dir):
+        return
+    for path in glob.glob(os.path.join(posts_dir, "*.md")):
+        try:
+            os.remove(path)
+        except Exception:
+            pass
+    print("[mode] full_rebuild=true -> removed existing posts")
+
+
 def generate_research_plan(headline):
+    today = get_today_str()
     prompt = f"""
-    You are a Senior Editor at the Financial Times. We have a breaking headline: "{headline}".
+    You are a Senior Editor at the Financial Times. Today's date is {today} (UTC).
+    We have a breaking headline: "{headline}".
     Generate 3 distinct investigative questions covering:
-    1) hard data/numbers (GDP, stock moves, poll numbers)
+    1) hard data / numbers (GDP, stock moves, poll numbers)
     2) history or context
-    3) market/political reaction or quotes
+    3) market / political reaction or quotes
 
     Respond ONLY with a JSON array of strings, e.g.
     ["What are the GDP figures?", "How have markets reacted?", "What is the government's stance?"]
@@ -58,22 +117,26 @@ def generate_research_plan(headline):
             temperature=0.3
         )
         response = completion.choices[0].message.content
-        json_match = re.search(r"\[.*\]", response, re.DOTALL)
-        if json_match:
-            return json.loads(json_match.group(0))
-    except Exception as e:
-        print(f"Planning failed for {headline}: {e}")
+        match = re.search(r"\[.*\]", response, re.DOTALL)
+        if match:
+            return json.loads(match.group(0))
+    except Exception as exc:
+        print(f"Planning failed for {headline}: {exc}")
     return [f"What are the latest, verifiable facts regarding {headline}?"]
 
 
 def conduct_deep_dive(question, query_context):
+    today = get_today_str()
     prompt = f"""
-    You are a research assistant with live web tools.
+    You are a research assistant with live web tools. Today's date is {today} (UTC).
+    Verify each fact and do not invent dates.
     Topic: "{query_context}".
 
     Investigative Question: {question}
 
-    Provide a dense factual answer with numbers, dates, quotes, and cite every statement with Markdown links (e.g. [Reuters](https://www.reuters.com/...))
+    Provide a dense factual answer with numbers, dates and quotes.
+    Conclude with a short 'Sources used:' list containing Markdown links.
+    Avoid inline bracket citations like 【Source】.
     """
     try:
         completion = client.chat.completions.create(
@@ -90,19 +153,22 @@ def conduct_deep_dive(question, query_context):
             }
         )
         return f"**Q: {question}**\n\n{completion.choices[0].message.content}\n\n"
-    except Exception as e:
-        return f"Could not research '{question}': {e}\n"
+    except Exception as exc:
+        return f"Could not research '{question}': {exc}\n"
 
 
 def write_final_story(headline, research_notes):
-    system_prompt = """
-    You are a senior correspondent for the Financial Times.
-    Write a 400-500 word article using ONLY the provided research notes.
+    today = get_today_str()
+    system_prompt = f"""
+    You are a senior correspondent for the Financial Times. Today's date is {today} (UTC).
+    Write a 400-600 word article using ONLY the provided research notes.
 
     Style guide:
     - Tone: authoritative British English.
-    - Structure: inverted pyramid; bold lede paragraph.
-    - Cite sources inline and/or conclude with a '### Sources' section listing Markdown links.
+    - Structure: inverted pyramid; first paragraph must be **bolded**.
+    - Do NOT include inline citations in the prose (no 【】 or bracket clutter).
+    - List all references in a clean '### Sources' section at the end as bullet points with Markdown links.
+    - Never invent dates or sequences. If a date is not clearly in the notes, omit it.
     - Output valid Markdown only.
     """
     user_prompt = f"""
@@ -124,15 +190,22 @@ def write_final_story(headline, research_notes):
         )
         content = completion.choices[0].message.content
         url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
-        return re.sub(url_pattern, r"<\1>", content)
-    except Exception as e:
-        print(f"Writing failed for {headline}: {e}")
+        content = re.sub(url_pattern, r"<\1>", content)
+        content = re.sub(r"【[^】]{1,120}】", "", content)
+        content = re.sub(r"[ \t]{2,}", " ", content)
+        content = content.strip()
+        if "### Sources" not in content:
+            content = f"{content}\n\n---\n### Sources\n- _Sources unavailable_
+"
+        return content
+    except Exception as exc:
+        print(f"Writing failed for {headline}: {exc}")
         return None
 
 
 def process_single_article(item):
     headline = item['headline']
-    category = item['category']
+    category = item.get('category', 'News')
     source_url = item.get('url')
     print(f"⚡ Starting: {headline}...")
 
@@ -153,46 +226,84 @@ def process_single_article(item):
     date_slug = get_date_slug()
     time_str = get_current_time_str()
     url_hash = hashlib.sha1((source_url or headline).encode('utf-8')).hexdigest()[:8]
-    os.makedirs("_posts", exist_ok=True)
-    filename = f"_posts/{date_slug}-{slug}-{url_hash}.md"
-    file_content = f"""---
-layout: post
-title: "{headline.replace('"', "'")}"
-category: "{category}"
-date: {time_str}
-source_url: "{source_url or ''}"
-source_site: "ft.com"
----
-
-{article_content}
-"""
+    filename = os.path.join(POSTS_DIR, f"{date_slug}-{slug}-{url_hash}.md")
+    safe_title = headline.replace('"', "'")
+    front_matter = (
+        f"---\n"
+        f"layout: post\n"
+        f"title: \"{safe_title}\"\n"
+        f"category: \"{category}\"\n"
+        f"date: {time_str}\n"
+        f"source_url: \"{source_url or ''}\"\n"
+        f"source_site: \"ft.com\"\n"
+        f"---\n\n"
+    )
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(file_content)
-    print(f"   -> ✅ Finished: {headline}")
+        f.write(front_matter + article_content + "\n")
+    print(f"   -> ✅ Saved: {filename}")
+
+
+def update_feed(scraped_items, existing_urls, max_active_posts):
+    ensure_dirs()
+    old_feed = read_feed_urls()
+    scraped_urls = [item.get('url') for item in scraped_items if item.get('url')]
+
+    new_feed = []
+    for url in scraped_urls:
+        if url in existing_urls and url not in new_feed:
+            new_feed.append(url)
+        if len(new_feed) >= max_active_posts:
+            break
+
+    if len(new_feed) < max_active_posts:
+        for url in old_feed:
+            if url in existing_urls and url not in new_feed:
+                new_feed.append(url)
+            if len(new_feed) >= max_active_posts:
+                break
+
+    write_feed_urls(new_feed)
+    print(f"[feed] Active set size {len(new_feed)}/{max_active_posts}")
 
 
 def main():
+    cfg = load_config()
+    ensure_dirs()
+    print(
+        f"[config] full_rebuild={cfg['full_rebuild']} max_active_posts={cfg['max_active_posts']} "
+        f"max_workers={cfg['max_workers']} max_new_articles={cfg['max_new_articles']}"
+    )
+
     if not os.path.exists('headlines.json'):
         print("No headlines found.")
         return
 
-    with open('headlines.json', 'r') as f:
-        data = json.load(f)
+    with open('headlines.json', 'r', encoding='utf-8') as f:
+        scraped = json.load(f)
 
-    existing_urls = load_existing_source_urls("_posts")
-    new_items = [item for item in data if item.get('url') and item['url'] not in existing_urls]
+    if cfg.get('full_rebuild'):
+        delete_all_posts()
+        existing_urls = set()
+        candidates = [item for item in scraped if item.get('url')]
+    else:
+        existing_urls = load_existing_source_urls()
+        candidates = [item for item in scraped if item.get('url') and item['url'] not in existing_urls]
 
-    max_new = int(os.getenv("MAX_NEW_ARTICLES", "0"))
+    max_new = int(cfg.get('max_new_articles', 0))
     if max_new > 0:
-        new_items = new_items[:max_new]
+        candidates = candidates[:max_new]
 
-    if not new_items:
-        print("No new articles detected (delta is empty).")
+    if not candidates:
+        print("[delta] No new articles detected (delta is empty). Skipping LLM generation.")
+        update_feed(scraped, load_existing_source_urls(), cfg['max_active_posts'])
         return
 
-    print(f"Processing {len(new_items)} NEW articles in parallel...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(process_single_article, new_items)
+    print(f"[delta] Generating {len(candidates)} articles in parallel...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=int(cfg.get('max_workers', 5))) as executor:
+        executor.map(process_single_article, candidates)
+
+    existing_urls = load_existing_source_urls()
+    update_feed(scraped, existing_urls, cfg['max_active_posts'])
 
 
 if __name__ == "__main__":

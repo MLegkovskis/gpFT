@@ -60,18 +60,25 @@ jobs:
       - name: Detect changes
         id: detect_changes
         run: |
-          if git status --porcelain _posts | grep .; then
+          if git status --porcelain _posts _data/feed.json | grep .; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: No new articles — skipping commit/build/deploy
+        if: steps.detect_changes.outputs.changed == 'false'
+        run: |
+          echo "No new articles detected or no visible changes to publish."
+          echo "Commit step will be skipped."
+          echo "Downstream build/deploy jobs will be skipped by workflow conditions."
 
       - name: 3. Commit New Posts
         if: steps.detect_changes.outputs.changed == 'true'
         run: |
           git config --global user.name 'FT-Bot'
           git config --global user.email 'bot@noreply.github.com'
-          git add -A _posts
+          git add -A _posts _data/feed.json main_configs.json
           git commit -m "Hourly Edition: $(date -u +'%Y-%m-%dT%H:%MZ')"
           git push
 
