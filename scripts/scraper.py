@@ -1,4 +1,5 @@
 import json
+import os
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -10,6 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def get_ft_headlines_filtered():
     url = 'https://www.ft.com'
+    max_headlines = int(os.getenv("MAX_HEADLINES", "50"))
 
     # --- CI SPECIFIC OPTIONS ---
     chrome_options = Options()
@@ -24,6 +26,17 @@ def get_ft_headlines_filtered():
         "FTSE", "Euro/Dollar", "Pound/Dollar", "Brent Crude", "Minus", "Plus", 
         "OPEN SIDE", "Skip to", "Manage cookies", "Become a member", "Sign in"
     ]
+
+    block_tags = {"Opinion", "Lex", "FT Magazine", "Life & Arts", "Interview", "Weekend", "HTSI"}
+    block_headline_terms = [
+        "opinion content", "lex.", "interview.", "ft magazine", "life & arts", "review", "how to"
+    ]
+
+    def is_news_item(headline: str, tag: str | None) -> bool:
+        if tag and tag.strip() in block_tags:
+            return False
+        lowered = headline.lower()
+        return not any(term in lowered for term in block_headline_terms)
 
     print("Launching Headless Browser...")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
@@ -54,31 +67,53 @@ def get_ft_headlines_filtered():
             headlines = [l for l in links if len(l.text.strip()) > 25]
 
         # 3. Process and Filter
-        seen = set()
+        seen_urls = set()
 
         for item in headlines:
             text = item.text.strip()
+            href = None
+            tag_text = None
+
+            try:
+                link_el = item.find_element(By.XPATH, ".//a")
+                href = link_el.get_attribute("href")
+            except Exception:
+                try:
+                    href = item.get_attribute("href")
+                except Exception:
+                    href = None
+
+            try:
+                teaser = item.find_element(By.XPATH, "./ancestor::*[contains(@class,'o-teaser')][1]")
+                try:
+                    tag_text = teaser.find_element(By.CSS_SELECTOR, ".o-teaser__tag").text.strip()
+                except Exception:
+                    try:
+                        tag_text = teaser.find_element(By.CSS_SELECTOR, "[data-trackable='teaser-tag']").text.strip()
+                    except Exception:
+                        tag_text = None
+            except Exception:
+                tag_text = None
             
-            # --- FILTER LOGIC ---
-            # 1. Must be longer than 15 chars
-            # 2. Must not be in our seen list
-            # 3. Must not contain any "Junk Words"
-            if (len(text) > 15 
-                and text not in seen 
-                and not any(junk.lower() in text.lower() for junk in JUNK_WORDS)):
-                
-                clean_headlines.append(text)
-                seen.add(text)
+            if (
+                len(text) > 15
+                and href
+                and href not in seen_urls
+                and not any(junk.lower() in text.lower() for junk in JUNK_WORDS)
+                and is_news_item(text, tag_text)
+            ):
+                clean_headlines.append({"headline": text, "url": href, "tag": tag_text})
+                seen_urls.add(href)
             
-            if len(clean_headlines) >= 25:
+            if len(clean_headlines) >= max_headlines:
                 break
 
         # 4. Output
-        print(f"\nFound {len(clean_headlines)} Valid Articles. Here are the top 25:\n")
+        print(f"\nFound {len(clean_headlines)} Valid Articles. Here are the top {max_headlines}:\n")
         print("-" * 40)
         
-        for i, text in enumerate(clean_headlines, 1):
-            print(f"{i}. {text}")
+        for i, item in enumerate(clean_headlines, 1):
+            print(f"{i}. {item['headline']} ({item.get('tag')}) -> {item['url']}")
 
         print("-" * 40)
 
@@ -86,17 +121,23 @@ def get_ft_headlines_filtered():
         # We convert the simple list of strings into a structured JSON 
         # that the Journalist script can consume.
         structured_data = []
-        for i, h in enumerate(clean_headlines):
-            # Guess category based on keywords
-            cat = "Markets"
-            if "UK" in h or "London" in h: cat = "UK"
-            elif "US" in h or "Trump" in h: cat = "US"
-            elif "Tech" in h or "AI" in h or "Nvidia" in h: cat = "Technology"
-            
+        for i, item in enumerate(clean_headlines):
+            headline = item['headline']
+            tag = item.get('tag')
+            category = tag if tag and len(tag) < 30 else "News"
+            if category == "News":
+                if "UK" in headline or "London" in headline:
+                    category = "UK"
+                elif "US" in headline or "Trump" in headline:
+                    category = "US"
+                elif any(term in headline for term in ["Tech", "AI", "Nvidia", "chip"]):
+                    category = "Technology"
             structured_data.append({
                 "id": i,
-                "headline": h,
-                "category": cat
+                "headline": headline,
+                "category": category,
+                "url": item['url'],
+                "tag": tag
             })
 
         with open('headlines.json', 'w') as f:

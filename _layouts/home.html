@@ -3,85 +3,22 @@ layout: default
 ---
 
 <main class="container">
-    
-    {% assign all_posts = site.posts %}
-    
-    {% assign count_hero = 1 %}
-    {% assign count_left = 3 %}
-    {% assign count_right = 4 %}
-    
-    {% assign offset_feed = count_hero | plus: count_left | plus: count_right %}
-
-    {% assign hero_post = all_posts[0] %}
-    {% assign left_sidebar_posts = all_posts | slice: 1, count_left %}
-    {% assign right_start_index = 1 | plus: count_left %}
-    {% assign right_sidebar_posts = all_posts | slice: right_start_index, count_right %}
-    {% assign feed_posts = all_posts | offset: offset_feed %}
-
-    <section class="hero-section">
-        
-        <div class="hero-sidebar-left">
-            <div class="section-label">Briefing</div>
-            {% for post in left_sidebar_posts %}
-            <div class="sidebar-item">
-                <span class="category-tag">{{ post.category }}</span>
-                <a href="{{ post.url | relative_url }}" class="headline-sm">{{ post.title }}</a>
-            </div>
-            {% endfor %}
-        </div>
-
-        <div class="hero-main">
-            {% if hero_post %}
-            <div class="img-container">
-                <img src="https://placehold.co/800x480/262a33/FFF?text={{ hero_post.category | uri_escape }}" alt="Hero">
-            </div>
-            <span class="category-tag" style="font-size: 0.9rem; margin-top: 15px;">{{ hero_post.category }}</span>
-            <a href="{{ hero_post.url | relative_url }}" class="headline-hero">{{ hero_post.title }}</a>
-            <p class="hero-summary">{{ hero_post.excerpt | strip_html | truncatewords: 35 }}</p>
-            {% else %}
-            <div style="padding: 4rem; text-align: center;">Processing Daily Edition...</div>
-            {% endif %}
-        </div>
-
-        <div class="hero-sidebar-right">
-            <div class="section-label">Opinion & Markets</div>
-            {% for post in right_sidebar_posts %}
-            <div class="sidebar-item">
-                <span class="category-tag">{{ post.category }}</span>
-                <a href="{{ post.url | relative_url }}" class="headline-sm">{{ post.title }}</a>
-                <div style="font-size:0.8rem; color:#666; margin-top:5px;">{{ post.excerpt | strip_html | truncatewords: 10 }}</div>
-            </div>
-            {% endfor %}
-        </div>
-    </section>
-
     <section class="infinite-feed">
         <div class="section-header">Global Coverage</div>
-        
         <div class="news-masonry">
-            {% for post in feed_posts %}
+            {% for post in site.posts %}
             <article class="news-card">
-                <span class="category-tag">{{ post.category }}</span>
+                <span class="category-tag">{{ post.category | default: 'News' }}</span>
                 <a href="{{ post.url | relative_url }}">
                     <h3 class="headline-md">{{ post.title }}</h3>
                 </a>
                 <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-                <div class="card-meta">
-                    {{ post.date | date: "%d %b %Y, %H:%M" }} • By {{ post.author | default: 'FT Bot' }}
-                </div>
+                <div class="card-meta">{{ post.date | date: "%d %b %Y, %H:%M" }}</div>
             </article>
             {% endfor %}
         </div>
-
-        {% if feed_posts.size == 0 %}
-            <p style="text-align: center; color: #666; padding: 20px;">
-                {% if all_posts.size > 0 %}
-                No additional stories beyond the top section.
-                {% else %}
-                More coverage is being curated by the AI newsroom.
-                {% endif %}
-            </p>
+        {% if site.posts.size == 0 %}
+        <p style="text-align: center; color: #666; padding: 20px;">More coverage is being curated by the AI newsroom.</p>
         {% endif %}
     </section>
-
 </main>

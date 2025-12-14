@@ -2,9 +2,10 @@ import json
 import os
 import datetime
 import concurrent.futures
-import shutil
 import re
 import time
+import glob
+import hashlib
 from groq import Groq
 from slugify import slugify
 
@@ -12,28 +13,31 @@ client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 PLANNER_MODEL = "llama-3.3-70b-versatile"
 RESEARCHER_MODEL = "groq/compound"
-WRITER_MODEL = "llama-3.3-70b-versatile"
+WRITER_MODEL = "openai/gpt-oss-120b"
 
 
 def get_current_time_str():
-    return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    return datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
 
 
 def get_date_slug():
-    return datetime.datetime.now().strftime('%Y-%m-%d')
+    return datetime.datetime.utcnow().strftime('%Y-%m-%d')
 
 
-def reset_posts_dir(posts_dir="_posts"):
-    if os.path.exists(posts_dir):
-        for entry in os.listdir(posts_dir):
-            entry_path = os.path.join(posts_dir, entry)
-            if os.path.isdir(entry_path):
-                shutil.rmtree(entry_path)
-            else:
-                os.remove(entry_path)
-    else:
-        os.makedirs(posts_dir)
-    os.makedirs(posts_dir, exist_ok=True)
+def load_existing_source_urls(posts_dir="_posts") -> set[str]:
+    urls = set()
+    if not os.path.exists(posts_dir):
+        return urls
+    for path in glob.glob(os.path.join(posts_dir, "*.md")):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
+            match = re.search(r"^source_url:\s*\"?(.+?)\"?\s*$", text, re.MULTILINE)
+            if match:
+                urls.add(match.group(1).strip())
+        except Exception:
+            continue
+    return urls
 
 
 def generate_research_plan(headline):
@@ -115,7 +119,8 @@ def write_final_story(headline, research_notes):
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
-            ]
+            ],
+            temperature=0.3
         )
         content = completion.choices[0].message.content
         url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
@@ -128,6 +133,7 @@ def write_final_story(headline, research_notes):
 def process_single_article(item):
     headline = item['headline']
     category = item['category']
+    source_url = item.get('url')
     print(f"⚡ Starting: {headline}...")
 
     questions = generate_research_plan(headline)[:3]
@@ -146,13 +152,16 @@ def process_single_article(item):
     slug = slugify(headline)
     date_slug = get_date_slug()
     time_str = get_current_time_str()
-    filename = f"_posts/{date_slug}-{slug}.md"
+    url_hash = hashlib.sha1((source_url or headline).encode('utf-8')).hexdigest()[:8]
+    os.makedirs("_posts", exist_ok=True)
+    filename = f"_posts/{date_slug}-{slug}-{url_hash}.md"
     file_content = f"""---
 layout: post
 title: "{headline.replace('"', "'")}"
 category: "{category}"
 date: {time_str}
-author: "Groq AI"
+source_url: "{source_url or ''}"
+source_site: "ft.com"
 ---
 
 {article_content}
@@ -167,16 +176,23 @@ def main():
         print("No headlines found.")
         return
 
-    reset_posts_dir()
-
     with open('headlines.json', 'r') as f:
         data = json.load(f)
 
-    articles = data[:20]
-    print(f"Processing {len(articles)} articles in parallel...")
+    existing_urls = load_existing_source_urls("_posts")
+    new_items = [item for item in data if item.get('url') and item['url'] not in existing_urls]
 
+    max_new = int(os.getenv("MAX_NEW_ARTICLES", "0"))
+    if max_new > 0:
+        new_items = new_items[:max_new]
+
+    if not new_items:
+        print("No new articles detected (delta is empty).")
+        return
+
+    print(f"Processing {len(new_items)} NEW articles in parallel...")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(process_single_article, articles)
+        executor.map(process_single_article, new_items)
 
 
 if __name__ == "__main__":
