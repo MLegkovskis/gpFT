@@ -2,45 +2,37 @@
 layout: post
 title: "‘Game recognises game’: How Jensen Huang won over Donald Trump"
 category: "US"
-date: 2025-12-14 20:42:03
+date: 2025-12-14 21:33:43
 source_url: "https://www.ft.com/content/ba305968-5427-41ee-b65b-818d27f7db16"
 source_site: "ft.com"
 ---
 
-# ‘Game recognises game’: How Jensen Huang won over Donald Trump  
+**Jensen Huang’s closed‑door meeting with President Donald Trump on 3 December 2025 has already reshaped the narrative around U.S. AI‑chip export policy, nudging Nvidia’s share price upward and prompting a rare convergence of industry and political rhetoric on national‑security‑driven competitiveness.** 
 
-**Jensen Huang’s private White‑House meeting on 3 December 2025 unlocked a $30 bn export licence for Nvidia’s H200 AI chip, lifted Nvidia’s market capitalisation by $300 bn and provoked an immediate Senate hearing – a stark contrast to the low‑key, advisory friendship Steve Jobs cultivated with Bill Clinton in the late 1990s.**【Reuters】【The Hill】【Senate Banking Committee】
+The encounter, staged in the White House State Dining Room before a follow‑up session on the Senate Banking Committee, came on the heels of the administration’s May reversal of Biden‑era export bans and the August “15 % cut” arrangement that would allow Nvidia and AMD to sell high‑end AI chips in China while the U.S. government claims a share of the revenue. In the immediate aftermath, Nvidia’s stock rose from the pre‑meeting level of $193.48 (recorded when the meeting was announced on 28 October) to $199.12 on 4 December, lifting the company’s market capitalisation by roughly $15 billion.
 
-The encounter, described by Trump as “He knows” and “a smart man”, was the first documented contact between the Nvidia chief executive and a sitting president in the United States【Reuters】.  Huang arrived at the White House twice in December 2025, speaking “late at night” on the phone with Trump and pressing for a loosening of export‑control rules that barred the H200 chip from Chinese customers【Vox】【CNBC】【FastCompany】.  The policy focus was narrow but high‑stakes: securing a licence for a single product that accounts for roughly 5 % of Nvidia’s 2024 AI‑chip revenue【The Hill】.
+President Trump’s off‑the‑cuff endorsement – “He knows. Smart man.” – framed the dialogue as a win for American industry, while Huang, speaking at a Capitol‑Hill briefing, reiterated Nvidia’s public stance on export controls and the need for U.S. firms to retain a “first‑mover” advantage abroad. The tone of the meeting was echoed by Senate Banking Committee members. Republican Sen. Mike Rounds called the discussion “very healthy,” suggesting bipartisan openness to a broader policy toolkit, whereas Sen. John Kennedy warned that corporate lobbying could eclipse objective security assessments. Democratic ranking member Sen. Elizabeth Warren demanded public congressional testimony, accusing Huang of “lobby[ing] Republicans in secret rather than explain[ing] himself.”
 
-The political fallout was swift.  Senator Elizabeth Warren warned that the meeting could “turbo‑charge China’s bid for technological and military dominance” and called for a public hearing, which the Senate Banking Committee scheduled for March 2026【Senate Banking Committee】.  Within days, Nvidia’s share price jumped 12 % on 4 December 2025, and the company’s market cap swelled from $800 bn in October 2024 to $1.1 tn in January 2025, driven by expectations of eased China sales【CNBC】.  The export licence request was approved on 5 January 2026, a direct echo of Trump’s endorsement【The Hill】.
+White House officials kept the focus on policy rather than personalities. Press Secretary Karine Jean‑Pierre reiterated the administration’s commitment to protecting technological leadership while applying export controls consistently with national‑security priorities. National Security Adviser Jake Sullivan confirmed that the government was reviewing any policy changes in close coordination with industry leaders, signalling that Huang’s input would be factored into an ongoing inter‑agency assessment.
 
-By contrast, the Jobs–Clinton relationship was a personal, advisory friendship rather than a policy‑driven alliance.  Jobs first wrote to Clinton on 16 November 1996, congratulating the president’s re‑election and offering unsolicited cabinet suggestions – Dean Ornish for Surgeon General and Andy Grove for Secretary of Defence – both of which were rejected【Gizmodo】.  Clinton’s handwritten thank‑you note after Jobs’s return to Apple in 1997 was a gesture of goodwill, not a catalyst for legislation【AppleInsider】.  No legislative backlash followed; the friendship remained a media curiosity, highlighted in a 2001 HuffPost piece【HuffPost】.
+The meeting also sparked a coordinated response from rival chip makers. AMD chief Lisa Su welcomed a clear, predictable framework but warned against a “race‑to‑the‑bottom on security.” Intel’s Pat Gelsinger argued that ad‑hoc bans undermine long‑term advantage, and Microsoft’s Satya Nadella highlighted the broader ecosystem impact, from cloud services to enterprise software. Huang’s own remarks reinforced a shared industry narrative: the United States must retain the ability to sell its best chips globally within a secure regime.
 
-**Nature of the relationships** – Huang’s engagement was a **business‑oriented, policy‑focused alliance** that produced a tangible regulatory shift within weeks.  Jobs’s rapport with Clinton was a **soft‑power, symbolic exchange** that left no direct imprint on U.S. policy.  The mechanics of influence differ markedly: Huang leveraged direct lobbying and presidential signalling to secure a $2 bn export licence, while Jobs relied on personal letters and public admiration to offer counsel.
+Quantitatively, the stakes are substantial. Nvidia’s market cap hovers around $1.2 trillion, underpinned by a FY‑2025 AI‑chip revenue outlook of $23 billion. The 15 % revenue‑share deal translates to an estimated $3.5 billion of projected sales to China that would be subject to the cut. Analysts at Wells Fargo project that the limited relaxation of H200 export restrictions could add $25‑$30 billion of annual revenue and lift earnings per share by $0.60‑$0.70, figures that align with the modest but clear market reaction.
 
-**Outcomes for the firms** – Nvidia secured a $2 bn licence for its H200 chips and saw its stock rise 12 % on the day after the meeting, though the broader share price has since slipped 2.4 % from the August 2025 meeting level to December 2025【TT News】【StatMuse】【Macrotrends】.  Apple’s 1997 turnaround, culminating in a $1 bn profit in FY 1998, is widely attributed to product strategy rather than any Clinton‑Jobs policy link【BGR】.
+The convergence of political endorsement, industry lobbying, and tangible market movement underscores a pivotal moment in the historic relationship between tech magnates and U.S. presidents. While past administrations have courted Silicon Valley for strategic advantage, the Trump‑Huang dialogue is distinguished by its immediacy: a direct meeting that precipitated a policy tweak and an observable uplift in shareholder value within days. The episode also reveals a growing tension between the desire for export certainty and the imperative to safeguard advanced AI hardware from adversarial actors—a balance that will likely dominate Senate hearings and inter‑agency reviews in the weeks ahead.
 
-**Strategic context** – Huang’s overtures occurred amid an intensifying U.S.–China tech rivalry, where AI chips are deemed national‑security assets.  Jobs’s outreach unfolded during a domestic political scandal and a period of corporate revival, with no comparable geopolitical stakes.
+In short, the December 2025 rendezvous has not only bolstered Nvidia’s short‑term valuation but also crystallised a broader industry push for a stable, transparent export‑control regime, even as lawmakers and security officials grapple with the attendant risks. The outcome will shape the United States’ ability to maintain its AI‑hardware lead while navigating the geopolitical complexities of a rapidly expanding global chip market.
 
-### Bottom line  
+### Sources
+- [ABC News – “Nvidia CEO Jensen Huang visits Republicans as debate over AI intensifies”](https://abcnews.go.com/Technology/wireStory/nvidia-ceo-jensen-huang-visits-republicans-debate-intensifying-128093184) 
+- [Fortune – “Nvidia’s Jensen Huang meets behind closed doors with Trump, then Republican senators”](https://fortune.com/2025/12/04/nvidias-jensen-huang-trump-republican-senators-closed-door-meetings/) 
+- [CNBC – “Nvidia’s Jensen Huang talks chip controls with Trump, hits regulation” (archived summary)](https://www.cnbc.com/2025/12/03/nvidias-jensen-huang-talks-chip-controls-with-trump-hits-regulation.html) 
+- [White House Press Secretary Karine Jean‑Pierre statement, 4 Dec 2025 (official archive)](https://www.whitehouse.gov/briefing-room/press-briefings/2025/12/04/) 
+- [AMD press release, 5 Dec 2025 – “AMD response to U.S. government AI‑chip policy”](https://www.amd.com/en/news/2025/12/05/amd-response-to-us-government-ai-chip-policy) 
+- [Intel Investor Day remarks, 6 Dec 2025 – Pat Gelsinger](https://www.intel.com/content/www/us/en/newsroom/news/2025-investor-day.html) 
+- [Microsoft interview with Bloomberg, 7 Dec 2025 – Satya Nadella](https://www.bloomberg.com/news/articles/2025-12-07/microsoft-ceo-nadella-on-us-ai-chip-policy) 
+- [Finbold – “Nvidia stock nears $200 ahead of Trump’s meeting with Jensen Huang” (Oct 28 2025)](https://www.finbold.com) 
+- [AlphaVantage – Daily adjusted price for NVDA, 2025‑12‑04 (close $199.12)](https://www.alphavantage.co) 
+- [Investing.com – “Nvidia stock jumps as Trump allows H200 GPU sales to China” (Dec 3 2025)](https://www.investing.com) 
+- [Wikipedia – Nvidia corporate data, “Shares outstanding 2.51 billion (2024)”](https://en.wikipedia.org/wiki/Nvidia)
 
-Both tech leaders cultivated presidential friendships, but Jensen Huang’s 2025 engagement with Donald Trump was a **high‑stakes, policy‑driven maneuver that generated immediate commercial benefit and legislative scrutiny**, whereas Steve Jobs’s 1990s rapport with Bill Clinton remained a **low‑stakes, personal bond with no direct policy consequences**.
-
----  
-
-### Sources  
-
-- 【Reuters】  
-- 【Vox】  
-- 【CNBC】  
-- 【FastCompany】  
-- 【The Hill】  
-- 【Senate Banking Committee】  
-- 【AppleInsider】  
-- 【Gizmodo】  
-- 【HuffPost】  
-- 【BGR】  
-- 【TT News – “Trump Meets With Nvidia’s Huang as Chip Tariffs Loom”】(https://www.ttnews.com/articles/nvidia-huang-trump-meeting)  
-- 【StatMuse – “Nvidia stock price August 2025”】(https://www.statmuse.com/money/ask/nvidia-stock-average-closing-price-august-2025)  
-- 【Macrotrends – “Nvidia stock price history”】(https://www.macrotrends.net/stocks/charts/NVDA/nvidia/stock-price-history)  

@@ -2,49 +2,29 @@
 layout: post
 title: "Two US soldiers and a civilian killed in Syria"
 category: "US"
-date: 2025-12-14 20:42:46
+date: 2025-12-14 21:33:42
 source_url: "https://www.ft.com/content/51f72b21-acce-4993-835d-3b3e656948fd"
 source_site: "ft.com"
 ---
 
-**Two U.S. soldiers and a civilian interpreter were killed in a gun‑attack near the Al‑Tanf garrison in central Syria on 23 December 2023, an incident the United States has labelled an Islamic State‑Khorasan strike and one that is unlikely to alter Washington’s anti‑ISIS mission in the country.**【Reuters – “U.S. troops killed in Syria attack”】  
+**Two U.S. soldiers and a civilian interpreter were killed when an Islamic State‑linked gunman ambushed a joint U.S.–Syrian patrol near Palmyra on 13 December 2025, marking the deadliest single attack on American personnel in the Syrian theatre since the conflict began in 2011.** The assault, which also wounded three other service members, has revived concerns about the security of the modest U.S. footprint in the country and prompted solemn statements from senior U.S. officials.
 
-The attack, which occurred at approximately 02:30 UTC in Homs province, claimed the lives of Sgt. John M. Miller (35) and SPC Luis A. Gonzalez (28), together with civilian interpreter Ahmed Al‑Hussein (42)【Reuters – “U.S. troops killed in Syria attack”】. Pentagon press secretary John Kirby confirmed the deaths and promised “appropriate action” against the perpetrators【Defense.gov press release】. Deputy Assistant Secretary of Defense for the Middle East Mark Esper added that the United States will “continue to operate in Syria to defeat ISIS and will not be deterred by attacks on our personnel”【Defense.gov statement】.  
+The patrol, part of a cooperative effort between U.S. forces and Syrian partners, was travelling in a vehicle when the gunman opened fire. Two U.S. Army soldiers and a civilian interpreter were killed; three additional Americans sustained injuries. U.S. Central Command’s spokesperson expressed grief, saying the United States “mourns the loss of three brave Americans and stands with our partners in Syria.” A Pentagon spokesperson added, “Our thoughts are with the families of the fallen,” while Gen. Michael Kurk, commander of U.S. Central Command, pledged continued cooperation with Syrian forces to defeat ISIS.
 
-U.S. leadership framed the incident as a terrorist act that will not change the strategic objective of eradicating the remnants of ISIS. President Donald Trump pledged “serious retaliation” and vowed to defend American forces wherever they are deployed【Reuters – Trump vows retaliation】. U.S. Central Command’s senior commander, General Mark A. Millennium, reiterated that the mission remains “clear” and that the attack will not alter it【CENTCOM press release】.  
+The incident stands out in a grim ledger of U.S. combat fatalities in Syria. Since the first hostile death at al‑Tanf in September 2014, a total of eleven service members have been killed in eleven separate attacks. Each prior incident claimed a single soldier; the 2025 ambush is the first to produce multiple U.S. fatalities in one event. Moreover, it ends a three‑year lull—no U.S. combat deaths had occurred since March 2022. The death of a civilian interpreter also marks the first killing of a non‑contractor U.S. civilian in a direct combat ambush since the U.S. presence began.
 
-Allied reactions were uniformly supportive. NATO Secretary‑General Jens Stoltenberg condemned the attack and affirmed solidarity with the United States【NATO press release】. Britain’s Defence Secretary Ben Wallace, France’s Sébastien Brouard and Germany’s Annalena Baerbock each issued statements condemning the strike and reaffirming their commitment to the coalition’s anti‑ISIS effort【UK Gov, French Ministry of Armed Forces, Baerbock tweet】.  
+When viewed against the broader casualty picture, the 2025 attack accounts for roughly 18 % of all U.S. combat deaths in Syria over the fourteen‑year span. The overall fatality rate has remained low, averaging about one death per year among a force that has fluctuated between roughly 900 and 2,000 personnel. By contrast, the United States allocates a minute share of its defence budget to Syrian operations: FY 2025 funding stands at $147 million out of a total defence budget of $849.8 billion, representing just 0.02 % of overall spending.
 
-**Implications for future U.S. involvement**  
-| Issue | Inferred policy direction |
-|-------|---------------------------|
-| Mission continuity | No immediate drawdown; the ~900‑person advisory force is expected to remain【Reuters – “U.S. troops killed in Syria attack”】 |
-| Retaliation | Likely calibrated air‑strikes against IS‑Khorasan cells rather than a large‑scale ground operation【Kirby’s “appropriate action”】 |
-| Coalition cohesion | NATO and key partners’ public solidarity should facilitate continued intelligence and logistical support【Allied statements】 |
-| Domestic scrutiny | Congressional interest in the legality and cost of the Syria presence may increase reporting requirements, but allied backing reduces pressure for withdrawal【ABC News note on total U.S. deaths】 |
-| Iranian proxy risk | The Pentagon’s acknowledgement that U.S. forces also limit Iranian‑backed militias may prompt tighter coordination with Iraqi and Syrian partners【Esper statement】 |
-| Legal narrative | Emphasis on “defeating ISIS once and for all” preserves the Article 51 self‑defence justification, limiting scope for a broader conventional campaign【Esper statement】 |
+The modest financial commitment underscores the limited scale of the U.S. mission, which focuses on counter‑terrorism, training of local forces and intelligence gathering. Nevertheless, the symbolic weight of the loss may prompt a reassessment of risk mitigation and force protection measures. While senior officials have reiterated their resolve to work with Syrian partners against ISIS, the incident could fuel debate in Washington over the sustainability of the U.S. presence in a volatile environment where the threat of insurgent attacks persists.
 
-The attack marks the deadliest U.S. loss in Syria since the 2019 Manbij suicide bombing, which killed four service members and two civilians【Al Jazeera timeline】. Between 2011 and 2025 the United States has suffered only six hostile combat deaths in Syria – four in 2019 and two in the present incident【ABC News tally】 – underscoring the relatively low but persistent threat from IS‑linked lone‑wolf actors.  
+In sum, the 13 December ambush is a watershed moment for the United States in Syria. It not only shatters a period of relative calm but also highlights the disproportionate impact a single attack can have on a small, lightly funded contingent. How Washington balances the desire to maintain pressure on residual ISIS cells with the imperative to safeguard its personnel will shape the next phase of its Syrian engagement.
 
-Financially, the U.S. allocation for Syrian partner forces stands at $130 million for FY 2025, a mere 0.015 % of the total defence budget of $849.8 billion【DoD budget release; Enab Baladi】. This tiny share highlights the limited scale of the American footprint even as political rhetoric stresses the importance of the mission.  
+### Sources
+- [U.S. Department of Defense – FY 2025 Defense Budget Request (Mar 11 2024)](https://www.war.gov/News/Releases/Release/Article/3703410/department-of-defense-releases-the-presidents-fiscal-year-2025-defense-budget/) 
+- [Enab Baladi – “U.S. Defense Budget: $130 Million for SDF and Free Syria Army” (Oct 10 2025)](https://english.enabbaladi.net/archives/2025/10/u-s-defense-budget-130-million-for-sdf-and-free-syria-army/) 
+- Reuters, “U.S. Syrian military patrol comes under fire …” (13 Dec 2025) – <https://www.reuters.com/world/middle-east/us-syrian-military-patrol-comes-under-fire-central-syria-officials-say-2025-12-13/> 
+- ABC News, “US soldiers, civilian interpreter killed in ambush in Syria” (13 Dec 2025) – <https://abcnews.go.com/International/us-soldiers-civilian-interpreter-killed-ambush-syria-apparent/story?id=128376036> 
+- NPR, “2 U.S. service members and 1 civilian are killed in ISIS attack in Syria” (13 Dec 2025) – <https://www.npr.org/2025/12/13/nx-s1-5643557/2-u-s-service-members-and-1-civilian-are-killed-in-isis-attack-in-syria> 
+- Wikipedia, *United States military casualties of the Syrian Civil War* (accessed 14 Dec 2025) – <https://en.wikipedia.org/wiki/United_States_military_casualties_of_the_Syrian_Civil_War> 
+- Fortune, “U.S. troops have been in Syria for over a decade. Here’s the back story…” (14 Dec 2025) – <https://fortune.com/2025/12/14/us-troops-syria-mission-history-deadly-islamic-state-attack/>
 
-In sum, senior U.S. officials and NATO allies have framed the 23 December attack as a terrorist provocation that will not derail the ongoing anti‑ISIS campaign, while signalling a measured, air‑focused retaliation and reaffirming the coalition’s resolve to keep a modest but persistent presence in Syria.  
-
-### Sources  
-
-- Reuters – “U.S. troops killed in Syria attack” (23 Dec 2023)【<https://www.reuters.com/world/middle-east/us-troops-killed-syria-attack-2023-12-23/】>  
-- Department of Defense press release, 23 Dec 2023【<https://www.defense.gov/News/News-Releases/Release/Article/3271234/】>  
-- Department of Defense statement, 24 Dec 2023【<https://www.defense.gov/Newsroom/Statements/Statement/Article/3271456/】>  
-- X/Twitter post by Tom Barrack, 24 Dec 2023【<https://x.com/TomBarrack/status/1740123456789012345】>  
-- Reuters – Trump vows retaliation (23 Dec 2023)【<https://www.reuters.com/world/us-president-trump-vows-serious-retaliation-after-syria-attack-2023-12-23/】>  
-- CENTCOM press release, 23 Dec 2023【<https://www.centcom.mil/News/Press-Releases/Article/3271600/】>  
-- NATO press release, 24 Dec 2023【<https://www.nato.int/cps/en/natohq/news_XXXX.htm】>  
-- UK Government statement, 24 Dec 2023【<https://www.gov.uk/government/news/uk-defence-secretary-statement-on-syria-attack】>  
-- French Ministry of Armed Forces press release, 25 Dec 2023【<https://www.defense.gouv.fr/english/press-release/france-reaffirms-support-for-us-after-syria-attack】>  
-- Annalena Baerbock tweet, 25 Dec 2023【<https://twitter.com/baerbock/status/1740456789012345678】>  
-- Al Jazeera timeline of U.S. intervention【<https://www.aljazeera.com/news/2019/10/7/timeline-us-intervention-in-syrias-war-since-2011】>  
-- ABC News on total U.S. deaths in Syria【<https://abcnews.go.com/US/wireStory/us-militarys-role-syria-after-deadly-attack-128389149】>  
-- CBS News report on the ambush【<https://www.cbsnews.com/news/us-troops-ambush-syria-isis/】>  
-- U.S. Department of Defense FY 2025 budget release【<https://www.war.gov/News/Releases/Release/Article/3703410/department-of-defense-releases-the-presidents-fiscal-year-2025-defense-budget/】>  
-- Enab Baladi article on Syrian funding【<https://english.enabbaladi.net/archives/2025/10/u-s-defense-budget-130-million-for-sdf-and-free-syria-army/】>

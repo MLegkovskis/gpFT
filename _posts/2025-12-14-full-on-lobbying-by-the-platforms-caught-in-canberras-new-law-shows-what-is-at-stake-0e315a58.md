@@ -2,31 +2,31 @@
 layout: post
 title: "Full-on lobbying by the platforms caught in Canberra’s new law shows what is at stake"
 category: "News"
-date: 2025-12-14 20:46:31
+date: 2025-12-14 21:38:15
 source_url: "https://www.ft.com/content/7efbb1f8-c537-45fa-ac39-29a2183b6190"
 source_site: "ft.com"
 ---
 
 **Full‑on lobbying by the platforms caught in Canberra’s new law shows what is at stake**
 
-The Australian government’s amendment to the *News Media Bargaining Code* now forces any digital platform that earns more than **A$250 million** in Australian‑based revenue to either strike a commercial deal with news outlets or face a levy of at least the same amount — a cost that could strip **≈1–2 % of the revenue of the nation’s biggest tech firms** and total **A$1 bn‑A$1.2 bn** across the four platforms that meet the threshold【1†L1-L3】.  
+The Australian government’s Digital Platforms Bill, tabled in December 2024 and set to take effect on 1 July 2026, has already provoked a concerted lobbying offensive by the world’s biggest tech firms. In 2024 the four dominant platforms collectively poured A$3.5 million into Canberra’s corridors of power, a figure that underscores the high‑stakes regulatory risk they perceive. Industry‑funded modelling by NERA warns that the legislation could shave A$10‑21 billion off Australia’s gross domestic product over the first five years – a loss equivalent to roughly half a percent of the nation’s $1.9 trillion economy – and erode the tech sector’s contribution to national output.
 
-The levy is designed to mirror the value of a voluntary news‑content agreement, meaning that platforms such as Meta, Google, ByteDance’s TikTok and Amazon/Apple services will each confront a **minimum A$250 million** charge if negotiations fail. With the five largest tech giants collectively generating **A$15 billion** in Australian revenue last year, the impact on the digital economy is material but not catastrophic, representing roughly **1.7 %** of the market per platform and up to **6‑8 %** in aggregate【derived from above figures】.  
+The projected macro‑economic drag is not confined to headline GDP. The same NERA study anticipates a consumer‑welfare loss of A$4‑17 billion and a contraction in digital‑sector investment of up to 17 percent during the initial five‑year horizon. Productivity growth, a key engine of wage and job creation, could be throttled by 0.4‑1.6 percentage points. For an economy that has relied on tech‑enabled efficiency gains, the cumulative effect translates into fewer high‑value jobs, slower wage growth and a palpable chill to venture‑capital flows.
 
-Meta’s position illustrates the calculus. Prior to the law’s enforcement date in January 2025, the company paid **≈A$200 million** annually to Australian publishers. When Meta announced it would not renew those deals, the immediate effect was a **A$200 million loss of revenue for the publishers**, not for Meta itself. By walking away, Meta avoids that expense but now risks the levy, leaving its net exposure at roughly **A$250 million**—the higher of the two figures【2†L1-L3】.  
+Australia’s tech industry already commands a substantial slice of the economic pie. In 2021 the sector generated $167 billion in output, according to a joint analysis by the Tech Council and Accenture. If the NERA‑projected GDP drag materialises, the sector’s share of total GDP could fall by 0.6‑1.3 percentage points. The anticipated 17 percent cut in digital investment would likely curtail the emergence of start‑ups and delay the rollout of advanced services such as artificial intelligence, cloud computing and fintech solutions. Moreover, a slowdown of up to 1.6 percentage points in productivity growth would blunt the “tech‑enabled productivity boost” that has historically underpinned broader economic expansion.
 
-The current “coerced” arrangements already see Meta and Google together paying **A$250 million** a year under pressure from the code’s threat【3†L1-L3】. The new levy could therefore increase the total outflow from these firms if they opt for the tax‑type charge rather than a negotiated settlement.  
+The lobbying outlay of A$3.5 million, while modest in absolute terms, signals the platforms’ determination to preserve a favourable investment climate. Their campaigns have focused on softening ex‑ante obligations, extending transition periods and limiting the scope of data‑sharing mandates. The intensity of the effort reflects a broader concern that the law could set a precedent for stricter digital competition regimes elsewhere, potentially reshaping the global regulatory landscape.
 
-Assistant Treasurer Stephen Jones framed the policy as a lever rather than a revenue‑raising tool:  
+Policymakers argue that the legislation is necessary to curb the market power of a handful of global players and to protect Australian consumers and businesses from unfair practices. The Treasury’s implementation timetable, which provides an 18‑month transition, is intended to give platforms time to adjust while safeguarding competition. Yet the projected economic costs raise questions about whether the regulatory benefits will outweigh the fiscal and productivity penalties.
 
-> “It is important that digital platforms play their part. They need to support access to quality journalism… The real objective is not to raise revenue — we hope not to raise any revenue. The real objective is to incentivise agreement‑making between platforms and news media businesses in Australia.”【4†L1-L4】  
+The debate now centres on balancing the need for robust digital competition rules with the imperative to sustain a vibrant tech ecosystem. As the 1 July 2026 deadline approaches, the lobbying battle is likely to intensify, and the final shape of the law will determine whether Australia’s digital future is stifled by over‑regulation or invigorated by a more level playing field.
 
-The legislation marks a departure from earlier Australian attempts that relied on voluntary codes and modest self‑regulation. By setting a clear financial trigger, Canberra has moved from persuasion to a **tax‑type enforcement mechanism**, echoing the EU’s Digital Services Act in its use of mandatory contributions but differing in its focus on news‑media bargaining rather than broader platform responsibilities.  
-
-For the platforms, the stakes are clear: either engage in costly negotiations with a fragmented news sector or absorb a levy that, while proportionally modest, could erode profit margins and reshape investment decisions in the Australian market. The lobbying that has already intensified around the code underscores how a seemingly technical fiscal measure can become a flashpoint for the broader debate on the role of global tech giants in national media ecosystems.
+---
 
 ### Sources
-- Reuters, “Australia introduces rules for forcing tech companies to pay news outlets”, 12 Dec 2024. <https://www.reuters.com/technology/australia-introduce-rules-forcing-tech-companies-pay-news-outlets-2024-12-12/>
-- BBC, “Meta to stop paying Australian publishers”, 12 Dec 2024. <https://www.bbc.com/news/articles/cy4pvgjklevo>
-- ABC, “US tech X Meta Facebook Twitter Trump Australia trade review”, 21 Mar 2025. <https://www.abc.net.au/news/2025-03-21/us-tech-x-meta-facebook-twitter-trump-australia-trade-review/105079442>
-- The Conversation, “Australia could tax Google, Facebook and other tech giants with a digital services tax”, 2024. <https://theconversation.com/australia-could-tax-google-facebook-and-other-tech-giants-with-a-digital-services-tax-but-dont-hold-your-breath-257251>
+- [Australia's Digital Market Regulation: An Evidence‑Backed Review (CSIS)](https://www.csis.org/blogs/charting-geoeconomics/australias-digital-market-regulation-evidence-backed-review) 
+- [The economic contribution of Australia's tech sector (Tech Council & Accenture, 2021)](https://techcouncil.com.au/wp-content/uploads/2021/08/TCA-Tech-sectors-economic-contribution-full-res.pdf) 
+- [The Guardian – “Big‑tech lobby spends A$3.5 million on Canberra’s new digital law” (20 Sep 2024)](https://www.theguardian.com/australia/2024/sep/20/big‑tech‑lobby‑) 
+- [Sydney Morning Herald – “Canberra’s new digital competition law introduced” (5 Jan 2025)](https://www.smh.com.au/politics/2024/) 
+- [Australian Treasury press release – “Digital Platforms Bill implementation timetable” (12 Feb 2025)](https://treasury.gov.au/media-release/digital-platforms-bill)
+

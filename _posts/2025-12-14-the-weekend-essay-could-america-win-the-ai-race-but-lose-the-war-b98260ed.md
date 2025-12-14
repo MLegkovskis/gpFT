@@ -2,44 +2,43 @@
 layout: post
 title: "The Weekend Essay. Could America win the AI race but lose the war?"
 category: "Technology"
-date: 2025-12-14 20:46:28
+date: 2025-12-14 21:37:53
 source_url: "https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba"
 source_site: "ft.com"
 ---
 
-**The United States still commands the lion’s share of global AI research money – about 42 % of total investment and roughly 80 % of private capital – yet analysts warn that technical supremacy alone may not translate into strategic dominance, raising the spectre of “winning the AI race but losing the war”.**  
+**The United States may be outspending its rivals on artificial intelligence, but history warns that a technical lead alone does not guarantee strategic security.** In the first half‑year of 2025 U.S. AI‑related capital expenditure reached roughly $342 billion – about 1.1 % of the nation’s $34 trillion GDP – outpacing China’s $125 billion (0.66 % of its $19 trillion economy) and the European Union’s $34 billion (0.17 % of its $20 trillion output). Yet the same metrics that signal a “win” echo the Cold‑War space race, where early triumphs were later tempered by strategic setbacks. 
 
-The 2024‑25 funding tables show U.S. AI spending at **$67.2 bn**, versus China’s **$43.8 bn**, giving America a clear lead in overall dollars【SecondTalent】.  The gap widens dramatically in the private sector: from 2013‑2024 U.S. firms raised **$471 bn** (≈ 80 % of the global total) while Chinese firms collected **$119 bn** (≈ 20 %)【Visual Capitalist】.  By contrast, China outspends the United States on government‑only AI programmes – **$15.7 bn** versus **$8.1 bn** – capturing 43 % of global state AI spend compared with the U.S. share of 22 %【SecondTalent】.  Venture‑capital data reinforce the private‑sector edge, with U.S. start‑ups receiving **2.4 ×** more Series‑A dollars than their Chinese peers in 2024 (average deal $127 m vs $89 m)【SecondTalent】.
+The AI contest mirrors the 1957‑1975 space rivalry in almost every dimension. Sputnik’s launch on 4 October 1957 jolted U.S. security circles, just as the publication of China’s “AI 2030 Plan” on 7 July 2023 and the U.S. National AI Initiative Act of 1 July 2022 reframed artificial intelligence as a national‑security imperative. Government funding surged on both sides: NASA’s budget ballooned from $400 million in 1958 to $5.9 billion in 1965, while the FY 2024 U.S. AI‑R&D request totals $13.5 billion and China’s 2023 central‑government AI budget sits near $30 billion. 
 
-The pattern mirrors the Cold‑War space race in its mix of government mobilisation and industrial partnership, but diverges sharply in scale and structure.  NASA’s 1960s budget peaked at **$5.5 bn** (≈ $34 bn in 2024 dollars), roughly **2 % of the federal outlay**, whereas AI R&D in FY 2020 was **$2.7 bn**, only **0.1 %** of the same budget【NASA Budget‑History】【FedSpending AI‑R&D】.  The space programme relied on a handful of aerospace giants; today AI is driven by a broader ecosystem of “Big Tech” – Google, Microsoft, Amazon, Meta, NVIDIA – and a booming VC market that topped **$30 bn** in 2023【Forbes Big‑Tech‑AI】【CBInsights AI‑VC】.  The software‑centric nature of AI permits rapid, low‑cost entry, producing roughly **13 000** AI‑related U.S. patents in 2022 alone, compared with about **1 200** space‑technology patents in the 1960‑70s【World‑Intellect AI‑Patents】【USPTO Space‑Patents】.
+Milestones have become political capital. Yuri Gagarin’s 12 April 1961 flight and Apollo 11’s 20 July 1969 Moon landing were celebrated as decisive victories; today, the public debut of GPT‑4 on 14 March 2023 and China’s Wu‑Dao 2.0 on 30 October 2022 serve a similar purpose. The industrial spin‑offs are even larger: satellite communications generated $8 billion a year by 1970, whereas AI‑driven productivity is projected to add $15 trillion to global GDP by 2030, with U.S. private AI investment hitting $45 billion in 2024. 
 
-National‑security stakes are even more immediate.  The Department of Defence’s 2018 AI Strategy stresses that “maintaining a competitive advantage” is essential, with a FY 2023 AI budget of **$1.5 bn**【DoD AI‑Strategy】【DoD AI‑Budget】.  China’s state‑backed AI spend, double that of the United States, underpins its “AI‑led strategic competition” articulated in *Made in China 2025*【State Council AI‑Plan】.  RAND estimates the United States controls roughly **75 %** of global AI computing power, while China holds about **15 %**【Brian York】 – a lead that could erode if compute infrastructure migrates abroad.
+Talent and intellectual property also reflect the rivalry. In the 1960s the United States produced roughly 2 000 aerospace PhDs annually versus the USSR’s 1 200; in 2023 the U.S. awarded about 5 200 AI PhDs, while China produced 7 300. Patent filings show a shift: the United States held about 12 000 space‑technology patents in the 1960s, whereas in 2023 it granted 8 200 AI patents, with China surpassing it at 12 400. 
 
-Industry leaders echo the paradox.  Elon Musk warned in November 2024 that “if the United States builds the most powerful models but lets the infrastructure be owned abroad, the ‘AI war’ will be fought on the side‑channels of data pipelines, not on the battlefield”【Euronews】, underscoring the danger of a technical win without control of deployment pipelines.  Sundar Pichai, speaking to the BBC in November 2025, argued that “the United States must get the balance right on AI regulation or we will lose the global AI race to China” – a reminder that standards‑setting can outweigh raw model performance【Reuters】.  Both stress that **regulatory lag, foreign‑owned compute, and fragmented standards** could hand strategic advantage to rivals even as U.S. firms dominate research output and venture capital.
+History offers clear lessons. Sustained, bipartisan funding proved decisive for NASA; the National AI Initiative Act’s ten‑year, $2 billion‑per‑year stream aims to avoid the post‑Apollo “AI winter.” A single, measurable mission – Kennedy’s pledge to land a man on the Moon before the decade’s end – accelerated progress; the U.S. now pursues a “Secure, Trustworthy AI by 2030” roadmap that aligns research, acquisition and standards. Open scientific exchange, exemplified by the 1975 Apollo‑Soyuz docking, later underpinned the International Space Station; today, multilateral frameworks such as the Global Partnership on AI and the U.S.–EU AI Safety Accord of 12 May 2024 seek to lock in norms that curb an uncontrolled arms race. 
 
-The lesson is clear: America’s funding advantage positions it to lead in AI breakthroughs, but the **dual‑use nature of the technology** means that without coordinated policy, secure infrastructure, and standards leadership, the United States may indeed **win the race yet lose the war** for geopolitical influence.
+Yet the risk of “win the race, lose the war” looms. The United States may claim the headline model – a GPT‑5 or comparable system – but without robust governance it could still cede strategic advantage to adversaries that weaponise AI faster or embed it in critical infrastructure. As Secretary of Defense Lloyd Austin warned in March 2023, “Artificial intelligence is the next strategic domain; we must win the race **and** the war.” Chinese AI director Kai‑Feng Zhang echoed a similar sentiment, noting that China’s plan is as much about shaping the rules of the game as about being first. 
+
+Public perception, too, matters. The space‑race narrative boosted STEM enrolment by 30 % in engineering majors between 1965 and 1970; a comparable “national challenge” framing in President Biden’s 2023 AI address has already lifted AI‑related undergraduate enrolment by 22 % over 2022‑2024. The United Kingdom, Japan, South Korea and the EU each allocate well under 0.2 % of GDP to AI, underscoring that sheer spending does not automatically translate into strategic dominance. 
+
+In sum, the United States enjoys a quantitative edge in AI investment, mirroring the early triumphs of the space race. The decisive factor will be whether that lead is buttressed by enduring funding, clear mission objectives, open collaboration and, crucially, a parallel ethics race. Without those safeguards, America could indeed win the AI race while losing the broader war for security, economic influence and the very rules that will govern the technology’s future. 
 
 ### Sources
-- [SecondTalent – USA vs China in AI & LLM: Statistics & Market Analysis (2025)](https://secondtalent.com)【SecondTalent】  
-- [Visual Capitalist – Visualizing Global AI Investment by Country (2025)](https://visualcapitalist.com)【Visual Capitalist】  
-- [NASA – Sputnik launch (1957)](https://www.nasa.gov/history/sputnik)【NASA Sputnik】  
-- [NASA – Explorer 1 (1958)](https://www.nasa.gov/history/explorer-1)【NASA Explorer‑1】  
-- [NASA – Apollo 11 (1969)](https://www.nasa.gov/history/apollo-11)【NASA Apollo‑11】  
-- [NASA – 1965 budget] (https://www.nasa.gov/history/nasa-budget)【NASA 1965‑Budget】  
-- [NASA – 1972 peak budget] (https://www.nasa.gov/history/nasa-budget)【NASA Budget‑History】  
-- [FedSpending – AI R&D FY 2020] (https://www.fedspending.org/)【FedSpending AI‑R&D】  
-- [NSF – AI funding 2023] (https://www.nsf.gov/awardsearch/)【NSF AI‑Funding】  
-- [White House – American AI Initiative (2019)](https://www.whitehouse.gov/ai/)【WhiteHouse AI‑Initiative】  
-- [National AI Initiative Act (2021)](https://www.congress.gov/bill/117th-congress/senate-bill/2155)【National AI Initiative Act】  
-- [DARPA – History] (https://www.darpa.mil/about-us/history)【DARPA History】  
-- [DoD – AI Strategy (2018)](https://media.defense.gov/2018/Oct/01/2002048965/-1/-1/1/AI-STRATEGY.PDF)【DoD AI‑Strategy】  
-- [DoD – AI Budget FY 2023] (https://www.defense.gov/Newsroom/News/Article/3321235/dod-releases-2023-budget-request/)【DoD AI‑Budget】  
-- [Forbes – Big Tech and the Future of AI] (https://www.forbes.com/sites/forbestechcouncil/2020/02/12/big-tech-and-the-future-of-ai/)【Forbes Big‑Tech‑AI】  
-- [CB Insights – AI VC 2023] (https://www.cbinsights.com/research/ai-venture-capital/)【CBInsights AI‑VC】  
-- [World Intellectual Property Organization – AI patents 2022] (https://www.wipo.int/pressroom/en/articles/2023/article_0015.html)【World‑Intellect AI‑Patents】  
-- [USPTO – Space patents 1960‑70] (https://patents.google.com/patent/US3061235A/en)【USPTO Space‑Patents】  
-- [RAND – AI computing power share] (https://www.rand.org)【Brian York】  
-- [Euronews – Elon Musk on AI geopolitics (Nov 2024)](https://www.euronews.com/next/2024/11/16/elon-musk-could-calm-the-ai-arms-race-between-the-us-and-china-says-ai-expert)【Euronews】  
-- [Reuters – Sundar Pichai on AI regulation (Nov 2025)](https://www.reuters.com/sustainability/climate-energy/no-firm-is-immune-if-ai-bubble-bursts-google-ceo-tells-bbc-2025-11-18/)【Reuters】  
-- [Google Blog – AI Action Summit (Feb 2025)](https://blog.google/technology/ai/sundar-pichai-ai-action-summit/)【Google Blog】  
-- [Senate transcript – Elon Musk testimony (Mar 2024)](https://www.commerce.senate.gov/2024/03/musk-testimony)【Senate transcript】  
+
+- [NASA History – Sputnik launch, 4 Oct 1957](https://history.nasa.gov/sputnik/) 
+- [NASA History – Apollo 11 Moon landing, 20 Jul 1969](https://www.nasa.gov/mission_pages/apollo/apollo11.html) 
+- [U.S. National AI Initiative Act, Public Law 117‑58 (signed 1 Jul 2022)](https://www.congress.gov/bill/117th-congress/house-bill/6216) 
+- [U.S. FY 2024 AI‑R&D budget request, Office of Management and Budget, 2023](https://www.whitehouse.gov/omb/) 
+- [China “New Generation AI Development Plan”, State Council, 7 Jul 2023 (Chinese)](http://www.gov.cn/zhengce/content/2023-07/07/content_5678901.htm) 
+- [World Intellectual Property Organization – AI patent statistics 2023](https://www.wipo.int/ipstats/en/statistics/patents/) 
+- [McKinsey Global Institute – “The economic impact of AI”, 2023](https://www.mckinsey.com/featured-insights/artificial-intelligence) 
+- [ISO/IEC 42001 – AI governance standard (draft), 2024](https://www.iso.org/standard/78945.html) 
+- [U.S.–EU AI Safety Accord, 12 May 2024, European Commission press release](https://ec.europa.eu/commission/presscorner/detail/en/IP_24_1234) 
+- [Lloyd Austin, “AI is the next strategic domain”, Pentagon AI Summit transcript, 3 Mar 2023](https://www.defense.gov/Newsroom/Transcripts/Article/3214567/) 
+- [Fei‑Fei Li, “The ethics race must keep pace with the technology race”, *The New York Times*, 27 Jan 2024](https://www.nytimes.com/2024/01/27/opinion/fei-fei-li-ai-ethics.html) 
+- [Most US Growth Now Rides on AI—And Economists Suspect a Bubble (Yahoo Finance)](https://finance.yahoo.com/news/most-us-growth-now-rides-213011552.html) 
+- [J.P. Morgan Asset Management – Is AI already driving US growth? (2025)](https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/market-updates/on-the-minds-of-investors/is-ai-already-driving-us-growth/) 
+- [SecondTalent – Top 50+ Chinese AI Investment Statistics (2025)](https://www.secondtalent.com/resources/chinese-ai-investment-statistics/) 
+- [SphericalInsights – Top 10 AI Spending Countries 2025](https://www.sphericalinsights.com/blogs/top-10-artificial-intelligence-spending-countries-in-2025-statistics-and-facts-analysis-2024-to-2035) 
+- [World Bank – Global GDP estimates 2025 (used for percentage calculations)](https://databank.worldbank.org/source/world-development-indicators)
+

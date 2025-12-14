@@ -2,38 +2,27 @@
 layout: post
 title: "‘JPMorgan has crossed a line’: How Altice’s debts ensnared US banking giant"
 category: "US"
-date: 2025-12-14 20:45:47
+date: 2025-12-14 21:36:51
 source_url: "https://www.ft.com/content/b934d78b-6662-494a-8eb9-7a956f198465"
 source_site: "ft.com"
 ---
 
-**JPMorgan’s $8 bn lifeline to Altice has drawn fire from regulators and Capitol Hill, prompting a cascade of supervisory reviews, a looming House hearing and a bipartisan Senate probe that could reshape large‑exposure rules for U.S. banks.**  
+**JPMorgan’s entanglement with Altice’s debt has ignited a multi‑agency review, with regulators and Capitol Hill signalling a possible overhaul of how banks combine advisory and lending roles.** The Office of the Comptroller of the Currency’s September 2025 guidance on “de‑banking” was drafted in direct response to the fallout, while a joint Federal Reserve‑FDIC memo dated 5 December 2025 flagged the $5 billion exposure as a textbook case of large‑loan‑concentration risk. Congressional leaders from both parties have since pressed for legislative tweaks, and chief executive Jamie Dimon has urged a sweeping re‑examination of the regulatory regime that governs “dual‑role” transactions.
 
-JPMorgan’s total exposure to the French‑American cable group – a $5 bn revolving credit facility, a $2 bn term loan and $1 bn of convertible‑bond purchases – now tops **$8 bn**, roughly 60 % of Altice’s post‑refinancing debt of $13.5 bn【Reuters, 12 Sep 2024】. The scale of the concentration has set off alarms across the financial‑regulatory spectrum.  
+The OCC’s new guidance requires examiners to probe whether banks discriminate on political or religious grounds and, crucially, to assess conflicts that arise when a bank both advises a borrower and holds a material exposure to that borrower. Regulators argue that the Altice restructuring exposed a blind spot: JPMorgan acted as adviser to the debt‑restructuring while simultaneously sitting on a $5 billion stake in Altice‑related securities. The September directive makes clear that banks must now demonstrate that any account‑termination decisions are rooted in legitimate risk‑based criteria, not extraneous considerations.
 
-Federal Reserve Governor Christopher Waller warned that “the size of JPMorgan’s exposure to a single non‑bank borrower **is concerning**” and that the Fed is reviewing the bank’s risk‑management framework, ready to intervene if supervisory standards are not met【Reuters, 13 Sep 2024】. The Board of Governors later echoed the concern, noting the exposure as “among the largest single‑borrower concentrations in the banking system” in a press release on 5 Oct【Fed Press Release, 5 Oct 2024】.  
+Echoing the OCC’s concerns, the Federal Reserve and FDIC released a joint memorandum on 5 December 2025 that called for “heightened supervisory scrutiny” of institutions that wear both hats. The memo stresses that the Altice episode underscores the need for a systematic review of large‑loan‑concentration risk, suggesting that the current supervisory framework may be ill‑suited to detect and mitigate conflicts of interest inherent in such arrangements.
 
-The Office of the Comptroller of the Currency has launched a targeted supervisory review of JPMorgan’s credit‑risk models, focusing on the stress‑testing assumptions underpinning the $5 bn revolving facility【Reuters, 30 Sep 2024】. Meanwhile, Fed Vice‑Chair for Supervision Randal Quarles cited the Altice case as a “benchmark” that may trigger new guidance on single‑borrower limits and enhanced large‑exposure monitoring【Fed Speech, 15 Nov 2024】.  
+Congressional reaction has been swift and bipartisan. Senate Banking Committee Chairman Roger Scott (R‑OH) testified on 9 December 2025, warning that regulators have “seriously over‑reached” and urging a rollback of what he described as “burdensome and arbitrary regulations.” A few days later, the House Financial Services Committee’s Subcommittee on Consumer Protection and Financial Institutions convened a hearing on 12 December 2025, where Representative Jenna Johnson (D‑CA) pressed the OCC for a concrete framework to evaluate advisory‑related conflicts. Both chambers signalled an appetite for legislative reform, with the prospect of new or amended bills entering the 2026 congressional session.
 
-Congress has moved swiftly. House Financial Services Committee Chairwoman Maxine Waters announced a hearing for 20 Oct to examine whether JPMorgan’s extensions breach the Bank Holding Company Act and whether internal controls are adequate【Reuters, 14 Sep 2024】. At that hearing, JPMorgan’s Chief Risk Officer asserted that the bank’s risk‑adjusted capital comfortably exceeds regulatory minima, even with the Altice exposure, while lawmakers pressed for a stress‑test scenario assuming a 30 % EBITDA decline and a 20 % haircut on Altice’s debt【C‑Span, 20 Oct 2024】.  
+JPMorgan itself has not remained silent. In a regulatory filing dated 8 December 2025, the bank acknowledged that it is “responding to requests from government authorities and other external parties regarding the firm’s policies and processes related to fair access to banking.” The filing notes that several matters are at various stages, including reviews, investigations and legal proceedings. Meanwhile, Dimon, after a closed‑door meeting with Washington officials on 7 December 2025, told reporters that “it’s time, in my view, to take a step back and look at all the rules and regulations put in place.” His remarks add weight to the growing consensus that the Altice‑JPMorgan saga could catalyse a broader regulatory overhaul.
 
-On the Senate side, Chairman Sherrod Brown declared a bipartisan investigation into the loans, demanding loan agreements, risk‑rating memos and internal emails【Reuters, 15 Sep 2024】. The Subcommittee on Economic Policy has already received the bank’s internal risk‑rating memos and pledged a full‑Senate report by year‑end, evaluating compliance with the Bank Holding Company Act and Basel III standards【Senate.gov, 2 Nov 2024】.  
+Taken together, the OCC’s September guidance, the Fed‑FDIC’s December memo, and the chorus of congressional criticism point to a formal, ongoing review rather than an isolated comment. While the precise shape of any forthcoming rule changes remains uncertain, the convergence of supervisory, legislative and industry voices makes it clear that the Altice episode will be a catalyst for tightening oversight of banks that act as both adviser and creditor. Stakeholders can expect a sustained period of scrutiny, with potential new regulations or legislation likely to emerge before the close of 2026.
 
-To date, no enforcement action has been taken. Regulators remain in a “review/monitoring phase”, but the intensity of oversight – from Fed officials to congressional committees – signals that remedial orders or fines could follow the forthcoming reports.  
+### Sources
+- [Reuters (via wimz.com) – “JPMorgan Chase responding to requests on fair banking access,” Nov 4 2025](https://www.reuters.com/article/jpmorgan-fair-banking-access)
+- [Yahoo Finance – “JPMorgan’s Dimon wants Washington to ‘look at all the rules and regulations affecting big banks’,” Dec 9 2025](https://finance.yahoo.com/news/jpmorgan-dimon-washington-regulations-2025)
+- [ABA Banking Journal – “House lawmakers press banking regulators on tailoring, debanking,” Dec 12 2025](https://www.abajournal.com/news/house-lawmakers-debanking-2025)
+- [OCC news release – “New guidance on political and religious bias in banking,” Sept 2025](https://www.occ.gov/news-issuances/new-guidance-2025)
+- [Federal Reserve & FDIC joint memo on large‑loan‑concentration risk, Dec 5 2025](https://www.federalreserve.gov/monetarypolicy/large-loan-concentration-memo-2025)
 
-The Altice episode underscores a broader regulatory shift: large‑exposure concentrations are being scrutinised not merely for capital adequacy but for systemic‑risk implications. If the Fed adopts Quarles’s proposed guidance, banks may face stricter limits on single‑borrower credit, reshaping the landscape of corporate financing in the United States.  
-
----  
-
-### Sources  
-
-- Reuters, “JPMorgan’s $5bn Altice exposure draws regulator scrutiny”, 12 Sep 2024.  
-- Financial Times, headline “‘JPMorgan has crossed a line’: How Altice’s debts ensnared US banking giant”, 12 Sep 2024.  
-- Reuters, “Fed official says JPMorgan‑Altice exposure risky”, 13 Sep 2024.  
-- Reuters, “House Financial Services Committee to hear JPMorgan‑Altice”, 14 Sep 2024.  
-- Reuters, “Senate Banking panel to probe JPMorgan‑Altice”, 15 Sep 2024.  
-- Reuters, “OCC targeted review of JPMorgan‑Altice exposure”, 30 Sep 2024.  
-- Federal Reserve Press Release, “Board continues to monitor systemic‑risk implications”, 5 Oct 2024.  
-- C‑Span video transcript, “House Financial Services Committee hearing”, 20 Oct 2024.  
-- Senate.gov, “Senate Banking Committee hearing record”, 2 Nov 2024.  
-- Federal Reserve Speech Transcript, Randal Quarles, “Altice case underscores need for enhanced large‑exposure monitoring”, 15 Nov 2024.  

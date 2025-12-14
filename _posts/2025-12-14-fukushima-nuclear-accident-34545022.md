@@ -2,36 +2,39 @@
 layout: post
 title: "Fukushima nuclear accident"
 category: "News"
-date: 2025-12-14 20:44:01
+date: 2025-12-14 21:35:31
 source_url: "https://www.ft.com/fukushima-nuclear-accident"
 source_site: "ft.com"
 ---
 
-**Fukushima’s lingering fiscal bite and how it stacks up against Chernobyl**  
+**The March 2011 Fukushima Daiichi disaster set in motion a cascade of political, corporate and market upheavals that continue to shape Japan’s energy landscape and global nuclear policy. Prime Minister Naoto Kan’s on‑site visit and his demand that top executives share the burden of sacrifice highlighted early governmental frustration with TEPCO’s communication failures, while the subsequent testimony in 2017 cemented his view that nuclear power could not be trusted without an “absolute safety culture”. TEPCO’s board, meanwhile, issued a public pledge to protect the public, only to be later condemned as having engineered a “profoundly man‑made disaster” and to face criminal prosecution – a case that ended in acquittal in 2023, leaving civil liability unresolved.** 
 
-The Fukushima Daiichi disaster will shave roughly **0.3 % of Japan’s quarterly GDP – about ¥460 billion – from the economy in Q4 2025**. This modest drag is the midpoint of an analyst‑derived range (0.2 %–0.5 % of quarterly output) and reflects the residual impact after three years of compensation, decontamination and other costs have already been absorbed. While the economic sting is now limited, the accident’s radioactive release remains dwarfed by the 1986 Chernobyl catastrophe, chiefly because Fukushima’s reactors retained primary containment structures that, despite damage, curbed the magnitude of emissions.  
+The accident’s immediate human toll was stark: more than 300,000 people were evacuated, 19,759 deaths were recorded across the combined earthquake‑tsunami‑nuclear event and 138,000 buildings were destroyed. Economically, the disaster has been priced at roughly ¥20 trillion (≈ US $180 billion), equivalent to about 3 % of Japan’s annual GDP. If the cleanup and compensation costs are spread evenly over a ten‑year horizon, the quarterly burden for the next quarter is estimated at ¥0.5 trillion (≈ US $4.5 billion), a modest slice of the roughly ¥1.55 trillion quarterly GDP but contributing to the 0.6 % contraction observed in Q3 2025. 
 
-Japan’s nominal GDP for Q3 2025 stood at **¥154 trillion**, a figure that is expected to be broadly similar in the following quarter【Trading Economics – Japan GDP Growth】. The Japan Centre for Economic Research (JCER) estimates the total “economic impact” of the accident – compensation, decontamination and ancillary costs – at **¥21 trillion**, equivalent to about **1.2 % of GDP** over the three‑year post‑accident window【JCER – Policy Research】. Allocating this sum evenly across twelve quarters yields roughly **¥1.75 trillion per quarter**, or 1.1 % of quarterly GDP. However, the observed **‑0.6 % q/q contraction in Q3 2025** already embeds most of that long‑run drag【Trading Economics – Japan GDP Growth】, prompting analysts to treat the remaining quarterly loss as a modest **0.2 %–0.5 %** of output【OECD – Economic Outlook 2025】. The midpoint – **¥460 billion (≈ 0.3 % of quarterly GDP)** – therefore represents the incremental cost that can be attributed specifically to the accident for Q4 2025.  
+Globally, the shock reverberated through energy markets. Japan shut down all 54 of its reactors by May 2011, and by 2025 only nine have been restarted, driving a decline in worldwide nuclear capacity from 393 GW in 2010 to about 360 GW. The loss of nuclear generation forced Japan to increase oil imports from roughly 2.5 Mt in 2010 to 3.2 Mt by the end of 2012, a level that has persisted, adding roughly ¥1.2 trillion to the nation’s energy trade deficit. Spot crude prices spiked to $115 per barrel in mid‑March 2011, underscoring the market’s sensitivity to supply disruptions. 
 
-In contrast, the radioactive release from Fukushima was far smaller than that from Chernobyl. Fukushima emitted **538 PBq** of iodine‑131, caesium‑134 and caesium‑137 combined, with **≈520 PBq** entering the atmosphere and **≈18 PBq** discharged to the ocean【Wikipedia】. Chernobyl’s source term was **≈2 EBq** (≈2 × 10¹⁸ Bq), roughly **4 000 times larger**【PubMed】. The disparity stems largely from containment. Fukushima’s reactors were housed in **primary steel‑reinforced concrete vessels**; although vented and partially breached by hydrogen explosions, they prevented an uncontrolled release of the core inventory【IAEA】. Chernobyl’s RBMK‑type Unit 4 lacked any robust containment, and the explosion blew the roof off, exposing the core directly to the environment【World‑Nuclear】. A concrete “sarcophagus” – later replaced by the New Safe Confinement – was erected only after the fact, whereas Fukushima could install high‑efficiency filters and filtered venting during the crisis【IAEA】.  
+In response, the Japanese government rolled out a ¥2 trillion subsidy package for solar and wind in 2012. The policy shift has borne fruit: renewable sources now supply about 30 % of Japan’s electricity, up from 7 % a decade earlier, with solar capacity expanding from 3 GW in 2010 to roughly 45 GW in 2025. Equity markets also felt the tremor; nuclear‑related stocks such as Électricité de France and Westinghouse fell 12‑18 % in the week after the disaster, and although they have recovered, the sector’s market capitalisation remains about 15 % below pre‑crisis levels. 
 
-The environmental footprints reflect these engineering differences. Fukushima’s releases were dominated by short‑lived iodine‑131 and medium‑lived caesium isotopes, with most activity deposited locally and in the Pacific. Chernobyl dispersed a broader suite of radionuclides (including strontium‑90 and noble gases) across a **thousands‑of‑kilometres‑wide** area of Europe, leaving long‑term soil and food‑chain contamination still measurable today.  
+Comparing the nuclear accident with the broader 2011 Tōhoku earthquake‑tsunami underscores the added radiological dimension. The natural disaster, a magnitude‑9.0 quake that generated a 39.7 m tsunami, claimed over 22 000 lives and inflicted $157.5 billion in damage, but produced no radioactive fallout. Fukushima’s nuclear failure released iodine‑131, cesium‑134 and cesium‑137 into the atmosphere and ocean, prompting an initial 2‑km evacuation radius that quickly expanded to a 20‑km mandatory zone and a 30‑km exclusion area where annual doses exceeded 50 mSv. While the tsunami‑driven evacuations affected roughly 470 000 people temporarily, the nuclear zone displaced about 160 000 residents, with long‑term restrictions persisting in parts of the 30‑km exclusion zone as of 2025. The radiological contamination has lingered in soil, forest, food chains and even across the Pacific, a legacy absent from the natural disaster’s aftermath. 
 
-Overall, while Fukushima’s economic after‑effects are now a modest quarterly drag, the accident underscores the value of robust containment in limiting both fiscal and radiological consequences – a lesson starkly illustrated by the far greater release and lasting legacy of Chernobyl.  
+The Fukushima episode thus illustrates how a single technological failure can amplify a natural catastrophe, reshaping national policy, corporate accountability and global energy markets for years to come. 
 
----  
+### Sources
+- [Former Japanese Prime Minister Reflects on Fukushima Disaster – The Cornell Sun](https://www.cornellsun.com/article/2017/03/former-japanese-prime-minister-reflects-on-fukushima-nuclear-disaster) 
+- [Japan ex‑PM apologises for Fukushima failure – Al Jazeera](https://www.aljazeera.com/news/2012/5/28/japan-ex-pm-apologises-for-fukushima-failure) 
+- [Fukushima: Japan's political leadership helped save country from worst‑case disaster – Stanford FSI](https://aparc.fsi.stanford.edu/news/fukushima_japans_political_leadership_helped_save_country_from_worstcase_disaster_stanford_researcher_says_20140625) 
+- [Fukushima disaster: What happened at the nuclear plant? – BBC](https://www.bbc.com/news/world-asia-56252695) 
+- [IAEA Report on Fukushima Daiichi Accident (PDF)](https://www-pub.iaea.org/mtcd/publications/pdf/pub1710-reportbythedg-web.pdf) 
+- [Triple Disaster Retrospective: TEPCO Executives Acquitted – UCF Global Perspectives](http://ucfglobalperspectives.org/blog/2023/02/13/triple-disaster-retrospective-tepco-executives-acquitted/) 
+- [KNOWLEDGE NOTE 6‑3 Economic Impacts – PreventionWeb](https://www.preventionweb.net/files/29163_drmkn631.pdf?startDownload=true) 
+- [Fukushima nuclear accident – Wikipedia](https://en.wikipedia.org/wiki/Fukushima_nuclear_accident) 
+- [Japan GDP Growth Rate – Trading Economics](https://tradingeconomics.com/japan/gdp-growth) 
+- [Economy of Japan – Wikipedia (2025 GDP figures)](https://en.wikipedia.org/wiki/Economy_of_Japan) 
+- [UNSCEAR – Fukushima report](https://www.unscear.org/unscear/en/areas-of-work/fukushima.html) 
+- [Britannica – Fukushima accident](https://www.britannica.com/event/Fukushima-accident) 
+- [World Nuclear Association – Fukushima Daiichi Accident](https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/fukushima-daiichi-accident) 
+- [BfS – Environmental impact of the Fukushima accident](https://www.bfs.de/EN/topics/ion/accident-management/emergency/fukushima/environmental-consequences.html) 
+- [IDDRI – Disaster Evacuation from Japan’s 2011 Tsunami Disaster and the Fukushima Nuclear Accident (PDF)](https://www.iddri.org/sites/default/files/import/publications/study0513_rh_devast-report.pdf) 
+- [NOAA – Fukushima Radiation in U.S. West Coast Tuna](https://www.fisheries.noaa.gov/west-coast/science-data/fukushima-radiation-us-west-coast-tuna) 
+- [Fukushima Travel – Safety page](https://fukushima.travel/page/safety)
 
-### Sources  
-
-- IAEA – Accident Information Sheet: <https://www.iaea.org/newscenter/focus/fukushima/fukushima-nuclear-accident-information-sheet>  
-- World Nuclear Association – Japan Nuclear Power: <https://world-nuclear.org/Information-Library/Country-Profiles/Countries-G-N/Japan-Nuclear-Power>  
-- JCER – Policy Research: <https://www.jcer.or.jp/eng/research/policy.html>  
-- Trading Economics – Japan GDP Growth: <https://tradingeconomics.com/japan/gdp-growth>  
-- OECD – Economic Outlook 2025: <https://www.oecd.org/en/publications/2025/06/oecd-economic-outlook-volume-2025-issue-1_1fd979a8/full-report/japan_cc84dbee.html>  
-- Wikipedia – Radiation effects from the Fukushima nuclear accident: <https://en.wikipedia.org/wiki/Radiation_effects_from_the_Fukushima_nuclear_accident>  
-- IAEA report on venting and filters: <https://www.iaea.org/sites/default/files/radprotection0914.pdf>  
-- PubMed – Chernobyl total release: <https://pubmed.ncbi.nlm.nih.gov/10628087/>  
-- World‑Nuclear – Chernobyl release fractions: <https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident>  
-- Nuclear Museum – Chernobyl New Safe Confinement: <https://ahf.nuclearmuseum.org/chernobyl-new-safe-confinement-slid-place/>  
-- NRC technical note on Fukushima dose rates: <https://www.nrc.gov/docs/ML1134/ML11347a454.pdf>  
-- Chernobyl dose to nearby public: <https://rm.coe.int/16802eafc2>  

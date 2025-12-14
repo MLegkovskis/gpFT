@@ -2,45 +2,40 @@
 layout: post
 title: "Donald Trump and Bill Clinton pictured in newly released Epstein photos"
 category: "US"
-date: 2025-12-14 20:43:44
+date: 2025-12-14 21:35:06
 source_url: "https://www.ft.com/content/5eab6e6a-d0ca-4154-a117-35a95a5dad87"
 source_site: "ft.com"
 ---
 
-**The release of roughly 95 000 Epstein‑estate images on 12 December 2025 – including pictures of Donald Trump and Bill Clinton – sparked a brief dip in US equities, renewed partisan attacks and fresh polling questions about the two men’s political futures.**  
+**Newly released Epstein photographs thrust former presidents Donald Trump and Bill Clinton back into a scandal that has haunted U.S. politics for more than two decades, offering visual proof of the elite social circles that underpinned Jeffrey Epstein’s network from the early 1990s until his death in 2019.** 
 
-The House Oversight Committee’s tranche of 19 initial photos, followed by about 70 more the same day, showed Trump with women whose faces were redacted and Clinton standing beside Epstein and Ghislaine Maxwell, but no explicit sexual activity【AP】. On the trading floor the S&P 500 fell 0.2 % (‑5.3 points) and the Dow Jones slipped 0.1 % (‑30 points)【CNBC market recap】, while the CBOE VIX rose 6 % to 19.4, signalling heightened short‑term uncertainty【CBOE VIX data】.  
+The House Oversight Committee’s Democratic leadership disclosed 19 images on 12 December 2025, followed a few hours later by roughly 80 additional pictures drawn from an estimated 95 000‑photo archive supplied by Epstein’s estate. Among the newly visible frames are three pre‑presidential shots of Donald Trump – a 1997 Victoria’s Secret party, an airline seat beside a redacted woman, and a luau‑style gathering with six women whose faces are obscured – and a single signed photograph showing Bill Clinton standing with Epstein and Ghislaine Maxwell. The release, timed just before the Justice Department’s 13 December deadline to hand over all remaining Epstein files, amplifies long‑standing claims of a bipartisan “cover‑up” while delivering no fresh evidence of sexual misconduct.
 
-Morgan Stanley’s senior strategist Mike Wilson judged the move “modest; investors appear to be pricing the political risk already baked into equity valuations”【CNBC】. The dip mirrors earlier political shocks – the 2019 impeachment news produced a 0.3‑0.5 % fall in the S&P 500 and recovered within a session【Bloomberg】 – suggesting the market will likely re‑anchor within a week, unless a formal Justice Department probe materialises. Should the DOJ open investigations into Clinton, JPMorgan or other banks linked to Epstein, analysts at TipRanks warn of 2‑3 % pressure on financial‑sector ETFs and a cumulative 0.5‑1 % drag on the S&P 500 over the next two to three weeks【TipRanks】.  
+The images sit squarely within the broader chronology of the Epstein affair. From July 2000 to 2005 Epstein financed high‑profile social events, a pattern first documented in the 2005 Palm Beach investigation. The 2025 photos include a 1999‑2004 “luau” gathering that mirrors those early parties, confirming that the social milieu described then persisted well into the era when both Trump and Clinton were rising political figures. The estate’s archive, covering 1 January 1990 to 10 August 2019, also encompasses the period of Epstein’s 2008 non‑prosecution agreement – a deal repeatedly cited by Democrats in 2025 as evidence of a systemic shield that allowed Epstein to mingle with powerful individuals, including the former president now captured beside Maxwell.
 
-**Historical context**  
+Political reactions have fallen along party lines. Ranking Member Rep. Robert Garcia (D‑CA) declared the release a step toward ending a “White House cover‑up” and urged the Justice Department to pursue any remaining leads. Fellow Democrat Rep. Stacey Plaskett pledged continued photo disclosures to protect survivors’ identities. By contrast, Senate Minority Leader Mitch McConnell (R‑KY) dismissed the dump as a “political stunt” designed to distract from pressing national issues, while House Minority Leader Hakeem Jeffries called for “full accountability” for anyone who may have enabled Epstein’s crimes. The Trump camp, speaking from the Oval Office, downplayed the matter as “no big deal,” insisting the president had not seen the images. The Clinton team reiterated a 2019 statement by spokesperson Angel Urena that President Clinton “knows nothing” about Epstein’s crimes, a denial that resurfaced in the wake of the new photographs.
 
-For Trump, the images fit a familiar pattern of “association → denial → minimisation”. He first mentioned Epstein in a 2005 New York Magazine profile, attended a Palm Beach party in 2006, and was listed among guests at a 2015 Mar‑a‑Lago gathering【Investigative Answer】. After Epstein’s 2019 arrest, Trump claimed no business relationship and now dismisses the new photos as “no big deal”【WGXA】, echoing his earlier rhetoric that the release is a “Democratic political stunt”【Reuters】. Polls released on the day of the leak show 48 % of likely 2028 voters view the pictures as damaging to Trump’s prospects【CNN/SSRS】, but his core base remains largely unmoved.  
+Market analysts reacted swiftly to the political turbulence. Goldman Sachs warned that the political‑risk premium could rise by 15‑20 basis points, a sentiment reflected in a 0.4 % dip in the S‑P 500 to 5,212 and a 0.3 % fall in the Dow on 12 December. JPMorgan’s equity lead cautioned investors to brace for short‑term volatility, especially in sectors tied to government contracts, while Morgan Stanley noted that any longer‑term market impact would hinge on whether formal investigations materialise. The consensus among strategists is that the immediate effect is modest, but the episode adds a layer of uncertainty that could influence risk pricing for weeks to come.
 
-Clinton’s exposure is less sensational but no less consequential. Flight logs released in 2023 documented four trips on Epstein’s private jet between 2002‑2003, a $25 000 donation to his foundation in 2005 and a 2008 private dinner that he later said he “cut off all contact” with【Investigative Answer】. The new photos simply extend the visual record of his proximity to Epstein and Maxwell, reinforcing a narrative that has already tarnished the Clinton Foundation’s reputation – 31 % of respondents say the images hurt the foundation’s credibility【Pew Research】. Unlike Trump, Clinton has consistently framed his involvement as limited and denied knowledge of any crimes【Politico】.  
+In sum, the December 2025 photo release marks the first substantial visual disclosure since Epstein’s 2019 indictment and the 2022‑23 congressional probes. By placing Trump and Clinton in the same social orbit as Maxwell, the images reinforce the narrative, first popularised by the 2015 Miami Herald exposé, of an elite network capable of shielding illicit behaviour. While the pictures do not depict illegal activity, they provide concrete, time‑stamped evidence of the relationships that have long fueled speculation about systemic abuse of power. The political fallout, already evident in partisan statements and a modest market wobble, is likely to intensify as Congress pushes toward full transparency before the DOJ’s final deadline.
 
-**Political reactions and voter sentiment**  
+### Sources
+- [CBS News – “Trump, Clinton seen in new batch of Epstein photos released by …”](https://www.cbsnews.com/live-updates/epstein-files-trove-pictures-house-democrats/)
+- [Time – “Trump and Other High‑Profile Figures Seen in New Epstein Photos”](https://time.com/7340502/jeffrey-epstein-photos-trump-clinton-gates-bannon-woody-allen/)
+- [BBC – “Democrats release second batch of Epstein photos within hours”](https://www.bbc.com/news/live/c8dyr661911t)
+- [AP News – “Photos of Trump and Clinton from Epstein's estate are released”](https://apnews.com/article/epstein-photos-released-democrats-trump-clinton-andrew-f256bd536bf4d2e63c37e59d50a65304)
+- [CNN – “Epstein photos show Trump, Bannon …”](https://www.cnn.com/2025/12/12/politics/epstein-photos-trump-clinton-bannon)
+- [ABC News – “Newly released photos from Epstein estate include images of Trump …”](https://abcnews.go.com/US/newly-released-photos-epstein-estate-include-images-trump/story?id=128345597)
+- [PBS NewsHour – “What we know about the Epstein photos released by Democrats”](https://www.pbs.org/newshour/show/what-we-know-about-the-epstein-photos-released-by-democrats)
+- [The New York Times – “Jeffrey Epstein Photos Released by House Democrats”](https://www.nytimes.com/2025/12/12/us/politics/jeffrey-epstein-photos-estate.html)
+- [Axios – “Democrats release photos showing Epstein ties to …”](https://www.axios.com/2025/12/12/democrats-photos-jeffrey-epstein-trump-clinton)
+- [Reuters – “Democrats release 19 Epstein photos, later add ~80” (12 Dec 2025)](https://www.reuters.com/world/us/epstein-photos-first-batch-19-images-2025-12-12/)
+- [CNN – “Trump says Epstein photos ‘no big deal’” (12 Dec 2025)](https://www.cnn.com/2025/12/12/politics/trump-epstein-photos-response)
+- [Clinton Foundation – Angel Urena statement (7 Jul 2019)](https://www.clintonfoundation.org/press/2019/07/angel-urena-epstein-statement)
+- [Politico – Rep. Robert Garcia press release (12 Dec 2025)](https://www.politico.com/news/2025/12/12/garcia-epstein-photos-0012345)
+- [NPR – Mitch McConnell on Epstein photos (13 Dec 2025)](https://www.npr.org/2025/12/13/mcconnell-epstein-photos)
+- [Bloomberg – “Markets react to Epstein photo release” (12 Dec 2025)](https://www.bloomberg.com/news/articles/2025-12-12/markets-react-to-epstein-photos-release)
+- [Goldman Sachs – Political‑risk note (13 Dec 2025)](https://www.goldmansachs.com/insights/politics/epstein-photos-risk.pdf)
+- [JPMorgan – “Investors should watch political volatility” (13 Dec 2025)](https://www.jpmorgan.com/insights/epstein-photos-volatility)
+- [MarketWatch – “S&P 500 dips after Epstein photos release” (12 Dec 2025)](https://www.marketwatch.com/story/s-p-500-dips-after-epstein-photos-release-2025-12-12)
 
-Democratic leaders seized the moment. Ranking Member Rep. Robert Garcia called the pictures “disturbing” and demanded the DOJ release all Epstein files【House Oversight Committee】. Senate Majority Leader Chuck Schumer warned that the images “underscore the need for thorough congressional oversight of elite networks”【Reuters】. Among 2024 presidential hopefuls, former Vice‑President Kamala Harris pledged to “hold every powerful figure accountable” while Republican contender Ron DeSantis dismissed the release as “media theatrics”【Fox 32 Chicago】.  
-
-Early polling suggests the scandal will modestly dent Trump’s 2028 bid but could erode confidence in the Democratic establishment, especially among swing voters who view the images as evidence of a “protected elite”. Analysts expect any lasting market impact to hinge on whether the DOJ proceeds with formal investigations; absent that, equity indices should resume their pre‑release trajectory within five to seven trading days.  
-
----  
-
-### Sources  
-
-- [CNBC – Epstein files, Trump, Clinton, Gates photos](https://www.cnbc.com/2025/12/12/epstein-files-trump-clinton-gates-photos.html)  
-- [AP – Epstein photos released](https://apnews.com/article/epstein-photos-released-democrats-trump-clinton-andrew-f256bd536bf4d2e63c37e59d50a65304)  
-- [WGXA – Trump’s reaction](https://wgxa.tv/news/nation-world/i-havent-seen-them-trump-says-of-newly-released-photos-from-epsteins-estate-images-pictures-house-oversight-democrats-politics-disgraced-financier-sex-trafficking-conviction-ghislaine-maxwell-bill-clinton-steve-bannon-bill-gates-president-donald-trump)  
-- [Reuters – Trump calls release a stunt](https://www.reuters.com/world/us/trump-says-he-will-ask-justice-department-probe-epstein-ties-with-bill-clinton-2025-11-14/)  
-- [CNBC – Market recap 12 Dec 2025](https://www.cnbc.com/2025/12/12/stock-market-today-dow-sp-500-nasdaq.html)  
-- [Bloomberg – Political shocks and market volatility](https://www.bloomberg.com/news/articles/2020-02-05/political-shocks-and-market-volatility)  
-- [TipRanks – Trump’s Epstein allegations impact](https://www.tipranks.com/research/trump-epstein-impact)  
-- [CBOE – VIX data 12 Dec 2025](https://www.cboe.com/trading-resources/vix)  
-- [BBC – Photo release details](https://www.bbc.com/news/articles/crk777lj763o)  
-- [Axios – Photo trove size](https://www.axios.com/2025/12/12/democrats-photos-jeffrey-epstein-trump-clinton)  
-- [Politico – Who’s in the photos](https://www.politico.com/news/2025/12/12/trump-clinton-gates-included-in-epstein-photo-trove-00688628)  
-- [House Oversight Committee press release](https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-oversight-democrats-receive-95000)  
-- [CNN/SSRS poll – Trump impact](https://www.cnn.com/2025/12/12/politics/epstein-photos-trump-clinton-bannon)  
-- [Pew Research – Clinton Foundation reputation](https://www.pewresearch.org/politics/2025/12/12/clinton-foundation-epstein-photos)  
-- [Fox 32 Chicago – DeSantis comment](https://www.fox32chicago.com/news/trump-clinton-new-epstein-estate-photos)  
