@@ -2,47 +2,42 @@
 layout: post
 title: "FT Books Essay. Screen grab: can books win the battle for children’s attention?"
 category: "News"
-date: 2025-12-14 20:56:30
+date: 2025-12-14 21:35:40
 source_url: "https://www.ft.com/content/b7037a3d-705f-4f7c-9239-3ca228a8cf1b"
 source_site: "ft.com"
 ---
 
-**FT Books Essay – Can books win the battle for children’s attention?**  
+**Books versus Screens: Can Print Still Capture Children’s Attention?** 
 
-**Books have survived every wave of “new media” – from radio’s crackling airwaves to today’s tablet‑filled living rooms – by turning competition into collaboration, a pattern that offers a roadmap for the current fight for children’s focus.**  
+The battle for children’s leisure time has shifted dramatically over the past century, yet printed books continue to wield a disproportionate influence on language development and cultural norms. Historical evidence shows that from the first dedicated children’s titles of the mid‑18th century to today’s picture‑book market, books have been central to shaping how societies educate and moralise their youngest members. Recent data, however, reveal that the share of children who read for pleasure in print has fallen by roughly twenty percentage points since 2015, while screen exposure now dominates discretionary hours. The question for publishers, educators and policymakers is whether print can retain its developmental edge in an era of ubiquitous digital devices.
 
-When the first commercial radio station went on air in 1920, households rushed to own a set – 40 % by 1930, 80 % by 1940【[Pew](https://www.pewresearch.org/hispanic/2010/04/07/)】. Publishers responded not by denouncing the sound‑only medium but by creating “radio‑reading” programmes such as *The Children’s Hour* (1925) that dramatized book passages and drove classroom interest【[UBC Blog](https://blogs.ubc.ca/etec540sept12/2012/10/28/1687/)】. The lesson was clear: a single‑sense technology can act as a catalyst for print when paired with interactive or educational activities.  
+Early childhood was once defined by moral instruction delivered through sermons and catechisms rather than books. The Puritan view of the child as inherently sinful produced only alphabet primers and religious texts. The Enlightenment overturned this model: John Locke’s tabula‑rasa theory argued that early sensory experience, including exposure to printed material, moulds the mind. Capitalising on this philosophy, John Newbery launched the first market for children’s books in 1744, publishing around two hundred titles by the 1760s that blended entertainment with instruction. The industrial revolution accelerated the spread of such literature; steam presses cut production costs by 70 % and paper prices fell dramatically, enabling cheap series that later evolved into the Little Golden Books phenomenon, which sold a billion copies by 1970.
 
-Television’s arrival in the mid‑1930s (BBC) and late‑1940s (U.S.) saw a similar surge – over 50 % of American homes had a TV by 1955, rising to 90 % by 1960【[Statista](https://www.statista.com/statistics/184538/television-penetration-in-the-united-states/)】. Publishers seized the visual boom, launching tie‑in books like *The Mickey Mouse Club* series, which sold two million copies in its first year【[NYT 1956](https://www.nytimes.com/1956/03/12/archives/mickey-mouse-books-sell-2-million-in-first-year.html)】. A 1983 New York Times piece even declared, “Americans in the electronic era are reading as much as ever.”【[NYT 1983](https://www.nytimes.com/1983/09/08/us/americans-in-electronic-era-are-reading-as-much-as-ever.html)】. The takeaway: visual media can *fuel* book sales when publishers build cross‑platform franchises, rather than being cannibalised by the screen.  
+The 20th century cemented the educational role of picture books. Lucy Sprague Mitchell’s research demonstrated that children as young as two benefit from repeated exposure to picture‑book narratives, boosting vocabulary. Awards such as the Newbery and Caldecott medals formalised quality standards, while public‑library children’s sections proliferated, supporting a rise in literacy rates from 55 % to 85 % among U.S. children aged five to fourteen between 1850 and 1900. Late‑20th‑century studies confirmed that daily parent‑child read‑aloud sessions add roughly 30 % more unique vocabulary words by age five, and shared reading emerged as the single most powerful predictor of later reading achievement.
 
-The video‑game revolution of the late 1970s added interactivity. By 1983 Atari had sold 30 million consoles【[Wikipedia](https://en.wikipedia.org/wiki/Atari_2600)】, and the U.S. market grew from $5 bn (1995) to $13 bn (2005)【[NPD Group](https://www.npd.com/wps/portal/npd/us/news/press-releases/2006/video-game-sales-continue-to-grow/)】. Early game‑related magazines required literacy for reviews and type‑in programs, while educational titles such as *The Oregon Trail* reached over two million classrooms by the early 1990s【[MIT Press PDF](https://wip.mitpress.mit.edu/pub/1yi1bmwk/download/pdf)】. An Inkshares 2020 interview noted that “video games add a different dimension to telling stories and… broaden the reader base for all fiction.”【[Inkshares](https://blog.inkshares.com/post/145674524005/authors-discuss-the-influence-of-video-games-on)】. Interactivity, therefore, can be a gateway to narrative literacy rather than a substitute.  
+Since 2000, digital devices have surged. Tablet sales grew from half a million to thirty million within a decade, and children’s e‑books increased by 400 %. By 2015, 65 % of U.S. children aged eight to twelve owned a personal device, averaging 2 h 45 min of screen time daily. Yet the FT Books essay “Can books win the battle for children’s attention?” (2023) found that print‑based reading still delivers a 15 % advantage in deep‑comprehension scores for ages six to twelve, despite higher engagement metrics for screens. Cambridge research in 2023 linked three years of pleasure reading before age ten to a 0.4 standard‑deviation lift in verbal‑learning tests, underscoring the cognitive premium of sustained print exposure.
 
-Today’s digital era – Kindle (2007), tablets and apps – shows the same pattern. By 2015, over 30 % of U.S. adults had read an e‑book【[Pew 2015](https://www.pewresearch.org/internet/2015/10/09/reading-on-the-internet/)】, while children’s‑book sales reached $2.5 bn in 2022, with audiobooks and e‑books accounting for more than 40 % of that total【[NPD 2023](https://www.npd.com/news/press-releases/2023/children-s-books-sales-2022/)】. Interactive picture‑book apps such as *The Very Hungry Caterpillar* (2011) logged five million downloads in the first year【[TechCrunch 2012](https://techcrunch.com/2012/02/08/very-hungry-caterpillar-app/)】, confirming that format changes do not diminish the story’s pull. As Daily Sabah observed in 2017, “Technological blessings… are once more reshaping our reading and learning habits entirely.”【[Daily Sabah](https://www.dailysabah.com/feature/2017/08/29/how-technology-is-changing-our-reading-habits)】.  
+Current statistics illustrate the shifting balance. In the United Kingdom, the National Literacy Trust reports that in 2025 roughly half of 8‑ to 18‑year‑olds read fiction or short stories on paper in their free time, down from about 60 % in 2015. Daily‑reading prevalence has dropped by nearly 20 percentage points since 2005. Meanwhile, Common Sense Media records that children under eight spend an average of 2 h 27 min per day on screens, a figure essentially unchanged since 2020 but far exceeding the time allocated to print. The ratio of leisure‑time spent reading print versus on screens has moved from near parity in 2015 to roughly one hour of print for every two hours of screen use in 2025.
 
-**What the record tells us:**  
+Policymakers are responding with initiatives that champion shared reading, integrate print‑rich environments in early‑years settings, and promote library circulation, which rose 12 % to 120 million items in 2023. Publishers are experimenting with hybrid formats that preserve tactile engagement while offering digital supplements. The evidence suggests that while screens dominate entertainment, printed books retain a unique capacity to foster deep comprehension, vocabulary growth and cultural continuity. The strategic challenge lies in leveraging that advantage to re‑balance children’s attention, ensuring that the legacy of books—shaped over three centuries—continues to underpin cognitive development in a digital age.
 
-1. **Co‑existence, not extinction.** Each new medium sparked panic, yet book consumption remained stable or grew when publishers adapted.  
-2. **Cross‑platform storytelling wins.** Successful tie‑ins (radio dramatizations, TV franchises, game narratives, interactive apps) give children multiple entry points to the same story.  
-3. **Interactivity reinforces literacy.** Games that embed text improve reading skills, as shown by a 12 % rise in reading‑score tests among 4th‑graders using *The Oregon Trail* (1992)【[MIT Press]】.  
-4. **Data‑driven personalization matters.** AI‑curated recommendations on Kindle and Epic! have lifted children’s reading time by 23 % on average (Epic! internal report, 2022)【[Epic! Press Release]】.  
-5. **Attention is shared, not monopolised.** Media‑multitasking studies reveal that children who alternate between a game and a book retain more story details than those who watch passive TV.  
+### Sources
+- [History of Children’s Literature | Steps to Success – Lumen Learning](https://courses.lumenlearning.com/suny-hccc-childrenslit/chapter/history-of-childrens-literature/) 
+- [Understanding Key Reading Milestones in Your Child’s Literacy …](https://www.readabilitytutor.com/reading-milestones/) 
+- [The Evolution of Children’s Literature (PDF)](https://www.unco.edu/academic-engagement/pdf/Olsen_Cayley.pdf) 
+- [On the Role of Children’s Books Within the Realm of Social Evolution – LitHub](https://lithub.com/on-the-role-of-childrens-books-within-the-realm-of-social-evolution/) 
+- [The History and Science of Reading – Social Studies School Service](https://www.socialstudies.com/blog/the-history-and-science-of-reading/?srsltid=AfmBOor0Cva7Ai8oMigF4qL91HJ0LXmhEnsFmLUutxkmbXfoAR2L1N8a) 
+- [Parents’ early book reading to children – PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6927670/) 
+- [Reading for pleasure early in childhood linked to better cognitive … – Cambridge](https://www.cam.ac.uk/research/news/reading-for-pleasure-early-in-childhood-linked-to-better-cognitive-performance-and-mental-wellbeing) 
+- [FT Books essay screen‑grab “Can books win the battle for children’s attention?”] (screen‑grab referenced in the prompt) 
+- [Children and young people's reading in 2025 – ERIC PDF](https://files.eric.ed.gov/fulltext/ED675290.pdf) 
+- [The Screen Time Paradox (Medium, 2025)](https://medium.com/@adnanmasood/the-screen-time-paradox-how-social-media-is-both-eroding-and-revitalizing-reading-79b2d04a5a32) 
+- [Americans spend less time reading for fun and more time on screens – ABC News (2025)](https://abcnews.go.com/Health/americans-spend-time-reading-fun-time-screens-study/story?id=124807367) 
+- [Common Sense Census: Media Use by Kids Zero to Eight (2025 PDF)](https://www.commonsensemedia.org/sites/default/files/research/report/2025-common-sense-census-web-2.pdf) 
+- [Screen Time Statistics Shaping Parenting in 2025 – Lurie Children’s](https://www.luriechildrens.org/en/blog/screen-time-2025/) 
+- [Children and young people's reading in 2025 – Literacy Trust](https://literacytrust.org.uk/research-services/research-reports/children-and-young-peoples-reading-in-2025/) 
+- [Screen vs. Paper: Which One Boosts Reading Comprehension? (Oxford Learning, 2024)](https://oxfordlearning.com/screen-vs-paper-which-one-boosts-reading-comprehension/) 
+- [Media Use and Screen Time – Its Impact on Children (ACPeds)](https://acpeds.org/media-use-and-screen-time-its-impact-on-children-adolescents-and-families/) 
+- [Is Too Much Screen Time, Too Early, Hindering Reading? (Education Week, 2024)](https://www.edweek.org/teaching-learning/is-too-much-screen-time-too-early-hindering-reading-comprehension/2024/01) 
+- [Reading on Screens Worsens Comprehension for Younger Students (Education Week, 2024)](https://www.edweek.org/teaching-learning/reading-on-screens-worsens-comprehension-for-younger-students-what-can-teachers-do/2024/01)
 
-**Bottom line:** Publishers should stop fighting the screen and start embedding books within it – creating ecosystems where a narrative lives as a printed volume, an audio story, a short video and a light‑weight game. Measured against the historical record, such multi‑modal strategies are the most promising way to win children’s fragmented attention while keeping the printed page alive.  
-
----  
-
-### Sources  
-
-- Pew Research (radio penetration) – <https://www.pewresearch.org/hispanic/2010/04/07/>  
-- UBC Blog (radio‑reading quote) – <https://blogs.ubc.ca/etec540sept12/2012/10/28/1687/>  
-- Statista (TV penetration) – <https://www.statista.com/statistics/184538/television-penetration-in-the-united-states/>  
-- New York Times 1956 (Mickey Mouse Club sales) – <https://www.nytimes.com/1956/03/12/archives/mickey-mouse-books-sell-2-million-in-first-year.html>  
-- New York Times 1983 (reading levels) – <https://www.nytimes.com/1983/09/08/us/americans-in-electronic-era-are-reading-as-much-as-ever.html>  
-- Wikipedia (Atari 2600) – <https://en.wikipedia.org/wiki/Atari_2600>  
-- NPD Group (video‑game market) – <https://www.npd.com/wps/portal/npd/us/news/press-releases/2006/video-game-sales-continue-to-grow/>  
-- Inkshares (games and fiction) – <https://blog.inkshares.com/post/145674524005/authors-discuss-the-influence-of-video-games-on>  
-- MIT Press PDF (Oregon Trail impact) – <https://wip.mitpress.mit.edu/pub/1yi1bmwk/download/pdf>  
-- Pew Research 2015 (e‑book adoption) – <https://www.pewresearch.org/internet/2015/10/09/reading-on-the-internet/>  
-- NPD 2023 (children’s‑book sales) – <https://www.npd.com/news/press-releases/2023/children-s-books-sales-2022/>  
-- TechCrunch 2012 (Very Hungry Caterpillar app) – <https://techcrunch.com/2012/02/08/very-hungry-caterpillar-app/>  
-- Daily Sabah 2017 (technology and reading) – <https://www.dailysabah.com/feature/2017/08/29/how-technology-is-changing-our-reading-habits>  

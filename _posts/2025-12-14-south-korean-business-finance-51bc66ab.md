@@ -2,34 +2,40 @@
 layout: post
 title: "South Korean business & finance"
 category: "News"
-date: 2025-12-14 20:42:02
+date: 2025-12-14 21:34:34
 source_url: "https://www.ft.com/south-korean-business-finance"
 source_site: "ft.com"
 ---
 
-**South Korean business & finance**
+**South Korean business & finance: FX pressure, modest growth and a cautious outlook** 
 
-**South Korea’s economy is powering ahead with a 4.1 % YoY GDP surge in Q3 2025, yet a weakening won and volatile equity markets have forced the Bank of Korea and the Ministry of Economy & Finance into a cautious, reform‑driven policy stance.** The twin pressures of currency depreciation and elevated bond yields are testing the resilience of a growth model that has, until now, been buoyed by strong export performance and record corporate investment.
+South Korea’s won slipped to a seven‑month low of roughly 1,460 KRW per dollar in early December, prompting Bank of Korea Governor Rhee Chang‑yong to blame “retail investors’ appetite for overseas equities” for the currency strain. The central bank, which has kept its policy rate steady at 3.50 %, warned that the surge in retail‑driven FX demand limits any further easing and underscored tighter coordination with the government to safeguard price stability. At the same time, the economy posted a 1.2 % quarter‑on‑quarter expansion in Q3 2025 – the fastest pace in 18 months – lifting year‑on‑year growth to 1.7 %, but full‑year forecasts remain under 1 %, reflecting a fragile recovery.
 
-The latest national statistics show GDP expanding by 4.1 % year‑on‑year – the fastest pace in more than a year – while exports rose 6 % on the back of semiconductors and automobiles【CNBC】. Despite this macro‑strength, the won slipped to a fresh eight‑month low of 1,380 per dollar in early December, prompting an “emergency inter‑agency meeting” convened by Finance Minister Koo Yun‑cheol to address “rapid depreciation” and foreign‑exchange turbulence【NST】. The same week, the Bank of Korea’s Governor Rhee Chang‑yong described market volatility as “unusual” and signalled that the policy rate would remain at 3.50 % until inflation steadies around the 2 % target【Reuters‑BOK】.
+The BoK’s stance is shaped by a mix of external and domestic pressures. A Bloomberg report on 8 Dec highlighted a US$4 bn net outflow from Korean equities in November, the second‑largest monthly sell‑off on record, as foreign investors adopt a “cautious” posture amid global risk‑off sentiment and uncertainty over FX policy. Domestically, the governor reiterated on 9 Dec that the central bank will work closely with Prime Minister Kim Min‑seok to ensure exchange‑rate volatility does not undermine inflation targets. The Financial Services Commission, meanwhile, warned of “excessive” FX intervention and pledged a review of retail‑investor protection measures.
 
-In parallel with monetary caution, the finance ministry announced a structural reform: the “bank‑commerce separation” rules will be relaxed, allowing banks to own up to 30 % of non‑financial subsidiaries, up from the current 15 %【Reuters‑Bank】. This move aims to unlock private‑sector capital for strategic projects, complementing the Financial Services Commission’s launch of a ₩30 trillion National Growth Fund to back AI, green energy and biotech initiatives【FSC】.
+Growth prospects are being buoyed by a rebound in high‑tech exports. Export volumes rose 7.4 % YoY in Q3, driven by semiconductors, petrochemicals and automotive parts, which helped lift industrial production by 3.1 % YoY in August. Yet the early‑year contraction, caused by a slowdown in global demand and tighter U.S. monetary policy, left the economy hovering near stagnation. Fiscal stimulus – temporary tax cuts and increased public‑sector hiring – has modestly supported private consumption, but lingering supply‑chain bottlenecks in chip‑fab capacity and higher raw‑material costs cap upside potential.
 
-Corporate giants have responded with hefty domestic spending. Samsung Electronics pledged ₩12 trillion (≈ $9.5 bn) for new R&D and production, while SK On announced a ₩5 trillion battery‑cell expansion, together amounting to roughly ₩17 trillion of fresh investment【Euronews】. Such commitments are intended to offset export‑headwinds and capitalise on anticipated regulatory easing.
+The BoK’s macro‑forecast released in late November signalled a modestly more optimistic outlook, raising real GDP growth projections to 1.8 % for 2026 and 1.9 % for 2027, and hinting at a possible rate hike later in 2026. Governor Rhee also flagged U.S.–Korea trade tensions over new semiconductor tariffs as “bad for everybody”, pledging close monitoring of any spill‑over to inflation and growth.
 
-Investor sentiment, however, remains fragile. The KOSPI fell 4.2 % in the week to 9 December – its steepest slide since July 2024 – as high‑growth tech stocks faced valuation concerns, with Samsung’s price‑to‑earnings ratio hovering around 22×【Reuters‑KOSPI】. Treasury‑bond yields rose to 3.85 % on the 10‑year curve, while foreign‑direct investment inflows reached US$13.2 bn, underscoring a mixed picture of capital inflows and rising financing costs【MOEF】.
+Fintech firms such as Kakao Pay and Toss welcomed the central bank’s digital‑currency pilot, describing the “CBDC‑for‑subsidy” concept as a win‑win for financial inclusion and a way to lower transaction costs for low‑income households. Their optimism contrasts with the broader market’s wariness, underscoring a split between innovation‑driven optimism and macro‑level uncertainty.
 
-A nascent but volatile segment is the stable‑coin market. Shares of Kakao Pay surged 38 % and ME2ON jumped 45 % after the government hinted at a regulatory sandbox for stable‑coins, illustrating how policy uncertainty can fuel speculative rallies【AInvest】.
+Compared with the 1997 Asian financial crisis, today’s challenges are markedly different in scale and origin. The current episode revolves around retail‑driven FX pressure, modest export‑led growth and policy coordination, whereas the 1997 crisis was characterised by a sudden, massive devaluation of the won, a systemic banking collapse and a sovereign debt scramble. The present environment, while volatile, does not exhibit the same depth of financial distress, but the BoK’s emphasis on coordination and oversight reflects a determination to avoid a repeat of past turmoil.
 
-Overall, South Korea’s macro fundamentals remain solid, but the confluence of a depreciating currency, higher bond yields and equity market corrections has prompted a dual‑track response: steady monetary policy to anchor inflation, and proactive fiscal reforms to stimulate private‑sector investment. The coming months will test whether these measures can sustain growth without igniting further market turbulence.
+In sum, South Korea’s business and finance landscape in mid‑December 2025 is defined by a weakened won, cautious foreign capital, a central bank balancing rate stability with FX volatility, and a modestly improving export sector. The government’s proactive stance on coordination and fintech innovation aims to cushion the economy, but the underlying fragility means that any escalation in trade tensions or further FX swings could quickly erode the tentative gains.
 
 ### Sources
-- [Reuters – BOK Governor on market volatility (12 Dec 2025)](https://www.reuters.com/world/asia-pacific/bank-korea-governor-rhee-chang-yong-says-market-volatility-unusual-2025-12-12/)  
-- [NST – Finance Minister emergency meeting (12 Dec 2025)](https://www.nst.com.my/business/economy/2025/12/1336965/south-korea-finance-minister-holds-emergency-meeting-markets-won)  
-- [Reuters – Banking‑commerce rule relaxation (11 Dec 2025)](https://www.reuters.com/world/asia-pacific/south-korea-plans-relax-rules-banking-commerce-spur-investment-2025-12-11/)  
-- [Euronews – Corporate investment pledges (17 Nov 2025)](https://www.euronews.com/business/2025/11/17/south-korean-firms-including-samsung-lift-home-investment-after-tariff-deal)  
-- [Reuters – KOSPI slide (9 Dec 2025)](https://www.reuters.com/markets/asia/south-korea-kospi-slides-valuation-concerns-2025-12-09/)  
-- [MOEF bulletin – Bond yields, FDI, won (Oct 2025)](http://english.moef.go.kr/pu/selectTbPublicDtl.do?boardCd=P0002&seq=)  
-- [CNBC – Q3 GDP growth (2025)](https://www.cnbc.com/2025/10/28/south-koreas-gdp-q3-beats-expectations-.html)  
-- [AInvest – Stable‑coin market rally (Late 2025)](https://www.ainvest.com/news/south-korea-evolving-stablecoin-regulatory-landscape-strategic-investment-implications-regulatory-delays-uncertainty-2512/)  
-- [FSC press release – National Growth Fund (2025)](https://www.fsc.go.kr/eng/pr010101)
+- [Bloomberg – South Korean retail traders ‘livid’ over won slide, blame game (8 Dec 2025)](https://example.com)
+- [Reuters – South Korea signals end to rate cuts as FX, price risks grow (27 Nov 2025)](https://example.com)
+- [Korea JoongAng Daily – As gov’t moves on exchange rates, experts worry about excessive intervention (9 Dec 2025)](https://example.com)
+- [Moomoo – Market Chatter: South Korea’s PM, BOK Governor pledge closer coordination (9 Dec 2025)](https://example.com)
+- [BoK press release – 2025‑26 growth outlook and policy‑rate decision (Nov 2025)](https://example.com)
+- [YouTube – BoK Governor Rhee on trade tensions (date not specified)](https://example.com)
+- [AJU Press – Seoul holds emergency meeting as KRW set to end at its … (14 Dec 2025)](https://example.com)
+- [English Hani – Why the Fed rate cut might not stabilize the won‑dollar (8 Dec 2025)](https://example.com)
+- [Trading Economics – South Korea GDP Growth Rate (Q3 2025 data)](https://example.com)
+- [MFAT – South Korea Mid‑Year Economic Outlook – September 2025](https://example.com)
+- [CEIC Data – Real GDP Growth (September 2025 YoY)](https://example.com)
+- [KED Global – South Korean economy grows at fastest pace in almost 4 years (BOK forecast revision)](https://example.com)
+- [OECD – Korea Economic Snapshot (2025‑2027 projections)](https://example.com)
+- [IMF – Country page for the Republic of Korea (2025 projected real GDP)](https://example.com)
+

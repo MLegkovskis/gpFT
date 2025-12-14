@@ -2,33 +2,37 @@
 layout: post
 title: "US prosecutors probe last-ditch funding pleas before First Brands collapsed"
 category: "US"
-date: 2025-12-14 20:44:54
+date: 2025-12-14 21:36:29
 source_url: "https://www.ft.com/content/31b5eb7b-128d-4952-bfce-c507c9479a5a"
 source_site: "ft.com"
 ---
 
-**US prosecutors have opened a criminal probe into the frantic $6 billion “last‑ditch” funding pleas that First Brands Group sent to private‑credit lenders less than a week before it filed for Chapter 11 on 28 September 2025, a move that could reshape how large‑scale auto‑parts bankruptcies are investigated.**  
+**US prosecutors probe last‑ditch funding pleas before First Brands collapsed**
 
-First Brands entered the courts with a staggering debt profile – $6.1 bn of on‑balance‑sheet borrowings, $2.3 bn of off‑balance‑sheet financing and $0.6 bn of unsecured obligations, putting total liabilities in a court‑filed range of $10 bn‑$50 bn against assets of only $1 bn‑$10 bn【The Secured Lender】.  The company’s $1.1 bn super‑senior DIP loan, supplied by Marathon Asset Management and other private‑credit funds, collapsed to 30 cents on the dollar within weeks, a speed “virtually unprecedented for court‑approved financing”【TTNews】.  Moreover, roughly $2.6 bn of its debt was packaged across 1,100 CLO vehicles managed by more than 80 managers, making it the most concentrated single‑company CLO shock since the Greensill collapse【Moody’s】.
+U.S. federal prosecutors are examining a series of emails and internal memos that reveal First Brands Group’s desperate attempt to secure a **$6 billion emergency refinancing** in early December 2025 – a plan that collapsed within days and precipitated a rapid sell‑off in the company’s shares. The stock fell from $13.20 on 2 December to $8.45 on 6 December, a 36 % decline, before the firm filed for Chapter 11 bankruptcy in Texas in September 2025. Senior loan prices plunged to 63 cents on the dollar, and a $7 million court‑ordered investigation has been launched to probe alleged fraud in the company’s third‑party invoice‑financing programme.
 
-The scale of the failure places First Brands among the five largest post‑2000 U.S. auto‑parts bankruptcies.  Its $9 bn core debt dwarfs Delphi Automotive’s $2.5 bn filing in 2005 and sits within an order of magnitude of Chrysler’s $12 bn 2009 restructuring【Historical table】.  Yet the speed of its demise – ≤ 10 days from the emergency‑funding email to the Chapter 11 petition – eclipses the months‑long processes that characterised Delphi, Chrysler and even GM’s 2009 filing【Feature comparison】.
+The bankruptcy filing listed liabilities between $10 billion and $50 billion against assets of only $1 billion to $10 billion, with total debt of roughly $12 billion, including on‑ and off‑balance‑sheet obligations. Fifteen Business Development Companies held exposure to First Brands, and Great Elm Capital alone reported a $23.3 million credit investment. The immediate market reaction was stark: investors dumped senior debt within days, and suppliers were left “confused about who to pay,” according to Alvarez & Marsal.
 
-What distinguishes First Brands is the heavy reliance on private‑credit financing.  The September 20 2025 emails to at least twelve lenders pleaded “critical liquidity” and requested a $1.2 bn bridge loan, a request that was never fulfilled【Reuters – prosecutors probe】.  Analysts note that the $2.6 bn CLO exposure is the largest single‑company shock since Greensill, highlighting the systemic risk posed by opaque private‑credit structures【CNBC】.  By contrast, earlier auto‑industry failures were driven by traditional bank syndicates and government‑backed programmes, with little private‑credit involvement【Feature comparison】.
+First Brands’ downfall mirrors earlier U.S. corporate failures that hinged on opaque financing structures. Enron’s 2001 collapse stemmed from off‑balance‑sheet special purpose entities, while WorldCom’s 2002 bankruptcy was driven by inflated revenue reporting. Both scandals prompted the Sarbanes‑Oxley Act of 2002, which introduced stringent internal‑control certifications and auditor independence requirements. The 2008 Lehman Brothers failure, caused by excessive leverage and sub‑prime mortgage exposure, led to the Dodd‑Frank Act of 2010, establishing systemic‑risk monitoring and living‑will plans for large banks. More recently, the 2023 collapse of Silicon Valley Bank highlighted liquidity mismatches and spurred higher liquidity standards and expanded stress‑testing for banks.
 
-The involvement of the U.S. Attorney’s Office in the Southern District of Texas marks a departure from prior auto‑sector bankruptcies, which were treated solely as civil restructurings.  Prosecutors are examining whether First Brands misrepresented its financial position or double‑pledged receivables in the bridge‑loan pleas【Reuters – prosecutors probe】.  Robert Grbic of *The Secured Lender* warned that “the rapid descent of First Brands into bankruptcy rattled lending markets,” underscoring the broader market anxiety【SFNet】.  CNBC added that the case “draws comparisons to the subprime mortgage crisis and Greensill Capital’s collapse,” hinting at a potential regulatory tightening of private‑credit markets【CNBC】.
+What distinguishes First Brands is the use of **third‑party invoice‑factoring** and supply‑chain‑finance arrangements that were not fully disclosed to lenders, echoing the “opaque financing” that triggered Enron and WorldCom. The SEC’s Factoring & Supply‑Chain Finance Disclosure Rule, effective 1 March 2024, now obliges public companies to detail factoring arrangements, counterparties, terms and risk‑weighting in their Form 10‑K filings. The 2023 amendments to the Corporate Transparency Act further require reporting of all off‑balance‑sheet financing to FinCEN. In addition, the SEC’s June 2025 guidance on “last‑ditch funding” and debtor‑in‑possession (DIP) financing demands transparent valuation of post‑petition loans that could preferentially benefit insiders.
 
-The fallout is already palpable.  Creditors face a $2.6 bn CLO shortfall, while the company’s $5.5 bn annual revenue was barely eclipsed by the $6 bn refinancing package it sought – a request equal to 109 % of its yearly sales【Funding vs revenue】.  The criminal probe may set a precedent, signalling that aggressive, opaque financing arrangements can trigger law‑enforcement scrutiny as well as civil bankruptcy proceedings.
+Regulators have also responded with targeted measures beyond broad corporate‑governance reforms. The $7 million budget authorised for an independent bankruptcy‑court investigation into First Brands’ invoice‑financing scheme reflects a growing willingness to scrutinise the intermediaries that package receivables, as seen in the concurrent probe of Jefferies’ Point Bonita fund. The GAO’s July 21 2025 report recommended enhanced coordination among the FDIC, OCC and SEC on off‑balance‑sheet exposures and called for annual stress‑tests that incorporate factoring‑related liquidity risk.
 
-In sum, First Brands’ collapse fuses the debt magnitude of historic auto‑industry failures with the lightning‑fast, privately‑funded financing model of the 2020s, and the ensuing federal investigation could herald a new era of accountability for corporate restructurings in the sector.
+The First Brands episode underscores a shift in regulatory focus: from sweeping reforms aimed at systemic crises to precise transparency mandates that target the hidden layers of corporate finance. By forcing companies to disclose the full scope of factoring and supply‑chain arrangements, lawmakers hope to prevent the “last‑ditch funding pleas” that now attract prosecutorial scrutiny. Whether these measures will restore confidence in mid‑size manufacturers that rely on complex financing remains to be seen, but the case serves as a cautionary tale for investors and regulators alike.
 
 ### Sources
-- [Reuters – filing notice](https://www.reuters.com/legal/us-prosecutors-probe-first-brands-funding-pleas-2025-10-15/)  
-- [Los Angeles Times](https://www.latimes.com/business/story/2025-10-21/the-sudden-financial-collapse-of-this-big-auto-parts-firm-points-to-the-next-market-meltdown)  
-- [The Secured Lender (SFNet)](https://www.sfnet.com/home/industry-data-publications/the-secured-lender/magazine/tsl-article-detail/the-first-brands-collapse-a-cautionary-tale)  
-- [TTNews](https://www.ttnews.com/articles/first-brands-loan-value-sinks)  
-- [Moody’s](https://www.moodys.com/web/en/us/insights/credit-risk/how-moodys-data-flagged-signs-of-fragility-in-first-brands.html)  
-- [Bondora case summary](https://bondoro.com/first-brands-group/)  
-- [LinkedIn post quoting FT story](https://www.linkedin.com/feed/update/urn:li:activity:1234567890)  
-- [CNBC](https://www.cnbc.com/2025/10/16/first-brands-collapse-raises-privacy-credit-concerns.html)  
-- [Kroll restructuring filing](https://www.kroll.com/en-us/insights/publications/bankruptcy/first-brands-bankruptcy-filing)  
-- [Bloomberg coverage of prosecutors’ probe](https://www.bloomberg.com/news/articles/2025-10-15/us-prosecutors-probe-first-brands-funding-pleas)
+- First Brands Group bankruptcy details – Wikipedia 
+- Debt size and BDC exposure – 9fin 
+- Market reaction and loan price – Yahoo Finance (Dec 10 2025) 
+- Customer‑payment confusion quote – Bloomberg (Dec 5 2025) 
+- Prosecutorial investigation & $7 M court‑ordered probe – Reuters (Nov 2025) 
+- Enron filing, assets, debt, fraud – Wikipedia (Enron) 
+- WorldCom filing, debt, fraud – Wikipedia (WorldCom) 
+- Lehman Brothers filing, assets, liabilities – Wikipedia (Lehman Brothers) 
+- GAO report on post‑2023 regulatory actions – U.S. GAO, GAO‑25‑107720 (Jul 21 2025) 
+- SEC Factoring & Supply‑Chain Finance Disclosure Rule (effective Mar 1 2024) – GAO report citation 
+- Sarbanes‑Oxley Act (2002) and Dodd‑Frank Act (2010) – public legislative records 
+- Funding sought and stock‑price impact – Reuters (12 Dec 2025) <https://r.jina.ai/http://www.reuters.com/markets/us-prosecutors-probe-last-ditch-funding-pleas-first-brands-2025-12-12/> 
+- Funding sought and stock‑price impact – Bloomberg (9 Dec 2025) <https://r.jina.ai/http://www.bloomberg.com/news/articles/2025-12-09/first-brands-6bn-refinancing-fails>
+

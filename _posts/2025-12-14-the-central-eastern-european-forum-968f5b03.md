@@ -2,41 +2,35 @@
 layout: post
 title: "The Central & Eastern European Forum"
 category: "News"
-date: 2025-12-14 20:46:49
+date: 2025-12-14 21:38:07
 source_url: "https://theceeforum.com/"
 source_site: "ft.com"
 ---
 
-**The Central & Eastern European Forum has become the region’s barometer of integration, yet Poland’s “re‑polonisation” drive threatens to fracture the very single market it relies on for growth.**  
+**The Central & Eastern European Forum in Vienna underscored a cautiously optimistic outlook for the region, with senior policymakers and investors hailing new financing pipelines, AI‑driven analytics and a €500 million reconstruction package for Ukraine as signals of renewed momentum.** Over 2 000 delegates from 45 countries gathered at the Hilton Vienna on 14‑15 January, while a post‑day reception attracted roughly 500 additional participants, reflecting the event’s status as the premier meeting point for CEE finance after three decades of growth.
 
-The 2025 gathering in Vienna attracted more than 2,000 delegates from 45 countries, underscoring the CEE bloc’s economic clout – a legacy of the post‑communist transition and the 2004‑2007 EU enlargement that brought ten former Warsaw‑Pact states into the Union【CFR – EU Eastern Partnership background】. Yet the forum’s most striking divide emerged from Warsaw, where Prime Minister **Donald Tusk** declared the “era of naïve globalization” over and called for a “re‑polonisation” of the Polish economy, urging a rise in domestic content in public contracts from 30 % to 45 %【YouTube】. The immediate market reaction was stark: state‑controlled energy stocks slid – PGE –6.6 %, Enea –3.5 %, Tauron –8.5 %【Notes from Poland】, signalling investor anxiety over potential cost‑inflation and reduced cross‑border competition.
+Key speakers painted a picture of resilience. Valerie Brunner of Raiffeisen Bank International (RBI) warned that the energy transition will “increase lending demand”, while IMF’s Geoff Gottlieb praised the region’s “very good shape” and readiness to expand credit. Charlotte Ruhe of the European Bank for Reconstruction and Development (EBRD) reminded attendees that EU enlargement remains a top priority for Brussels, and Debora Revoltella of the European Investment Bank (EIB) highlighted the “resilience of CEE economies despite geopolitical tensions”. Banking executives echoed these sentiments: Łukasz Januszewski (RBI) stressed digitalisation as essential for customer engagement and noted the collaborative potential of neo‑banks and fintechs, and Stefan Dörfler of Erste Group pointed to country‑specific industry strengths as the new engine of local business momentum.
 
-By contrast, former Polish premier **Mateusz Morawiecki** used his Budapest plenary to stress that Poland’s growth remains “fuelled by EU integration”, pointing to €120 bn of annual exports to the EU27 and €2.3 bn of EU‑financed technology‑transfer programmes that have helped keep unemployment at 3.1 % and real‑wage growth at 5.2 % YoY【Gov.pl】. His message reinforced the consensus that deeper integration continues to deliver tangible macro‑economic benefits.
+The forum’s most tangible initiatives were policy‑driven. A reconstruction financing plan for Ukraine, estimated at €500 million, was unveiled in Panel VI, while NextGeneration EU funds were earmarked for renewable‑energy and digital‑transformation projects across the region. Perhaps the most striking innovation came from RBI’s GenAI‑based “central‑bank sentiment indicator”, which can deliver analysis within 30 minutes of a statement release. Vanguard’s co‑head of emerging‑market fixed income hailed the tool as “a powerful early‑warning risk‑assessment instrument”, whereas National Bank of Hungary Deputy Governor Virág showcased AI use‑cases ranging from outlier detection to alternative‑data development for monetary‑policy support.
 
-Hungary’s voice was more nuanced. Finance Minister **Mihály Varga** warned that over‑reliance on EU structural funds could jeopardise fiscal sustainability, proposing a €4 bn Central‑East European Investment Fund to finance cross‑border infrastructure without direct EU budget allocations【Reuters (12 May 2025)】. President **Katalin Novák** echoed a “de‑politicised economic integration” agenda, citing a 7 % YoY rise in services trade to €22 bn among CEE states【Hungarian Presidency】. Both proposals aim to preserve integration while reducing dependence on Brussels‑directed funding.
+Investor sentiment was broadly upbeat but not without caution. While Vanguard’s representative praised AI‑driven analytics, a chorus of investors expressed “lack of consensus” on scaling such tools, reflecting divergent views on the depth of GenAI integration into investment processes. Nonetheless, the overall panel consensus dismissed the notion of a “subdued sentiment toward the European economy” as overstated, arguing there is “good reason to be optimistic about the year ahead”.
 
-Observer **Mark Rutte**, former Dutch prime minister, praised the regional push for deeper ties but warned that Poland’s protectionist tilt could fragment the single market, potentially shaving €150 bn off the EU‑wide €15 trn single‑market GDP if intra‑EU trade fell by just 1 %【FT (20 Apr 2025)】. His caution highlights the macro‑economic stakes of divergent national policies.
+The forum’s relevance is amplified by its historic role in the region’s EU integration. For 31 years the CEE Forum has served as the definitive gathering point for governments, markets and investors, evolving in parallel with the EU’s enlargement waves of 2004, 2007 and 2013. The EU now accounts for 71 % of CEE goods trade (€1.2 trillion in 2022) and has channeled roughly €300 billion in Cohesion and Structural Funds since 2004, underpinning infrastructure, SME development and the green transition. By convening EU Commission officials alongside national finance ministries and private capital, the forum operationalises the legal frameworks first set out in the 1998 Association Agreements and translates them into concrete financing, regulatory alignment and market‑building actions.
 
-The forum’s historical roots trace back to the **Central European Initiative** founded in 1989 after the fall of the Berlin Wall, a direct response to the collapse of communism【CEI – history】. The modern CEE Forum, first convened in 2009 in Bratislava, has grown into the largest global gathering on CEE capital‑market development, with the 2024 edition described as “the biggest CEE Forum on record in its 29th year”【FT Live – 2024 record】 and the 2025 event drawing over 2,000 participants【Raiffeisen – 2025 Forum recap】. Its agenda mirrors EU programmes such as the Savings & Investments Union, cementing its role as a de‑facto EU‑CEE platform【European Commission – SIU Forum 2025】.
+Looking ahead, growth projections remain modest but positive. The wiiw autumn forecast projects an average annual growth of 2.6 % for CEE economies in 2026, which translates to an implied quarterly pace of about 0.6‑0.7 % for Q1 2026. Mastercard’s Economics Institute notes a “positive but modest near‑term trend”, while euro‑area data show a 0.10 % quarterly increase at the end of 2025, underscoring that the region is expected to outpace the broader euro area’s sluggish recovery.
 
-Looking ahead, the European Central Bank’s September 2025 staff projections anticipate a modest **0.2 %–0.3 % q/q real GDP expansion for the CEE bloc in Q4 2025**, translating to an annualised 2.5 %–3.0 % YoY gain【ECB staff macroeconomic projections】. This modest rebound follows a strong Q3 performance of 4.0 % YoY【ING – CEE diverging growth】 and is underpinned by German fiscal stimulus and defence‑related spending【ECB staff macroeconomic projections】.
-
-**Bottom line:** While the Central & Eastern European Forum reaffirms the region’s deep‑seated ties to the EU and the post‑communist transformation, Poland’s nationalist “re‑polonisation” agenda introduces a friction point that could undermine the single market’s cohesion—a risk echoed by Hungary’s cautious proposals and Rutte’s warning. The economic stakes are clear: even a small dip in intra‑EU trade could erase hundreds of billions of euros in value, while the projected modest Q4 growth offers only a tentative cushion.
+In sum, the Central & Eastern European Forum has reaffirmed the region’s trajectory toward deeper EU integration, greener finance and digital innovation. With strong institutional backing, a clear policy‑driven financing agenda and a cautiously bullish growth outlook, CEE markets appear poised to translate optimism into tangible economic gains in the months ahead.
 
 ### Sources
-- [YouTube – Tusk speech (15 Apr 2025)](https://www.youtube.com/watch?v=3WfyObZqQX4)  
-- [Notes from Poland – market reaction (15 Apr 2025)](https://notesfrompoland.com/2025/04/15/tusk-declares-end-of-naive-globalisation-and-calls-for-rebuilding-of-national-economy/)  
-- [Gov.pl – Morawiecki statement (23 Mar 2025)](https://www.gov.pl/web/primeminister/statement-by-prime-minister-mateusz-morawiecki-in-the-european-parliament)  
-- [Reuters – Varga interview (12 May 2025)](https://www.reuters.com/world/europe/hungary-asks-ceu-investment-fund-2025-05-12/)  
-- [Hungarian Presidency – Novák press release (9 Apr 2025)](https://www.kormany.hu/en/hungarian-presidency/press-release/cee-forum-2025)  
-- [FT – Rutte commentary (20 Apr 2025)](https://www.ft.com/content/cee-forum-2025-rutte)  
-- [CFR – EU Eastern Partnership background](https://www.cfr.org/backgrounder/european-unions-eastern-partnership)  
-- [CEI – history](https://www.cei.int/)  
-- [FT Live – 2024 record](https://fixed-income.live.ft.com/news/biggest-cee-forum-record-s-29th-year)  
-- [Raiffeisen – 2025 Forum recap](https://www.rbinternational.com/en/raiffeisen/blog/events-lifestyle/central-eastern-european-forum.html)  
-- [European Commission – SIU Forum 2025](https://finance.ec.europa.eu/news/commission-hosts-forum-savings-and-investments-union-european-central-eastern-and-southern-eastern-2025-09-26_en)  
-- ECB staff macroeconomic projections for the euro area, September 2025  
-- ING – “CEE: Diverging growth, converging hawks” (Q3 2025)  
-- World Bank – Global Economic Prospects, June 2025  
-- Mastercard – Europe’s economy poised for steady growth in 2026  
-- S&P Global – Economic Outlook Europe Q1 2026  
+- [Central & Eastern European Forum 2025 – RBI blog recap (Jan 2025)](https://www.rbinternational.com/en/raiffeisen/blog/events-lifestyle/central-eastern-european-forum.html) 
+- [Central & Eastern European Energy Efficiency (C4E) Forum 2025 – EU Commission news (May 2025)](https://cinea.ec.europa.eu/news-events/events/central-eastern-european-energy-efficiency-c4e-forum-2025-2025-05-20_en) 
+- [Insights from The Central & Eastern European Forum 2025 – RB International](https://www.rbinternational.com/en/raiffeisen/blog/events-lifestyle/central-eastern-european-forum.html) 
+- [The CEE Forum 2026 – official site](https://theceeforum.com/) 
+- [EU trade in goods – Eurostat (2022 data)](https://ec.europa.eu/trade/market-analysis/) 
+- [EU enlargement history – European Union website](https://europa.eu/european-union/about-eu/history/enlargement_en) 
+- [EU Association Agreements – European Commission](https://ec.europa.eu/neighbourhood-enlargement/enlargement-policy/association-agreements_en) 
+- [wiiw – Autumn Forecast: Eastern Europe with robust, but slower growth (22 Oct 2025)](https://wiiw.ac.at/autumn-forecast-eastern-europe-with-robust-but-slower-growth-n-700.html) 
+- [Mastercard Economics Institute – Europe’s Economy poised for steady growth in 2026 (10 Dec 2025)](https://www.mastercard.com/news/europe/en/newsroom/press-releases/en/2025/europe-s-economy-poised-for-steady-growth-in-2026-fueled-by-ai-adoption-global-trade-and-consumer-resilience/) 
+- [Trading Economics – Euro‑area GDP Growth (latest data, Sep 2025)](https://tradingeconomics.com/euro-area/gdp-growth) 
+- [EY – European Economic Outlook – October 2025](https://www.ey.com/en_pl/insights/economic-analysis-team/ey-european-economic-outlook-october-2025)
+

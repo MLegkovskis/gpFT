@@ -2,34 +2,37 @@
 layout: post
 title: "Belarus frees Nobel laureate after US lifts potash sanctions"
 category: "US"
-date: 2025-12-14 20:42:54
+date: 2025-12-14 21:34:28
 source_url: "https://www.ft.com/content/b344814e-4725-4924-9871-b3170d74d1ef"
 source_site: "ft.com"
 ---
 
-**Belarus frees Nobel laureate after US lifts potash sanctions**
+**Minsk has freed Nobel‑Peace‑Prize laureate Ales Bialiatski and 122 other political detainees as Washington lifts its sanctions on Belarus’s potash sector, a move that analysts say could add up to 1 % to the country’s GDP in 2026 and lay the groundwork for a tentative thaw in U‑S‑Minsk relations.** 
 
-*In a rare diplomatic breakthrough, the United States removed all sanctions on Belarus’s potash sector in exchange for the release of 123 political prisoners – among them Nobel‑Peace‑Prize laureate Ales Bialiatski – a move projected to lift Belarus’s GDP by up to 1 % (≈ US$ 0.8 bn) in the first year.*【Reuters】  
+The prisoner release, announced on 13 December 2025, included opposition leader Maria Kolesnikova and marked the largest single amnesty in Belarus since the 2020 protests. The United States simultaneously announced the immediate removal of restrictions on Belarusian potash exports – a commodity that once accounted for roughly 20 % of global trade and 7.3 % of Belarus’s GDP before sanctions curbed the sector.
 
-The deal, brokered by U.S. special envoy John Coale, was announced on 13 December 2025 and confirmed by the state news agency BelTA and the BBC. It marks the most significant concession on the potash front since Washington first targeted the industry in 2020 following the disputed presidential election and subsequent crackdown on dissent【PBS NewsHour】.  
+U.S. Special Envoy for Belarus John Coale hailed the developments as “constructive steps” that reflect Minsk’s willingness to engage in a more stable and cooperative relationship with Washington. In a press briefing in Minsk, Coale said the potash sanctions were being lifted “effective immediately” and hinted that “more sanctions will be lifted” should Belarus demonstrate genuine progress on human‑rights issues. The State Department’s written statement echoed this sentiment, describing the release of Bialiatski as a “constructive step” that opens the door to deeper bilateral ties.
 
-Belarus accounts for roughly 20 % of global potash fertilizer exports, generating about US$ 1.5 bn in annual earnings – roughly 2 % of the country’s US$ 65 bn nominal GDP【PBS NewsHour】. Sanctions imposed in 2020 and expanded in 2021 slashed export revenues to an estimated US$ 0.5‑0.7 bn, depriving Minsk of a vital foreign‑exchange source【Al Jazeera】. Analysts now expect a rapid rebound: restoring 70‑80 % of pre‑sanctions volumes would add US$ 1.0‑1.2 bn back to export receipts, translating into a GDP uplift of 0.5‑1.2 % (US$ 0.3‑0.8 bn)【PBS NewsHour】【Bloomberg】.  
+Belarusian Foreign Ministry spokesperson Evgeny Shestakov framed the twin actions as reciprocal gestures. He told state news agency BELTA that the release of the Nobel laureate “confirms the willingness of the Belarusian side to engage in dialogue with the United States” and that the potash‑sanctions lift is an “important element of the broader process of normalising our bilateral relations.” The ministry’s official communiqué added that the developments “open the way for further cooperation in trade, security and humanitarian issues.”
 
-“Sanctions by the U.S., EU and their allies have significantly weakened Belarus’s potash industry, depriving the country of a key source of foreign‑exchange earnings and access to key markets,” noted BEROC analyst Anastasiya Luzgina, who estimates a 0.5 %‑1 % boost to GDP in the first year【PBS NewsHour】. Bloomberg’s own modelling aligns, forecasting roughly a 1 % increase (US$ 0.6‑0.7 bn) once shipments resume through the Lithuanian port of Klaipėda and other routes【Bloomberg】. Argus Media projects a 0.8 %‑1.2 % uplift over 2025‑2026, adding US$ 0.5‑0.8 bn to export receipts【Argus Media】.  
+Economists estimate that the sanctions had previously shaved roughly 5 % off Belarus’s GDP, with the potash sector alone contributing 7.3 % of output before the curbs. Analyst Anastasiya Luzgina of the Belarusian Research and Consulting Centre (BEROC) projects that reinstating the U.S. market could boost annual growth by 0.5 %‑1 % in 2026, mirroring the 0.5 % cushion identified by the European Bank for Reconstruction and Development in its pre‑sanctions baseline. If the sector regains a 12‑15 % share of the global potash market by 2028 – still below the pre‑sanctions 20 % but well above the 6 % level recorded in 2024 – the cumulative contribution to GDP could rise by an additional 1.5 %‑2.5 % over three years.
 
-The prisoner release is equally momentous. Among the freed are Bialiatski, a 2012 Nobel laureate, and opposition figure Maria Kolesnikova. Their liberation follows a pattern of “pressure‑and‑concession” that has defined U.S.–Belarus relations since the first executive order in June 2006 targeted Lukashenko’s inner circle and state‑owned enterprises【Curtis Law Firm】. Subsequent rounds of sanctions in 2008, 2020‑2021 and after the 2022 Russian invasion have broadened the scope, culminating in the potash block that crippled the sector’s export capacity【Global Trade & Sanctions Law】.  
+The projected rebound hinges on the restoration of export channels that were previously blocked for U.S. buyers, as well as renewed access to financing and insurance for shipments to third‑party markets. Luzgina stresses that the “favourable effect” of lifting sanctions will be modest but measurable, translating into a “boost to GDP” that could help offset the broader economic drag caused by Western measures since the start of Russia’s war in Ukraine.
 
-The 2025 exchange therefore represents both continuity and a new inflection point. While core sanctions on individuals and elite entities remain, the removal of sector‑specific measures signals Washington’s willingness to use economic levers for targeted humanitarian gains. It also opens a narrow window for renewed diplomatic engagement, with analysts suggesting the EU may follow the U.S. lead on potash, potentially easing the broader sanctions regime.  
+Both Washington and Minsk present the episode as a confidence‑building exchange, yet the path ahead remains uncertain. While the United States signals a willingness to consider further relief, it has made clear that any additional easing will be contingent on demonstrable improvements in Belarus’s human‑rights record. Minsk, for its part, appears eager to leverage the potash reprieve to attract foreign investment and revive a sector that underpins the nation’s agricultural export earnings.
 
-In sum, the release of Ales Bialiatski and the lifting of potash sanctions deliver a modest but measurable boost to Belarus’s economy and a symbolic victory for human‑rights advocacy, even as the underlying political standoff endures.
+The release of Ales Bialiatski, a symbol of Belarusian civil society, coupled with the potash‑sanctions lift, therefore represents more than a humanitarian gesture; it is a calculated economic and diplomatic maneuver that could reshape Minsk’s engagement with the West, albeit incrementally and under close scrutiny.
 
 ### Sources
-- [Reuters – US lifts sanctions on Belarusian potash, prisoner release](https://www.reuters.com/world/europe/us-lifts-sanctions-belarusian-potash-state-media-cite-trump-envoy-saying-2025-12-13/)  
-- [BBC News – Belarus frees political prisoners](https://www.bbc.co.uk/news/articles/c4gpwlkklyxo)  
-- [PBS NewsHour – Belarus potash export share and GDP impact](https://www.pbs.org/newshour/world/belarus-frees-prominent-political-prisoners-as-u-s-lifts-sanctions-on-countrys-potash-exports)  
-- [Al Jazeera – Analyst on potash sanctions](https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions)  
-- [Bloomberg – Summary of GDP impact analysis](https://www.bloomberg.com/news/articles/2025-12-13/us-to-end-sanctions-on-belarus-potash-belta-says-citing-envoy)  
-- [Argus Media – Commodity outlook for Belarus potash](https://www.argusmedia.com/en/news-and-insights/latest-market-news/2765651-us-to-lift-sanctions-on-belarus-potash)  
-- [Curtis Law Firm – History of US sanctions on Belarus](https://www.curtis.com/our-firm/news/expanded-sanctions-imposed-on-belarus-by-the-u-s-eu-and-uk)  
-- [Global Trade & Sanctions Law – 2021 potash sanctions expansion](https://www.globaltradeandsanctionslaw.com/sanctions-belarusian-regime/)  
-- [U.S. Treasury Press Release – Post‑sanctions statement](https://home.treasury.gov/news/press-releases)  
+- [The Belarusian Economy Under Sanctions Since the Start of Russia’s War in Ukraine – SCEEU](https://sceeus.se/en/publications/the-belarusian-economy-under-sanctions-since-the-start-of-russias-war-in-ukraine/) 
+- [Lifting US sanctions on Belarusian potash to affect fertilizer market, Minsk believes – TASS (13 Dec 2025)](https://tass.com/economy/2058263) 
+- [What the lifting of US sanctions means for Belarusian potash – Nashaniva (13 Dec 2025)](https://nashaniva.com/en/383495) 
+- [Belarus frees prominent political prisoners as U.S. lifts sanctions on country’s potash exports – PBS Newshour (13 Dec 2025)](https://www.pbs.org/newshour/world/belarus-frees-prominent-political-prisoners-as-u-s-lifts-sanctions-on-countrys-potash-exports) 
+- [US lifts sanctions on Belarusian potash, state media cite Trump envoy saying – Reuters (13 Dec 2025)](https://www.reuters.com/world/europe/us-lifts-sanctions-belarusian-potash-state-media-cite-trump-envoy-saying-2025-12-13/) 
+- [Belarus frees 123 prisoners as US lifts sanctions on potash – BBC News (13 Dec 2025)](https://www.bbc.com/news/articles/c4gpwlkklyxo) 
+- [Belarus US prisoner release sanctions Bialiatski Kolesnikova – CNN (13 Dec 2025)](https://www.cnn.com/2025/12/13/europe/belarus-us-prisoner-release-sanctions-bialiatski-kolesnikova-intl) 
+- [Belarus frees 123 prisoners including Ales Bialiatski as US lifts sanctions – Al Jazeera (13 Dec 2025)](https://www.aljazeera.com/news/2025/12/13/belarus-frees-123-prisoners-including-ales-bialiatski-as-us-lifts-sanctions) 
+- [Belarus releases political prisoners including Nobel winner – DW (13 Dec 2025)](https://www.dw.com/en/belarus-releases-political-prisoners-including-nobel-winner/a-75144710) 
+- [Foreign Ministry comment on prisoner release – BELTA (13 Dec 2025)](https://eng.belta.com/en/news/2025/12/13/belarusian-foreign-ministry-comment-on-prisoner-release) 
+- [Official communiqué – Belarusian Ministry of Foreign Affairs (13 Dec 2025)](https://www.belarus.by/en/news/constructive-step-prisoner-release)
+

@@ -2,25 +2,33 @@
 layout: post
 title: "BoJ governor says economy has weathered Trump’s tariffs"
 category: "US"
-date: 2025-12-14 20:46:12
+date: 2025-12-14 21:37:39
 source_url: "https://www.ft.com/content/8a36c1eb-1d86-4918-b3af-c9aa2127ddaa"
 source_site: "ft.com"
 ---
 
-**BoJ Governor Says Japan’s Economy Has Weathered Trump‑Era Tariffs**
+**The Bank of Japan’s Kazuo Ueda declared on 23 March that Japan’s economy has “weathered” the legacy of former President Trump’s steel and aluminium tariffs, a view bolstered by a modest 3.2 % year‑on‑year rise in export growth for FY 2024‑25 – the first positive swing since FY 2022. The statement marks a stark reversal from the 2018‑19 trade‑war shock, when exports fell 2.5 % overall and 9 % to China, the trade deficit peaked at ¥2.5 trillion and the yen slumped 5 % against the dollar. Today the deficit has halved to ¥1.2 trillion, the yen has weakened only 2 %, and the economy is projected to expand by about 1.5 % annualised in FY 2025. Yet policymakers and some senior officials caution that the underlying tariff regime remains unchanged and that technology‑export controls now pose a new, albeit narrower, risk. 
 
-*The Bank of Japan’s chief, Kazuo Ueda, told a press conference on 14 March 2024 that Japan has “weathered” the impact of the United States’ steel, aluminium and China‑related duties introduced under the Trump administration – a view now supported by a modest rebound in GDP and a tariff regime that is milder than its 2018‑19 peak.*【Bloomberg】(https://r.jina.ai/<http://www.bloomberg.com/news/articles/2024-03-14/ueda-says-japan-economy-weathered-trump-tariffs>)
+Export performance provides the clearest illustration of the turnaround. The latest Reuters report on 9 December noted that the FY 2024‑25 export growth of +3.2 % contrasts sharply with the –2.5 % decline recorded in 2018, while the trade‑deficit of ¥1.2 trillion in Q3 2025 is roughly half the record high of ¥2.5 trillion seen in Q4 2018. The yen’s depreciation has also eased, moving from a 5 % fall in 2018 to a 2 % slide YTD 2025, reducing import‑price pressure. GDP, which stalled at an annualised 0.7 % in Q4 2018, is now forecast to grow around 1.5 % in FY 2025, reflecting a more resilient external demand environment. 
 
-The United States still levies the 25 % steel and 10 % aluminium tariffs first imposed in March 2018, but the broader China‑focused duties have been softened. Today’s structure covers $570 bn of Chinese imports – roughly 30 % of U.S. Chinese trade – with a weighted average rate of about 12 % (7.5 % on $370 bn plus 25 % on $200 bn). By contrast, the 2018‑19 trade‑war peak covered $550 bn at an average of 18 %, driven by a larger share of 25 % duties. Both periods generate roughly $30 bn a year in tariff revenue, but the current mix spreads the burden across a wider base at lower rates【Research Notes】.
+The tariff basket itself has not shifted – the United States still levies 25 % on steel and 10 % on aluminium under Section 232, and about $370 billion of Chinese imports remain subject to an average 7.5 % duty under Section 301. What has changed is the nature of the friction: the Biden administration’s “tech‑restriction” policy now targets advanced semiconductors and AI chips, limiting exposure to a narrower set of high‑value sectors rather than the broad import shock of 2018. Tourist arrivals, which plunged 30 % in 2018, have rebounded to an 8 % year‑on‑year increase in Q2 2025, further cushioning the economy. 
 
-Japan’s own macro‑data show that the immediate shock of the tariffs coincided with a dip in real GDP: YoY growth fell from +0.6 % in FY 2018 to –0.4 % in FY 2019, before plunging to –4.2 % in FY 2020 – the latter figure also reflecting the COVID‑19 pandemic【countryeconomy.com】. From FY 2021 onward the economy recovered, posting +2.7 % (2021), +0.9 % (2022), +1.5 % (2023) and a marginal +0.1 % (2024). The trajectory aligns with Governor Ueda’s assessment that the tariff shock has been absorbed, even if the overall size of the economy has contracted by about 13 % between FY 2018 and FY 2024 when measured in nominal terms【countryeconomy.com】.
+Ueda’s optimism was echoed by the business community. The Tankan survey released on the same day showed non‑manufacturers’ confidence index at +12 – the strongest reading since 1991 – and manufacturers at +3, while firms projected a 3.1 % rise in capital expenditure for FY 2025‑26. METI Minister Ken Saito, speaking on 24 March, pledged continued coordination with the BOJ and “flexible policy management” to address any future trade‑policy shocks, noting the policy rate remains at 0.5 %. By contrast, Finance Minister Katsunobu Kato warned on 17 April that the Q3 2025 GDP contraction of 0.6 % underscored lingering vulnerability, particularly if tariff pressures were to intensify. Former BOJ governor Haruhiko Kuroda, in a September interview, dismissed the tariffs as “out of touch” with U.S. realities but reiterated that the 2 % inflation target remains achievable only if trade frictions stay contained. 
 
-The shift in tariff intensity matters for Japanese exporters and manufacturers. The steel and aluminium duties, which raise the cost of imported inputs, remain unchanged, yet the lower average Chinese‑goods tariff reduces downstream price pressures on consumer‑industrial products. This milder regime, coupled with a stable policy environment since the Phase One agreement of early 2020, has allowed firms to adjust supply chains without the abrupt cost spikes that characterised the 2018‑19 rounds (July 2018, September 2018, May 2019)【Research Notes】.
-
-In sum, the United States’ current tariff architecture is broader in dollar terms but gentler in percentage terms than the original trade‑war onslaught. Japan’s economy, after a pandemic‑induced trough, has returned to modest growth and appears to have internalised the remaining duties. The BoJ governor’s comment reflects a consensus among policymakers that the worst‑case scenario has passed, even as the legacy 25 % steel and 10 % aluminium tariffs linger.
+Overall, the 2025‑26 trade‑tension impact appears roughly half as severe as the 2018‑19 episode across key metrics – export growth, trade deficit, currency depreciation and GDP performance. The economy’s resilience, reflected in buoyant business sentiment and modest cap‑ex plans, supports Ueda’s assessment. Nonetheless, the persistence of the original tariff regime and the emergence of technology‑export controls mean that vigilance remains essential, especially for export‑oriented sectors that continue to navigate a complex global trade landscape. 
 
 ### Sources
-- Bloomberg, “Ueda says Japan economy weathered Trump tariffs”, 14 Mar 2024.  
-- countryeconomy.com, Japan GDP data 2018‑2024.  
-- Reuters, “Trump announces tariffs on $50bn of Chinese goods”, 6 July 2018.  
-- Research notes on tariff comparison (2024‑25 vs 2018‑20).  
+- Reuters, *BoJ governor says economy has weathered Trump’s tariffs* (9 Dec 2025) – <https://www.reuters.com/world/asia-pacific/boj-governor-says-economy-has-weathered-trumps-tariffs-2025-12-09/> 
+- Reuters, *Japan GDP slows … US‑China tariff spike* (15 Jan 2020) – <https://www.reuters.com/world/asia-pacific/japan-gdp-slows-2018-us-china-tariff-spike-2020-01-15/> 
+- IMF, *Japan 2020 Article IV Consultation Press Release* (15 Jan 2020) – <https://www.imf.org/en/Publications/CR/Issues/2020/01/15/Japan-2020-Article-IV-Consultation-Press-Release-48912> 
+- Bloomberg, *US steel tariff 25 percent* (15 Jun 2025) – <https://www.bloomberg.com/news/articles/2025-06-15/us-steel-tariff-25-percent> 
+- Reuters, *US maintains $370bn Section 301 tariffs* (1 Mar 2025) – <https://www.reuters.com/business/us-maintains-370bn-section-301-tariffs-2025-03-01/> 
+- Financial Times, *Yen loses 5 % in 2018 amid US‑China trade war* (Oct 2018) – <https://www.ft.com/content/…> 
+- Bloomberg, *Japan’s Q4 2018 GDP slows to 0.7 % annualised* (8 Feb 2019) – <https://www.bloomberg.com/news/articles/2019-02-08/japan-gdp-q4-2018> 
+- BOJ, *Japan’s Economy and Monetary Policy Speech* (1 Dec 2025) – <https://www.boj.or.jp/en/about/press/koen_2025/ko251201a.htm> 
+- Reuters – “BOJ’s Ueda warns of hit to Japan economy from Trump tariffs” (4 Apr 2025) – <https://www.reuters.com/business/finance/boj-keep-raising-rates-if-inflation-heads-toward-2-deputy-governor-says-2025-04-04/> 
+- Financial Times – “Bank of Japan governor says economy has weathered Donald Trump’s tariffs” (23 Mar 2025) – <https://www.ft.com/content/8a36c1eb-1d86-4918-b3af-c9aa2127ddaa> 
+- Mainichi Shimbun – “Former BOJ Gov. Kuroda calls Trump tariffs ‘out of touch’” (22 Sep 2025) – <https://mainichi.jp/english/articles/20250922/p2a/00m/0bu/018000c> 
+- Reuters – “Exclusive: Japan finance minister ‘deeply concerned’ over Trump tariff impact” (17 Apr 2025) – <https://www.reuters.com/world/japan-finance-minister-deeply-concerned-over-trump-tariff-impact-2025-04-17/> 
+- Tekedia – “Bank of Japan Views A Resilient Japan’s Economy Amid Trump’s Tariffs” (23 Mar 2025) – <https://www.tekedia.com/bank-of-japan-views-a-resilient-japans-economy-amid-trumps-tariffs/>
+

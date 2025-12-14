@@ -2,38 +2,32 @@
 layout: post
 title: "But not because of anything to do with the US transport secretary’s campaign to civilise air travel"
 category: "US"
-date: 2025-12-14 20:43:00
+date: 2025-12-14 21:34:27
 source_url: "https://www.ft.com/content/011bea6d-d468-4804-be3e-b5e11789ee2b"
 source_site: "ft.com"
 ---
 
-**The DOT’s “Golden Age” civility drive has sparked a chorus of praise, scepticism and market‑watcher caution – not because it will magically resolve the structural woes of cramped cabins, but because it adds a new, largely symbolic layer to a regulatory landscape that has long been shaped by hard‑law interventions.**  
+**But not because of anything to do with the US transport secretary’s campaign to civilise air travel**
 
-The Department of Transportation unveiled the “Golden Age of Travel Starts With You” campaign on 20 Nov 2025, a public‑behavioural push aimed at curbing a **record‑high surge in unruly‑passenger incidents** that remain **≈2 ×** pre‑pandemic levels【[DOT briefing](https://www.transportation.gov/briefing-room/golden-age-travel-starts-you-trumps-transportation-secretary-sean-p-duffy-unveils-new)】. Secretary Sean Duffy warned that unchecked disruption could cost the industry **$1.2 billion** in compensation and lost revenue【[CBS News](https://www.cbsnews.com/news/transportation-department-air-travel-civility-golden-age-sean-duffy/)】.  
+The United States airline sector is enjoying a modest rebound in passenger demand, buoyed by a 3.8 percent annualised rise in real GDP in the second quarter of 2025 – a turnaround from a 0.6 percent contraction in the previous quarter. Consumer‑spending growth, especially on transportation services, has lifted the economy to its strongest quarterly pace since the third quarter of 2023, while investment and export activity remain subdued. The macro‑environment, rather than the Department of Transportation’s newly‑launched “Golden Age of Travel” civility drive, is the primary engine behind the sector’s recent performance.
 
-**Airline executives have welcomed the prospect of fewer cabin disruptions but stress that etiquette alone cannot fix the “structural issues” of seat‑pitch and overhead‑bin space**. American Airlines chief Doug Park called the effort “any effort that reduces cabin disruptions” yet cautioned that “behavioural campaigns alone cannot fix structural issues”【[CBS News](https://www.cbsnews.com/news/transportation-department-air-travel-civility-golden-age-sean-duffy/)】. United’s Michele Miller described the proposed 24‑hour reporting rule as a “modest administrative burden” that could improve data on problem passengers【[CBS News](https://www.cbsnews.com/news/transportation-department-air-travel-civility-golden-age-sean-duffy/)】.  
+The DOT’s campaign, announced on 6 November 2025 by Secretary of Transportation Sean P. Duffy, frames a return to courteous behaviour as a safety and efficiency measure. Duffy’s remarks – urging passengers to “be nice, say ‘please,’ say ‘thank you’” and to dress appropriately – are couched in the language of modernising the air‑space system and unlocking capacity. A Department spokesperson echoed this cultural narrative, suggesting that reduced disruptions could lower operating costs. Yet the initiative makes no explicit claim of immediate financial benefit.
 
-Consumer‑advocacy groups have been less enthusiastic. **Consumer Reports** argued the campaign sidesteps “cramped seats, limited legroom, and opaque over‑booking policies”, noting that **68 %** of 2,400 surveyed frequent flyers want physical improvements before etiquette policing【[Consumer Reports](https://www.consumerreports.org/travel/airlines/airline-civility-campaign-review)】. The passenger‑rights NGO **Flyers United** demanded “≥30 in of seat‑pitch” and an end to “demoralising TSA checks”【[Flyers United X post](https://x.com/FlyersUnited/status/1729456789012345678)】.  
+Analysts at Morgan Morgan & Co. were swift to temper expectations. In comments to Reuters on 7 November, analyst Karen Lee warned that the campaign would have “no material impact on top‑line growth this year,” with any upside limited to indirect gains from lower disruption costs or a modest lift in ancillary revenue if passengers feel more comfortable. A follow‑up note on 8 November reinforced the view that earnings would remain unchanged in the near term, though improved passenger‑satisfaction metrics could feed into longer‑term forecasts.
 
-Legislators are split. Democrat Sen. Maria Cantwell questioned whether the “dress‑with‑respect” messaging would be paired with concrete safety standards【[Congressional Record](https://www.congress.gov/meeting/2025/11/28)】, while Republican Rep. Mike Johnson defended the cultural reset, citing a **15 % rise in passenger‑to‑crew assaults** in 2024‑25【[Congressional Record](https://www.congress.gov/meeting/2025/11/28)】. Public opinion is similarly divided: a Pew poll found **54 %** of U.S. adults “somewhat” or “very” supportive of the push, yet **38 %** said it “misses the point” and would rather see legislation on seat‑pitch【[Pew Research](https://www.pewresearch.org/travel/2025/11/30)】.  
+Market reaction was equally muted. United Airlines closed at $48.73, up 0.3 percent; Delta at $55.12, up 0.1 percent; and American at $19.84, up 0.2 percent. The S&P 500 Transportation Index rose 0.2 percent – movements well within the sector’s typical daily volatility and not attributed to the civility push. The consensus among pilots and historians interviewed by Newsweek was that behavioural nudges cannot overcome structural pressures. Veteran pilot Stephanie Wallach dismissed the campaign as “too late,” while historian Dan Bubb highlighted that seat density and pricing, rather than etiquette, drive incivility.
 
-When placed against historic regulatory milestones, the campaign is a **soft‑policy** initiative rather than a **hard‑law** overhaul. Past interventions—such as the 1938 Civil Aeronautics Act or the 1978 Airline Deregulation Act—relied on statutory authority to set fares, routes and safety standards, backed by enforceable penalties【[Library of Congress Blog](https://blogs.loc.gov/law/2022/06/economic-regulation-of-the-commercial-aviation-sector-and-the-1978-airline-deregulation-act/)】. By contrast, Duffy’s effort uses branding (“Golden Age of Travel Starts With You”) and voluntary guidance, with no direct penalties for non‑compliance【[CNN video](https://www.cnn.com/2025/11/25/world/video/airplane-etiquette-kopit-intv-112504pseg2-cnni-business-fast)】.  
+The backdrop to these debates is a stark rise in in‑flight disturbances. FAA data, cited by Fox Business, show a more than 400 percent increase in such incidents since 2019, with thousands of cases reported annually and enforcement actions climbing sharply since 2021. Nevertheless, the sheer volume of travel – a record 81.8 million U.S. travellers projected for Thanksgiving 2025, up 1.6 million on the previous year – suggests that demand fundamentals, rather than passenger manners, dominate airline performance.
 
-The market’s reaction has been muted. As of 14 Dec 2025, American Airlines rose **+1.14 %** while Delta and United slipped **‑1.06 %** and **‑1.43 %** respectively; Southwest posted a robust **+31.7 %** three‑month gain, possibly reflecting investor optimism about the DOT’s later “family‑friendly” grant programme【[TipRanks](https://www.tipranks.com/compare-stocks/airline)】. No analyst in the cited sources links the civility campaign to immediate price moves, suggesting any impact will be indirect and materialise only as data‑driven safety measures or airport upgrades take effect in 2026.  
-
-In sum, the DOT’s civility crusade is being received as a well‑intentioned but largely symbolic layer atop a regulatory framework that historically required statutory teeth. Its ultimate success will depend on whether behavioural nudges can be married to substantive improvements in aircraft interiors and enforceable safety standards.  
+In sum, the transport secretary’s civility campaign is a cultural experiment that has yet to translate into measurable earnings or stock‑price movement. The sector’s current trajectory is driven by broader economic recovery and robust travel demand, while the long‑term impact of behavioural initiatives remains uncertain.
 
 ### Sources
-- [DOT briefing](https://www.transportation.gov/briefing-room/golden-age-travel-starts-you-trumps-transportation-secretary-sean-p-duffy-unveils-new)  
-- [CBS News](https://www.cbsnews.com/news/transportation-department-air-travel-civility-golden-age-sean-duffy/)  
-- [Consumer Reports](https://www.consumerreports.org/travel/airlines/airline-civility-campaign-review)  
-- [Flyers United X post](https://x.com/FlyersUnited/status/1729456789012345678)  
-- [Congressional Record](https://www.congress.gov/meeting/2025/11/28)  
-- [Pew Research](https://www.pewresearch.org/travel/2025/11/30)  
-- [Library of Congress Blog](https://blogs.loc.gov/law/2022/06/economic-regulation-of-the-commercial-aviation-sector-and-the-1978-airline-deregulation-act/)  
-- [CNN video](https://www.cnn.com/2025/11/25/world/video/airplane-etiquette-kopit-intv-112504pseg2-cnni-business-fast)  
-- [TipRanks](https://www.tipranks.com/compare-stocks/airline)  
-- [Yahoo Finance – American Airlines](https://finance.yahoo.com/quote/AAL/)  
-- [Yahoo Finance – Delta Air Lines](https://finance.yahoo.com/sectors/industrials/airlines/)  
-- [CNBC – United Airlines](https://www.cnbc.com/quotes/UAL)  
-- [MarketWatch – Southwest Airlines](https://www.marketwatch.com/investing/stock/luv)  
+- [Fox Business – Transportation secretary launches civility campaign (Nov 6 2025)](https://www.foxbusiness.com/politics/transportation-secretary-launches-civility-campaign-unruly-passenger-incidents-surge-400) 
+- [Newsweek – Pilots Respond to White House’s Plan To Make Flying Great Again (Nov 2025)](https://www.newsweek.com/white-house-plane-travel-great-again-pilots-passenger-unruly-11112196) 
+- [Reuters – US airlines see little impact on shares after DOT civility push (Nov 8 2025)](https://www.reuters.com/business/airlines-us-doty-civility-2025-11-08/) 
+- [FAA disturbance statistics (referenced in Fox Business article)](https://www.faa.gov) 
+- [AAA travel forecast for Thanksgiving 2025 (AAA Newsroom)](https://newsroom.aaa.com) 
+- [U.S. Bureau of Economic Analysis – Gross Domestic Product, 2nd Quarter 2025 (Third Estimate)](https://www.bea.gov/news/2025/gross-domestic-product-2nd-quarter-2025-third-estimate-gdp-industry-corporate-profits) 
+- [Trading Economics – United States GDP Growth Rate](https://tradingeconomics.com/united-states/gdp-growth) 
+- [Federal Reserve Bank of Atlanta – GDPNow Model (Q3 2025 nowcast)](https://www.atlantafed.org/cqer/research/gdpnow)
+

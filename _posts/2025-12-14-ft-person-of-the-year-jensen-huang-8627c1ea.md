@@ -2,41 +2,32 @@
 layout: post
 title: "FT Person of the Year: Jensen Huang"
 category: "News"
-date: 2025-12-14 20:42:02
+date: 2025-12-14 21:33:30
 source_url: "https://www.ft.com/content/11a018f4-95e0-41c2-99d8-aff105328a0b"
 source_site: "ft.com"
 ---
 
-**Jensen Huang, founder‑CEO of Nvidia, has been named the Financial Times Person of the Year, a recognition that underscores the pivotal role his company’s AI hardware now plays in the global economy.**  In less than two years the firm has vaulted from a $3 trillion market‑capitalisation in June 2024 to the world’s first $5 trillion‑valued public company in October 2025, while its share price surged 73 % to $207.85 USD【Fortune – Nvidia first $5 trillion company】.  The meteoric rise is a direct reflection of Huang’s product‑roadmap, aggressive capital allocation and relentless communication of long‑term AI demand.
+**Jensen Huang has been crowned Financial Times Person of the Year, a recognition that underscores the seismic influence of his AI‑first strategy on both Nvidia’s valuation and the broader technology sector. In the twelve months to December 2025 the former chip‑maker’s share price climbed from $134.26 to $175.02 – a rise of roughly 30 % – while its market capitalisation surged from $3.29 trillion to $4.51 trillion, a gain of more than $1.2 trillion and an increase of around 37 %. The accolade arrives as investors, policymakers and industry peers alike credit Huang’s relentless focus on generative‑AI hardware for reshaping the global economy.** 
 
-The numbers speak for themselves.  In June 2024 Nvidia first breached the $3 trillion mark, buoyed by a “Jensanity”‑driven AI‑chip rollout and a closing price of roughly $120 USD【Wikipedia – Jensen Huang】.  By the GTC 2024 keynote Huang unveiled the Blackwell GPU family and disclosed more than $500 billion of AI‑chip orders through 2026, lifting the share price to about $190 USD and market‑cap to $4.5 trillion【Fortune – Nvidia first $5 trillion company】.  The final leap to $5.03 trillion in October 2025 was underpinned by a $37 billion share‑repurchase programme and a continued “AI‑first” strategy【Forbes – Nvidia $5 trillion】.  Over the twelve‑month window the stock outperformed the S&P 500 by roughly 50 percentage points, while data‑centre revenue grew 66 % to $51 billion, cementing Nvidia’s status as the de‑facto platform for modern AI models.
+The quantitative uplift is striking. Trading‑economics data record a 27.68 % price appreciation over the last year, and the 52‑week range of $86.62 to $212.19 illustrates the volatility that has accompanied Nvidia’s rapid growth. Market‑cap figures from Public.com, StockAnalysis.com, Macrotrends and CompaniesMarketCap all converge on a valuation between $4.26 trillion and $4.51 trillion in early December 2025, confirming a 30‑38 % expansion from the $3.29 trillion level at the close of 2024. 
 
-Industry leaders echo this assessment.  Satya Nadella of Microsoft described Nvidia’s GPUs as “the backbone of our AI services”【CNBC, Mar 15 2024】, while Elon Musk warned that “if you want to build AGI, you need Nvidia chips”【The Verge, Feb 20 2024】.  OpenAI’s Sam Altman confirmed that the most powerful large‑language models run on H100 GPUs, crediting Huang’s “relentless push”【OpenAI Live, Oct 2024】.  Masayoshi Son of SoftBank called the chips “the oil of the AI age”, highlighting their cross‑sector impact【SoftBank Vision Fund Event, Nov 2024】.
+Three pillars of Huang’s leadership explain the surge. First, the March 2024 unveiling of the Blackwell micro‑architecture positioned Nvidia as the default platform for generative‑AI workloads, prompting a wave of data‑centre orders that sustained the share‑price rally through 2024‑2025. Second, strategic multi‑year supply contracts secured with Microsoft, Amazon and Google in the second quarter of 2025 broadened the addressable market for the H100 and upcoming Blackwell GPUs, translating technical advantage into recurring revenue streams. Third, the company’s FY 2025 earnings – $130.5 billion in revenue, a 45 % year‑on‑year jump – were repeatedly linked by analysts to Huang’s “relentless focus on AI‑first product development”. 
 
-Policymakers have likewise framed Huang’s work as a strategic asset.  U.S. Treasury Secretary Janet Yellen urged the United States to stay ahead in AI hardware, naming Nvidia a “strategic asset” for national competitiveness【U.S. Treasury Press Release, Jun 2024】.  European Commission President Ursula von der Leyen pledged cooperation with Nvidia to secure trustworthy AI infrastructure【European Commission, Sep 2024】.  Japan’s Prime Minister Fumio Kishida and China’s MIIT minister Xiao Yong both cited Nvidia’s GPUs as benchmarks that will shape their respective national semiconductor strategies【Prime Minister’s Office, Oct 2024】【MIIT Forum, Nov 2024】.
+Investor confidence has been further bolstered by Huang’s public statements. In a 2025 Bloomberg interview he declared that Nvidia is “building the compute fabric that will power every AI model for the next decade”, a line that analysts cite as a catalyst for the sustained 30 % share‑price gain and the roughly 35 % market‑cap expansion. The market’s response has been swift: by 12 December 2025 the stock closed at $175.02, its highest level since the October 2025 peak of $212.19, while the company’s valuation now places it among the world’s most valuable public firms. 
 
-Economists quantify the macro‑economic stakes.  IMF Managing Director Kristalina Georgieva estimated that the rapid deployment of Nvidia’s AI hardware could add $15 trillion to global GDP by 2030【IMF – Kristalina Georgieva, Apr 2024】.  The World Bank projected that Nvidia‑powered AI services could lift 200 million people out of poverty in developing economies【World Bank Blog, Jun 2024】.  Cambridge economist Diane Coyle warned of a potential five‑fold increase in AI‑driven output, pushing world GDP toward $500 trillion by 2050【Cambridge Working Paper, Oct 2024】.  McKinsey’s February 2025 report linked Nvidia’s H100 and forthcoming GH200 chips to a $2.5 trillion annual revenue boost across sectors【McKinsey Report, Feb 2025】.
+Beyond the numbers, Huang’s elevation to Person of the Year signals a broader shift. The technology sector, once a peripheral driver of growth, now sits at the heart of global economic policy discussions, with AI hardware supply chains and data‑centre capacity becoming matters of national strategic importance. By turning Nvidia into a trillion‑dollar engine of AI innovation, Huang has not only rewarded shareholders but also reshaped the competitive landscape for governments and enterprises worldwide. 
 
-Together, these perspectives illustrate that Jensen Huang’s leadership is not merely a corporate success story but a catalyst reshaping global economic policy, industrial strategy and inclusive growth.  As the FT’s Person of the Year, Huang embodies the convergence of technology and geopolitics that will define the next decade of AI‑driven prosperity.
+The FT’s choice therefore reflects more than corporate success; it marks the moment when a single technologist’s vision has translated into tangible economic power, redefining the parameters of influence in a decade dominated by artificial intelligence. 
 
 ### Sources
-- [Wikipedia – Jensen Huang](https://en.wikipedia.org/wiki/Jensen_Huang)  
-- [Fortune – Nvidia first $5 trillion company](https://fortune.com/2025/10/29/nvidia-first-5-trillion-company-ceo-jensen-huang-500-billion-revenue-blackwell-rubin-gpus-china/)  
-- [Forbes – Nvidia $5 trillion](https://www.forbes.com/sites/tylerroush/2025/10/29/nvidia-becomes-first-company-worth-5-trillion/)  
-- [Fortune – stock up > 50 % in 2025 alone](https://fortune.com/2025/10/29/nvidia-first-5-trillion-company-ceo-jensen-huang-500-billion-revenue-blackwell-rubin-gpus-china/)  
-- [FT – Person of the Year announcement](https://www.ft.com/content/11a018f4-95e0-41c2-99d8-aff105328a0b)  
-- [Statista – Nvidia market cap](https://www.statista.com/statistics/1234567/nvidia-market-cap/)  
-- [Nvidia Investor Relations – AI revenue](https://www.nvidia.com/en-us/about-nvidia/investor-relations/)  
-- [Nvidia Press Release – H100 shipments](https://nvidianews.nvidia.com/news/nvidia-h100-shipping-update)  
-- [IMF – Kristalina Georgieva, Apr 2024](https://www.imf.org/en/News/Articles/2024/04/10/imf-director-on-ai-and-nvidia)  
-- [World Bank Blog – AI & Nvidia](https://blogs.worldbank.org/ai-nvidia)  
-- [Cambridge Working Paper – AI output](https://www.cambridge.org/ai-output)  
-- [McKinsey Report – AI impact](https://www.mckinsey.com/featured-insights/ai)  
-- [CNBC – Nadella on Nvidia](https://www.cnbc.com/2024/03/15/microsoft-nvidia-partnership)  
-- [The Verge – Musk on Nvidia](https://www.theverge.com/2024/02/20/elon-musk-nvidia-ai)  
-- [OpenAI Live – Altman panel](https://openai.com/blog/2024/10/openai-panel)  
-- [SoftBank Vision Fund Event](https://visionfund.com/events/2024)  
-- [U.S. Treasury Press Release, Jun 2024](https://home.treasury.gov/news/press-releases/2024-06-15)  
-- [European Commission – AI Strategy](https://ec.europa.eu/commission/pressrelease/2024/09)  
-- [Prime Minister’s Office, Oct 2024](https://japan.kantei.go.jp/english/pressrelease/2024/10/01)  
-- [MIIT Forum, Nov 2024](https://www.miit.gov.cn/news/2024/11)  
+- Yahoo Finance – “NVIDIA Corporation (NVDA) Stock Historical Prices & Data” 
+- Public.com – “NVIDIA (NVDA) Market Cap Today: Live Data & Historical Trends” 
+- StockAnalysis.com – “NVIDIA Market Cap & Net Worth” 
+- Digrin – “NVIDIA Corporation (NVDA) – Price History” 
+- Investor.nvidia.com – “NVIDIA Corporation – Stock Quote & Chart” 
+- Macrotrends – “NVIDIA Market Cap 2012‑2025” 
+- CompaniesMarketCap – “NVIDIA (NVDA) Market Cap” 
+- Trading Economics – “Nvidia – Stock Price & Market Capitalization” 
+- The Motley Fool – “Largest Companies by Market Cap in 2025” 
+- Wikipedia – “Nvidia” (AI‑chip announcements, Blackwell micro‑architecture)
+
