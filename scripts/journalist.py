@@ -1,7 +1,6 @@
 import json
 import os
 import datetime
-import concurrent.futures
 import re
 import time
 import glob
@@ -30,7 +29,6 @@ def load_config():
     cfg.setdefault("full_rebuild", False)
     cfg.setdefault("max_active_posts", 20)
     cfg.setdefault("max_headlines", 50)
-    cfg.setdefault("max_workers", 5)
     cfg.setdefault("max_new_articles", 0)
     return cfg
 
@@ -216,10 +214,8 @@ def process_single_article(item):
     questions = generate_research_plan(headline)[:3]
 
     research_notes = ""
-    with concurrent.futures.ThreadPoolExecutor(max_workers=len(questions)) as executor:
-        futures = [executor.submit(conduct_deep_dive, q, headline) for q in questions]
-        for future in concurrent.futures.as_completed(futures):
-            research_notes += future.result()
+    for question in questions:
+        research_notes += conduct_deep_dive(question, headline)
 
     article_content = write_final_story(headline, research_notes)
     if not article_content:
@@ -275,7 +271,7 @@ def main():
     ensure_dirs()
     print(
         f"[config] full_rebuild={cfg['full_rebuild']} max_active_posts={cfg['max_active_posts']} "
-        f"max_workers={cfg['max_workers']} max_new_articles={cfg['max_new_articles']}"
+        f"max_new_articles={cfg['max_new_articles']}"
     )
 
     if not os.path.exists('headlines.json'):
@@ -302,9 +298,12 @@ def main():
         update_feed(scraped, load_existing_source_urls(), cfg['max_active_posts'])
         return
 
-    print(f"[delta] Generating {len(candidates)} articles in parallel...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=int(cfg.get('max_workers', 5))) as executor:
-        executor.map(process_single_article, candidates)
+    print(f"[delta] Generating {len(candidates)} articles sequentially with rate limiting...")
+    for idx, item in enumerate(candidates):
+        process_single_article(item)
+        if idx < len(candidates) - 1:
+            print("   -> ⏳ Waiting 30 seconds before next article...")
+            time.sleep(30)
 
     existing_urls = load_existing_source_urls()
     update_feed(scraped, existing_urls, cfg['max_active_posts'])
