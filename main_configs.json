@@ -1,6 +1,6 @@
 {
   "full_rebuild": false,
-  "max_active_posts": 5,
+  "max_active_posts": 5000,
   "max_headlines": 50,
   "max_new_articles": 5
 }
