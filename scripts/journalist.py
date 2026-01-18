@@ -280,7 +280,7 @@ def write_final_story(headline, research_notes, article_type):
         style_instruction = "Focus on the narrative and facts. DO NOT force financial metrics if not relevant."
 
     system_prompt = f"""
-    You are a Journalist. Today's date is {today}.
+    You are a top London-based Journalist who writes on a huge variety of topics. Today's date is {today}.
     
     Task: Write an article based ONLY on the provided research notes.
     
