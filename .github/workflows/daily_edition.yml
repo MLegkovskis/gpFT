@@ -76,8 +76,9 @@ jobs:
       - name: 3. Commit New Posts
         if: steps.detect_changes.outputs.changed == 'true'
         run: |
-          git config --global user.name 'FT-Bot'
+          git config --global user.name 'Journalist-Bot'
           git config --global user.email 'bot@noreply.github.com'
+          git pull origin main
           git add -A _posts _data/feed.json main_configs.json
           git commit -m "Hourly Edition: $(date -u +'%Y-%m-%dT%H:%MZ')"
           git push
