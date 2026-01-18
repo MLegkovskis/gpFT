@@ -253,3 +253,26 @@ header {
         padding: 30px 20px;
     }
 }
+
+/* --- LINK STYLING IN ARTICLES --- */
+.article-body a {
+    color: var(--ft-black); /* Keep text dark */
+    text-decoration: none;
+    border-bottom: 2px solid var(--ft-red); /* Distinctive underline */
+    transition: background-color 0.2s ease;
+}
+
+.article-body a:hover {
+    background-color: #fce4ec; /* Light pink highlight on hover */
+    color: var(--ft-black);
+}
+
+/* Ensure sources section links are also visible */
+.article-body ul li a {
+    color: var(--ft-red);
+    border-bottom: 1px solid transparent;
+}
+
+.article-body ul li a:hover {
+    border-bottom: 1px solid var(--ft-red);
+}

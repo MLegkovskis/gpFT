@@ -5,6 +5,7 @@ import re
 import time
 import glob
 import hashlib
+import requests
 from groq import Groq
 from slugify import slugify
 
@@ -91,6 +92,26 @@ def ensure_sources_section(markdown: str) -> str:
     return markdown.strip() + "\n\n---\n### Sources\n- _Sources unavailable_\n"
 
 
+def validate_and_clean_links(markdown_text: str) -> str:
+    """Check markdown links and strip ones that 404."""
+    url_pattern = r"\[([^\]]+)\]\((https?://[^\)]+)\)"
+
+    def check_link(match):
+        text = match.group(1)
+        url = match.group(2)
+        try:
+            headers = {"User-Agent": "Mozilla/5.0"}
+            response = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
+            if response.status_code == 404:
+                print(f"    [Link Check] ❌ Dead link found and removed: {url}")
+                return text
+            return f"[{text}]({url})"
+        except Exception:
+            return text
+
+    return re.sub(url_pattern, check_link, markdown_text)
+
+
 def delete_all_posts(posts_dir=POSTS_DIR):
     if not os.path.exists(posts_dir):
         return
@@ -105,29 +126,35 @@ def delete_all_posts(posts_dir=POSTS_DIR):
 def generate_research_plan(headline):
     today = get_today_str()
     prompt = f"""
-    You are a Senior Editor at the Financial Times. Today's date is {today} (UTC).
-    We have a breaking headline: "{headline}".
-    Generate 3 distinct investigative questions covering:
-    1) hard data / numbers (GDP, stock moves, poll numbers)
-    2) history or context
-    3) market / political reaction or quotes
+    You are a Senior Editor. Today is {today}.
+    Headline: "{headline}"
 
-    Respond ONLY with a JSON array of strings, e.g.
-    ["What are the GDP figures?", "How have markets reacted?", "What is the government's stance?"]
+    1. Classify this headline into one of these types: [Financial/Market], [Political], [General News/Culture], [Tech], [Sports].
+    2. Generate 3 specific investigative questions.
+       - If [Financial]: Ask about stock moves, GDP impact, revenue numbers.
+       - If [General/Culture/Sports]: Ask about the event details, quotes, and historical context. DO NOT ask for financial impact unless obvious.
+
+    Respond ONLY with a JSON object:
+    {
+        "type": "Category Name",
+        "questions": ["Question 1", "Question 2", "Question 3"]
+    }
     """
     try:
         completion = client.chat.completions.create(
             model=PLANNER_MODEL,
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
+            temperature=0.1,
+            response_format={"type": "json_object"}
         )
-        response = completion.choices[0].message.content
-        match = re.search(r"\[.*\]", response, re.DOTALL)
-        if match:
-            return json.loads(match.group(0))
+        data = json.loads(completion.choices[0].message.content)
+        return data
     except Exception as exc:
         print(f"Planning failed for {headline}: {exc}")
-    return [f"What are the latest, verifiable facts regarding {headline}?"]
+        return {
+            "type": "General News",
+            "questions": [f"What are the key facts regarding {headline}?"]
+        }
 
 
 def conduct_deep_dive(question, query_context):
@@ -162,27 +189,41 @@ def conduct_deep_dive(question, query_context):
         return f"Could not research '{question}': {exc}\n"
 
 
-def write_final_story(headline, research_notes):
+def write_final_story(headline, research_notes, article_type):
     today = get_today_str()
-    system_prompt = f"""
-    You are a senior correspondent for the Financial Times. Today's date is {today} (UTC).
-    Write a 400-600 word article using ONLY the provided research notes.
 
-    Style guide:
-    - Tone: authoritative British English.
-    - Structure: inverted pyramid; first paragraph must be **bolded**.
-    - Do NOT include inline citations in the prose (no 【】 or bracket clutter).
-    - List all references in a clean '### Sources' section at the end as bullet points with Markdown links.
-    - Never invent dates or sequences. If a date is not clearly in the notes, omit it.
-    - Output valid Markdown only.
+    if "Financial" in article_type or "Tech" in article_type:
+        style_instruction = "Focus on numbers, market reaction, and economic implications. Use precise financial terminology."
+    else:
+        style_instruction = "Focus on the narrative, human impact, and factual events. DO NOT force financial metrics or stock reactions if they are not central to the story."
+
+    system_prompt = f"""
+    You are a Pulitzer-prize winning journalist for a top-tier global newspaper (like the FT or NYT). 
+    Today's date is {today}.
+    
+    Task: Write a 400-600 word article based ONLY on the provided research notes.
+    
+    CRITICAL QUALITY GATES:
+    1. **Data Availability**: If the research notes say "could not research" or contain no concrete facts/dates/quotes, you MUST output exactly: "ABORT_ARTICLE". Do not write an apology.
+    2. **Relevance**: {style_instruction}
+    3. **Tone**: Objective, sophisticated, British English. No fluff, no "In conclusion" headers.
+    
+    Structure:
+    - **Lead**: A strong, bolded opening paragraph summarizing the 'so what'.
+    - **Body**: Inverted pyramid. Supporting facts, quotes, and context.
+    - **Sources**: A clean list at the bottom.
+    
+    Output valid Markdown.
     """
+
     user_prompt = f"""
     Headline: {headline}
+    Category: {article_type}
 
     Research Notes:
     {research_notes}
 
-    Produce the article now.
+    Write the article or output ABORT_ARTICLE.
     """
     try:
         completion = client.chat.completions.create(
@@ -194,10 +235,15 @@ def write_final_story(headline, research_notes):
             temperature=0.3
         )
         content = completion.choices[0].message.content
+
+        if "ABORT_ARTICLE" in content:
+            return None
+
         url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
         content = re.sub(url_pattern, r"<\1>", content)
         content = re.sub(r"【[^】]{1,120}】", "", content)
         content = re.sub(r"[ \t]{2,}", " ", content)
+        content = validate_and_clean_links(content)
         content = ensure_sources_section(content)
         return content
     except Exception as exc:
@@ -211,15 +257,30 @@ def process_single_article(item):
     source_url = item.get('url')
     print(f"⚡ Starting: {headline}...")
 
-    questions = generate_research_plan(headline)[:3]
+    plan_data = generate_research_plan(headline)
+    article_type = plan_data.get("type", "General News")
+    questions = plan_data.get("questions", [])[:3]
+    print(f"   [Plan] Detected type: {article_type}")
 
     research_notes = ""
+    valid_info_found = False
     for question in questions:
-        research_notes += conduct_deep_dive(question, headline)
+        note = conduct_deep_dive(question, headline)
+        if len(note) > 100 and "could not research" not in note.lower():
+            valid_info_found = True
+        research_notes += note
 
-    article_content = write_final_story(headline, research_notes)
+    if not valid_info_found:
+        print(f"   [Skip] ❌ Research failed to find concrete data for: {headline}")
+        return
+
+    article_content = write_final_story(headline, research_notes, article_type)
     if not article_content:
-        time.sleep(1)
+        print(f"   [Skip] ❌ Writer aborted (insufficient data/quality) for: {headline}")
+        return
+
+    if "I'm sorry" in article_content[:50] or "I cannot write" in article_content[:50]:
+        print(f"   [Skip] ❌ Writer refused prompt for: {headline}")
         return
 
     slug = slugify(headline)
@@ -227,7 +288,7 @@ def process_single_article(item):
     time_str = get_current_time_str()
     url_hash = hashlib.sha1((source_url or headline).encode('utf-8')).hexdigest()[:8]
     filename = os.path.join(POSTS_DIR, f"{date_slug}-{slug}-{url_hash}.md")
-    safe_title = headline.replace('"', "'")
+    safe_title = headline.replace('"', "'").replace(':', ' -')
     front_matter = (
         f"---\n"
         f"layout: post\n"
