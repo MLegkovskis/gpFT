@@ -5,7 +5,7 @@ import re
 import time
 import glob
 import hashlib
-import requests
+import requests  # verify you have 'requests' in requirements.txt
 from groq import Groq
 from slugify import slugify
 
@@ -15,9 +15,10 @@ POSTS_DIR = "_posts"
 
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-PLANNER_MODEL = "llama-3.3-70b-versatile"
-RESEARCHER_MODEL = "groq/compound"
-WRITER_MODEL = "openai/gpt-oss-120b"
+# Using models capable of JSON mode
+PLANNER_MODEL = "llama-3.3-70b-versatile" 
+RESEARCHER_MODEL = "groq/compound" 
+WRITER_MODEL = "llama-3.3-70b-versatile" # Switched to Llama 3.3 for reliable JSON output
 
 
 def load_config():
@@ -85,31 +86,38 @@ def load_existing_source_urls(posts_dir=POSTS_DIR) -> set[str]:
     return urls
 
 
-def ensure_sources_section(markdown: str) -> str:
-    """Ensure the markdown ends with a clean Sources section."""
-    if re.search(r"(?im)^\s*###\s+Sources\s*$", markdown):
-        return markdown.strip() + "\n"
-    return markdown.strip() + "\n\n---\n### Sources\n- _Sources unavailable_\n"
-
-
-def validate_and_clean_links(markdown_text: str) -> str:
-    """Check markdown links and strip ones that 404."""
+def validate_and_clean_links(markdown_text):
+    """
+    Parses markdown for links, checks if they return 200/403 (valid),
+    and removes links that return 404 (dead).
+    """
+    # Regex to find [text](url)
     url_pattern = r"\[([^\]]+)\]\((https?://[^\)]+)\)"
-
+    
     def check_link(match):
         text = match.group(1)
         url = match.group(2)
         try:
-            headers = {"User-Agent": "Mozilla/5.0"}
-            response = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
-            if response.status_code == 404:
+            # Short timeout, user-agent to avoid immediate blocking
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+            r = requests.head(url, headers=headers, timeout=3, allow_redirects=True)
+            
+            # If 404, return just the text (unlink it)
+            if r.status_code == 404:
                 print(f"    [Link Check] ❌ Dead link found and removed: {url}")
-                return text
+                return text 
             return f"[{text}]({url})"
         except Exception:
+            # If connection fails completely, assume dead and unlink
             return text
 
     return re.sub(url_pattern, check_link, markdown_text)
+
+
+def ensure_sources_section(markdown: str) -> str:
+    if re.search(r"(?im)^\s*###\s+Sources\s*$", markdown):
+        return markdown.strip() + "\n"
+    return markdown.strip() + "\n\n---\n### Sources\n- _Sources unavailable_\n"
 
 
 def delete_all_posts(posts_dir=POSTS_DIR):
@@ -125,6 +133,7 @@ def delete_all_posts(posts_dir=POSTS_DIR):
 
 def generate_research_plan(headline):
     today = get_today_str()
+    # NOTICE: Double curly braces {{ }} used for the JSON example to avoid f-string errors
     prompt = f"""
     You are a Senior Editor. Today is {today}.
     Headline: "{headline}"
@@ -132,13 +141,13 @@ def generate_research_plan(headline):
     1. Classify this headline into one of these types: [Financial/Market], [Political], [General News/Culture], [Tech], [Sports].
     2. Generate 3 specific investigative questions.
        - If [Financial]: Ask about stock moves, GDP impact, revenue numbers.
-       - If [General/Culture/Sports]: Ask about the event details, quotes, and historical context. DO NOT ask for financial impact unless obvious.
-
-    Respond ONLY with a JSON object:
-    {
+       - If [General/Culture/Sports]: Ask about event details, quotes, and context. DO NOT ask for financial impact unless obvious.
+    
+    Respond ONLY with a JSON object in this format:
+    {{
         "type": "Category Name",
         "questions": ["Question 1", "Question 2", "Question 3"]
-    }
+    }}
     """
     try:
         completion = client.chat.completions.create(
@@ -147,13 +156,12 @@ def generate_research_plan(headline):
             temperature=0.1,
             response_format={"type": "json_object"}
         )
-        data = json.loads(completion.choices[0].message.content)
-        return data
+        return json.loads(completion.choices[0].message.content)
     except Exception as exc:
         print(f"Planning failed for {headline}: {exc}")
         return {
-            "type": "General News",
-            "questions": [f"What are the key facts regarding {headline}?"]
+            "type": "General News", 
+            "questions": [f"What are the verifiable facts regarding {headline}?"]
         }
 
 
@@ -161,14 +169,13 @@ def conduct_deep_dive(question, query_context):
     today = get_today_str()
     prompt = f"""
     You are a research assistant with live web tools. Today's date is {today} (UTC).
-    Verify each fact and do not invent dates.
+    Verify each fact.
     Topic: "{query_context}".
 
     Investigative Question: {question}
 
     Provide a dense factual answer with numbers, dates and quotes.
     Conclude with a short 'Sources used:' list containing Markdown links.
-    Avoid inline bracket citations like 【Source】.
     """
     try:
         completion = client.chat.completions.create(
@@ -176,11 +183,7 @@ def conduct_deep_dive(question, query_context):
             messages=[{"role": "user", "content": prompt}],
             compound_custom={
                 "tools": {
-                    "enabled_tools": [
-                        "web_search",
-                        "code_interpreter",
-                        "visit_website"
-                    ]
+                    "enabled_tools": ["web_search", "code_interpreter", "visit_website"]
                 }
             }
         )
@@ -191,39 +194,42 @@ def conduct_deep_dive(question, query_context):
 
 def write_final_story(headline, research_notes, article_type):
     today = get_today_str()
-
+    
+    # Dynamic instruction based on category
+    style_instruction = ""
     if "Financial" in article_type or "Tech" in article_type:
-        style_instruction = "Focus on numbers, market reaction, and economic implications. Use precise financial terminology."
+        style_instruction = "Focus on numbers, market reaction, and economic implications."
     else:
-        style_instruction = "Focus on the narrative, human impact, and factual events. DO NOT force financial metrics or stock reactions if they are not central to the story."
+        style_instruction = "Focus on the narrative and facts. DO NOT force financial metrics if not relevant."
 
+    # NOTICE: Double curly braces {{ }} for JSON structure explanation
     system_prompt = f"""
-    You are a Pulitzer-prize winning journalist for a top-tier global newspaper (like the FT or NYT). 
-    Today's date is {today}.
+    You are a Journalist. Today's date is {today}.
     
-    Task: Write a 400-600 word article based ONLY on the provided research notes.
+    Task: Write an article based ONLY on the provided research notes.
     
-    CRITICAL QUALITY GATES:
-    1. **Data Availability**: If the research notes say "could not research" or contain no concrete facts/dates/quotes, you MUST output exactly: "ABORT_ARTICLE". Do not write an apology.
+    CRITICAL INSTRUCTIONS:
+    1. **Data Check**: If notes say "could not research" or contain no facts, set "status" to "ABORT".
     2. **Relevance**: {style_instruction}
-    3. **Tone**: Objective, sophisticated, British English. No fluff, no "In conclusion" headers.
+    3. **Sentiment**: Analyze the research. Score from 1 (Bearish/Negative) to 10 (Bullish/Positive).
     
-    Structure:
-    - **Lead**: A strong, bolded opening paragraph summarizing the 'so what'.
-    - **Body**: Inverted pyramid. Supporting facts, quotes, and context.
-    - **Sources**: A clean list at the bottom.
-    
-    Output valid Markdown.
+    OUTPUT FORMAT (JSON ONLY):
+    {{
+        "status": "OK" or "ABORT",
+        "sentiment_score": 7,
+        "sentiment_label": "Cautiously Optimistic",
+        "tldr": ["Bullet 1", "Bullet 2", "Bullet 3"],
+        "body_markdown": "The full article in markdown...",
+        "sources_markdown": "### Sources\n- [Link Title](url)..."
+    }}
     """
-
+    
     user_prompt = f"""
     Headline: {headline}
     Category: {article_type}
-
+    
     Research Notes:
     {research_notes}
-
-    Write the article or output ABORT_ARTICLE.
     """
     try:
         completion = client.chat.completions.create(
@@ -232,20 +238,10 @@ def write_final_story(headline, research_notes, article_type):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=0.3
+            temperature=0.3,
+            response_format={"type": "json_object"}
         )
-        content = completion.choices[0].message.content
-
-        if "ABORT_ARTICLE" in content:
-            return None
-
-        url_pattern = r"(?<![\(\[<\"])(https?://[^\s)]+)"
-        content = re.sub(url_pattern, r"<\1>", content)
-        content = re.sub(r"【[^】]{1,120}】", "", content)
-        content = re.sub(r"[ \t]{2,}", " ", content)
-        content = validate_and_clean_links(content)
-        content = ensure_sources_section(content)
-        return content
+        return json.loads(completion.choices[0].message.content)
     except Exception as exc:
         print(f"Writing failed for {headline}: {exc}")
         return None
@@ -257,13 +253,17 @@ def process_single_article(item):
     source_url = item.get('url')
     print(f"⚡ Starting: {headline}...")
 
+    # 1. Plan
     plan_data = generate_research_plan(headline)
     article_type = plan_data.get("type", "General News")
     questions = plan_data.get("questions", [])[:3]
+    
     print(f"   [Plan] Detected type: {article_type}")
 
+    # 2. Research
     research_notes = ""
     valid_info_found = False
+    
     for question in questions:
         note = conduct_deep_dive(question, headline)
         if len(note) > 100 and "could not research" not in note.lower():
@@ -271,24 +271,45 @@ def process_single_article(item):
         research_notes += note
 
     if not valid_info_found:
-        print(f"   [Skip] ❌ Research failed to find concrete data for: {headline}")
+        print(f"   [Skip] ❌ Research failed/insufficient data for: {headline}")
         return
 
-    article_content = write_final_story(headline, research_notes, article_type)
-    if not article_content:
-        print(f"   [Skip] ❌ Writer aborted (insufficient data/quality) for: {headline}")
+    # 3. Write (returns JSON now)
+    article_json = write_final_story(headline, research_notes, article_type)
+    
+    if not article_json or article_json.get("status") == "ABORT":
+        print(f"   [Skip] ❌ Writer aborted (low quality data) for: {headline}")
         return
 
-    if "I'm sorry" in article_content[:50] or "I cannot write" in article_content[:50]:
-        print(f"   [Skip] ❌ Writer refused prompt for: {headline}")
-        return
+    content_body = article_json.get("body_markdown", "")
+    sources = article_json.get("sources_markdown", "")
+    tldr = article_json.get("tldr", [])
+    sentiment_score = article_json.get("sentiment_score", 5)
+    sentiment_label = article_json.get("sentiment_label", "Neutral")
 
+    # 4. Final Polish (Links & formatting)
+    full_content = content_body + "\n\n" + sources
+    
+    # Check for "I'm sorry" hallucinations
+    if "I'm sorry" in full_content[:100] or "AI language model" in full_content[:100]:
+         print(f"   [Skip] ❌ Writer refused prompt.")
+         return
+
+    full_content = validate_and_clean_links(full_content)
+    full_content = re.sub(r"【[^】]+】", "", full_content) # Remove citation brackets
+
+    # 5. Save
     slug = slugify(headline)
     date_slug = get_date_slug()
     time_str = get_current_time_str()
     url_hash = hashlib.sha1((source_url or headline).encode('utf-8')).hexdigest()[:8]
     filename = os.path.join(POSTS_DIR, f"{date_slug}-{slug}-{url_hash}.md")
+    
     safe_title = headline.replace('"', "'").replace(':', ' -')
+    
+    # Prepare TLDR for Front Matter (multiline yaml safe)
+    tldr_yaml = "\n".join([f"  - \"{x.replace('"', '')}\"" for x in tldr])
+
     front_matter = (
         f"---\n"
         f"layout: post\n"
@@ -296,11 +317,13 @@ def process_single_article(item):
         f"category: \"{category}\"\n"
         f"date: {time_str}\n"
         f"source_url: \"{source_url or ''}\"\n"
-        f"source_site: \"ft.com\"\n"
+        f"sentiment_score: {sentiment_score}\n"
+        f"sentiment_label: \"{sentiment_label}\"\n"
+        f"tldr:\n{tldr_yaml}\n"
         f"---\n\n"
     )
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(front_matter + article_content + "\n")
+        f.write(front_matter + full_content + "\n")
     print(f"   -> ✅ Saved: {filename}")
 
 
@@ -330,10 +353,7 @@ def update_feed(scraped_items, existing_urls, max_active_posts):
 def main():
     cfg = load_config()
     ensure_dirs()
-    print(
-        f"[config] full_rebuild={cfg['full_rebuild']} max_active_posts={cfg['max_active_posts']} "
-        f"max_new_articles={cfg['max_new_articles']}"
-    )
+    print(f"[config] full_rebuild={cfg['full_rebuild']} max_active_posts={cfg['max_active_posts']}")
 
     if not os.path.exists('headlines.json'):
         print("No headlines found.")
@@ -355,19 +375,18 @@ def main():
         candidates = candidates[:max_new]
 
     if not candidates:
-        print("[delta] No new articles detected (delta is empty). Skipping LLM generation.")
+        print("[delta] No new articles detected.")
         update_feed(scraped, load_existing_source_urls(), cfg['max_active_posts'])
         return
 
-    print(f"[delta] Generating {len(candidates)} articles sequentially with rate limiting...")
+    print(f"[delta] Processing {len(candidates)} articles...")
     for idx, item in enumerate(candidates):
         process_single_article(item)
         if idx < len(candidates) - 1:
-            print("   -> ⏳ Waiting 30 seconds before next article...")
-            time.sleep(30)
+            print("   -> ⏳ Cooldown (20s)...")
+            time.sleep(20)
 
-    existing_urls = load_existing_source_urls()
-    update_feed(scraped, existing_urls, cfg['max_active_posts'])
+    update_feed(scraped, load_existing_source_urls(), cfg['max_active_posts'])
 
 
 if __name__ == "__main__":

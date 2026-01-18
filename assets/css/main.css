@@ -253,26 +253,101 @@ header {
         padding: 30px 20px;
     }
 }
+/* --- EXECUTIVE BRIEFING & SENTIMENT --- */
+.executive-brief {
+    background-color: #f3f2ee; /* Slightly darker than page */
+    border: 1px solid #cec6b9;
+    padding: 20px;
+    margin: 20px 0 30px 0;
+    border-left: 5px solid var(--ft-red);
+}
 
-/* --- LINK STYLING IN ARTICLES --- */
+.brief-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brief-header h3 {
+    margin: 0;
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: var(--ft-grey-text);
+}
+
+.sentiment-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.meter-track {
+    width: 60px;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.meter-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.tldr-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tldr-list li {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* --- LINK STYLING FIX --- */
 .article-body a {
-    color: var(--ft-black); /* Keep text dark */
+    color: #1a1a1a;
     text-decoration: none;
-    border-bottom: 2px solid var(--ft-red); /* Distinctive underline */
-    transition: background-color 0.2s ease;
+    border-bottom: 2px solid rgba(153, 15, 61, 0.4); /* Faint FT Red */
+    transition: all 0.2s ease;
 }
 
 .article-body a:hover {
-    background-color: #fce4ec; /* Light pink highlight on hover */
-    color: var(--ft-black);
+    background-color: rgba(153, 15, 61, 0.1);
+    border-bottom-color: var(--ft-red);
 }
 
-/* Ensure sources section links are also visible */
-.article-body ul li a {
+.article-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.article-divider {
+    border: 0;
+    border-top: 1px solid var(--ft-black);
+    margin-bottom: 30px;
+}
+
+.article-footer {
+    margin-top: 50px;
+}
+
+.article-footer a {
     color: var(--ft-red);
     border-bottom: 1px solid transparent;
 }
 
-.article-body ul li a:hover {
-    border-bottom: 1px solid var(--ft-red);
+.article-footer a:hover {
+    border-bottom-color: var(--ft-red);
 }

@@ -2,20 +2,41 @@
 layout: default
 ---
 <div class="article-container">
-    <span class="category">{{ page.category | default: 'News' }}</span>
-    <h1 style="font-size: 2.5rem; margin-bottom: 10px;">{{ page.title }}</h1>
-    
-    <div style="color: #666; font-family: Helvetica, sans-serif; margin-bottom: 30px;">
-        Published: {{ page.date | date: "%d %B %Y, %H:%M" }}
+    <div class="article-header">
+        <span class="category">{{ page.category | default: 'News' }}</span>
+        <h1 class="article-title">{{ page.title }}</h1>
+        <div class="meta-info">
+            Published: {{ page.date | date: "%d %B %Y, %H:%M" }}
+        </div>
     </div>
-    
-    <hr style="border: 0; border-top: 1px solid #000; margin-bottom: 30px;">
+
+    {% if page.tldr %}
+    <div class="executive-brief">
+        <div class="brief-header">
+            <h3>Executive Briefing</h3>
+            <div class="sentiment-badge">
+                <span class="sentiment-label">{{ page.sentiment_label }}</span>
+                <div class="meter-track">
+                    <div class="meter-fill" style="width: {{ page.sentiment_score | times: 10 }}%; background-color: {% if page.sentiment_score < 4 %}#c0392b{% elsif page.sentiment_score > 6 %}#27ae60{% else %}#f39c12{% endif %};"></div>
+                </div>
+                <span class="score-num">{{ page.sentiment_score }}/10</span>
+            </div>
+        </div>
+        <ul class="tldr-list">
+            {% for point in page.tldr %}
+            <li>{{ point }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <hr class="article-divider">
 
     <div class="article-body">
         {{ content }}
     </div>
 
-    <div style="margin-top: 50px;">
-        <a href="{{ '/' | relative_url }}">&larr; Back to Home</a>
+    <div class="article-footer">
+        <a href="{{ '/' | relative_url }}">&larr; Back to Global Feed</a>
     </div>
 </div>
